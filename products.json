@@ -19,15 +19,6 @@
       "imagen": "https://d1flfk77wl2xk4.cloudfront.net/Assets/30/774/M_p0214877430.jpg"
     },
     {
-      "id": 3,
-      "nombre": "COSRX - Esencia con baba de caracol Advanced Snail 96 Much Power Essence",
-      "marca": "COSRX",
-      "categoria": "Esencias",
-      "precio": 15.60,
-      "descripcion": "Esencia con 96% de filtrado de secreción de caracol que agrega humectación intensa, ayuda a reparar la piel dañada, reduce el enrojecimiento y mejora la textura y pigmentación de la piel.",
-      "imagen": "https://d1flfk77wl2xk4.cloudfront.net/Assets/96/819/M_p0056481996.jpg"
-    },
-    {
       "id": 4,
       "nombre": "SKIN1004 - Set de Aceite Limpiador y Espuma Limpiadora Madagascar Centella Double Cleansing Duo Set",
       "marca": "SKIN1004",
@@ -126,6 +117,70 @@
       "precio": 12.82,
       "descripcion": "Ampolla nutritiva con alta concentración de extracto de cica fermentada que proporciona hidratación intensa y fortalece la barrera cutánea. Con pantenol, betaina y alantoina para un efecto rellenador.",
       "imagen":"https://d1flfk77wl2xk4.cloudfront.net/Assets/81/680/M_p0197268081.jpg"
-    }
-  ]
+    },
+    {
+      "id": 14,
+      "nombre": "Beauty of Joseon - Sérum Facial Calming Serum",
+      "marca": "Beauty of Joseon",
+      "categoria": "Serum",
+      "precio": 12.82,
+      "descripcion": "Sérum con un 76% de extracto de té verde, un 2% de pantenol y vitamina C que calma la piel dañada y sensible. También proporciona efectos hidratantes, luminosos y antiarrugas que logran una piel clara, sana y rejuvenecida. Contiene únicamente ingredientes naturales y ecológicos con certificación EWG. Beneficios: Versión renovada de Calming Serum. Fórmula mejorada enriquecida con un 50 % de agua de hoja de té verde, un 30 % de extracto de artemisa y un 5 % de pantenol. Alivia e hidrata eficazmente la piel dañada y sensible con comodidad. Forma una barrera contra la humedad para proteger la piel contra la pérdida de humedad y los agresores externos. Color verde amarillento natural sin colorantes artificiales. Cómo usar: Aplicar una cantidad adecuada en el rostro y dar golpecitos suaves para una mayor absorción.",
+      "imagen":"https://d1flfk77wl2xk4.cloudfront.net/Assets/beauty-of-joseon-calming-serum-30ml/21/938/XXL_p0126093821.jpg"
+    },
+    {
+    "id": 1,
+    "nombre": "Dr. Althea - Bálsamo limpiador Pure Grinding Cleansing Balm",
+    "marca": "Yeyan",
+    "categoria": "Bálsamos Limpiadores",
+    "precio": 19.21,
+    "descripcion": "Bálsamo limpiador formulado con aceite de semilla de camellía sinensis, madecassoside y aceite de semilla de uva para eliminar suavemente el maquillaje, el protector solar y las impurezas, dejando un acabado calmante. Fórmula vegana y libre de crueldad, elaborada sin fragancias ni colorantes artificiales. Apto para todo tipo de piel, incluida la piel sensible.",
+    "imagen": "https://d1flfk77wl2xk4.cloudfront.net/Assets/dr-althea-pure-grinding-cleansing-balm-50ml/22/019/XXL_p0207101922.png"
+  },
+  {
+    "id": 2,
+    "nombre": "mixsoon - Esencia Facial Bean Essence",
+    "marca": "mixsoon",
+    "categoria": "Esencia",
+    "precio": 18.48,
+    "descripcion": "Sérum refrescante que contiene extracto fermentado de soja para hidratar la piel y controlar la producción de sebo. También contiene extracto fermentado de granada que suaviza la textura de la piel, filtrado de fermento de semilla de cebada rico en vitaminas para revitalizarla, y filtrado de fermento de jugo de pera que aporta antioxidantes.",
+    "imagen": "https://d1flfk77wl2xk4.cloudfront.net/Assets/mixsoon-bean-essence-50ml/96/346/XXL_p0159334696.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "EQUALBERRY - Sérum Facial Bakuchiol Plumping Serum",
+    "marca": "EQUALBERRY",
+    "categoria": "Serum",
+    "precio": 18.40,
+    "descripcion": "Sérum que contiene bakuchiol (una alternativa natural al retinol) y alantoína para promover la producción de colágeno y disminuir los signos del envejecimiento. Está enriquecido con cinco tipos de ceramidas y varios péptidos para reforzar la barrera cutánea, retener la humedad y proteger la piel contra agresores externos. El sérum también contiene nacinámida y glicerina para equilibrar los niveles de aceite y humedad mientras minimiza los poros dilatados.",
+    "imagen": "https://d1flfk77wl2xk4.cloudfront.net/Assets/63/376/M_p0213137663.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "SKIN1004 - Lab in Nature Madagascar Centella Retinol 0.2 Boosting Shot Ampoule",
+    "marca": "SKIN1004",
+    "categoria": "Ampollas",
+    "precio": 17.13,
+    "descripcion": "An ampoule enriched with Retinol and micro spicules to boost skin elasticity and firmness. Micro spicules infused with Madagascar Centella and Panthenol to nourish the skin and enhance the absorption of active ingredients. Contains Retinol to smooth skin texture and improve skin radiance. The blend of Retinal and Squalane boost skin elasticity while strengthening skin barrier. Stretchy ampoule formula adheres well on skin to provide intense elasticity care for the skin. Contains Centella Spicules, which may cause a tingling sensation.  TIENE DOS PRESENTACIONES",
+    "imagen": "https://d1flfk77wl2xk4.cloudfront.net/Assets/43/269/M_p0218526943.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Celmax - Ampolla Facial Noni Ampoule Calming + Radiance Jumbo",
+    "marca": "Celmax",
+    "categoria": "Ampollas",
+    "precio": 19.70,
+    "descripcion": "Con un 71.77% de extracto de la fruta noni rica en nutrientes, esta ampolla hidrata la piel y proporciona más luminosidad para un aspecto saludable. Infundida con aceite de romero, colágeno vegano y adenosina, la ampolla calma y revitaliza la piel mientras reduce las líneas finas y las arrugas. La fórmula de rápida absorción deja la piel con un aspecto rejuvenecido.",
+    "imagen": "https://d1flfk77wl2xk4.cloudfront.net/Assets/celimax-noni-ampoule-calming-radiance-jumbo-50ml/20/107/XXL_p0212510720.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "Beauty of Joseon - Mascarilla Facial Red Bean Refreshing Pore Mask",
+    "marca": "Beauty of Joseon",
+    "categoria": "Mascarillas",
+    "precio": 19.80,
+    "descripcion": "Use esta mascarilla de arcilla libre de crueldad para minimizar los poros dilatados y controlar la producción de sebo para una piel clara y refinada. Con ingredientes clave como la arcilla de caolin y el extracto de frijol rojo, esta mascarilla que se enjuaga, elimina suavemente las células muertas de la piel y las impurezas de los poros. La fórmula contiene extractos de frutas de pera y fresa ricos en antioxidantes para proteger la piel del daño de los radicales libres. La textura de arcilla suave absorbe el aceite y no reseca la piel. Esta mascarilla está hecha libre de fragencias artificiales y aceites esenciales.",
+    "imagen": "https://d1flfk77wl2xk4.cloudfront.net/Assets/beauty-of-joseon-red-bean-refreshing-pore-mask-140ml/11/386/XXL_p0183938611.jpg"
+  }
+]
+
 }
