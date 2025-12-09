@@ -165,8 +165,8 @@
   },
   {
     "id": 19,
-    "nombre": "Celmax - Ampolla Facial Noni Ampoule Calming + Radiance Jumbo",
-    "marca": "Celmax",
+    "nombre": "Celimax - Ampolla Facial Noni Ampoule Calming + Radiance Jumbo",
+    "marca": "Celimax",
     "categoria": "Ampollas",
     "precio": 19.70,
     "descripcion": "Con un 71.77% de extracto de la fruta noni rica en nutrientes, esta ampolla hidrata la piel y proporciona más luminosidad para un aspecto saludable. Infundida con aceite de romero, colágeno vegano y adenosina, la ampolla calma y revitaliza la piel mientras reduce las líneas finas y las arrugas. La fórmula de rápida absorción deja la piel con un aspecto rejuvenecido.",
@@ -243,6 +243,78 @@
     "precio": 19.60,
     "descripcion": "Detalles Esta es la versión renovada del Limpiador Fresh Royal de Rosa Mosqueta. Solo se han modificado el nombre del producto y el envase. Beneficios: Un limpiador hidratante que limpia a la vez que suaviza y calma la piel con una textura pastosa. Elaborado tras 170 horas de molienda, frotado y prensado repetidos de los ingredientes crudos con el método ASDT para obtener una textura densa y elástica similar a una masa. Contiene extracto de rosa mosqueta, rico en diversas vitaminas para nutrir la piel, y aloe vera rosa y manzanilla azul alemana para hidratar la piel y proporcionar beneficios antioxidantes. Enriquecido con polvo de almendra finamente molido para exfoliar la piel con suavidad. Mascarilla y limpiador 2 en 1 que ayuda a equilibrar los niveles de grasa y agua de la piel. Modo de empleo: Tome una cantidad adecuada de limpiador y añada agua para formar espuma. Masajee suavemente sobre la piel y enjuague con agua tibia.",
     "imagen": "https://d1flfk77wl2xk4.cloudfront.net/Assets/28/375/XXL_p0211937528.jpg"
+  },
+  {
+    "id": 28,
+    "nombre": "Anua - Aceite Limpiador Heartleaf Pore Control Cleansing Oil",
+    "marca": "Anua",
+    "categoria": "Limpiadores Faciales",
+    "precio": 22.00,
+    "descripcion": "Con una fórmula no comedogénica y aceites de origen vegetal (incluyendo aceite de jojoba, aceite de oliva y aceite de semilla de uva), este aceite limpiador elimina eficazmente las impurezas de la piel, dejando un acabado fresco e hidratado. El extracto de planta camaleón en la fórmula ligera ayuda a mantener a raya las irritaciones. Apta para pieles propensas al acné.                                                       Beneficios: Este es un desmaquillante suave que ayuda a eliminar las impurezas en los poros. Fórmula no comedogénica adecuada para pieles propensas al acné. Fórmula ligera que no obstruye los poros.  Mantiene la piel hidratada después de la limpieza. Modo de empleo: 1. Dispensar el aceite limpiador en tus palmas y masajear sobre la piel seca.  2. Añadir un poco de agua para emulsionar. 3. Enjuagar bien con agua tibia.",
+    "imagen": "https://d1flfk77wl2xk4.cloudfront.net/Assets/anua-heartleaf-pore-control-cleansing-oil-200ml/28/372/XXL_p0185237228.jpg"
+  },
+  {
+    "id": 29,
+    "nombre": "baren - Set de Mascarillas para Pies CICA SOS Quick Repair Foot Mask Set",
+    "marca": "baren",
+    "categoria": "Cuidado de Pies",
+    "precio": 14.16,
+    "descripcion": "Beneficios: Una mascarilla para pies de reparación rápida ofrece un cuidado calmante e hidratante instantáneo para la piel dañada y seca de los pies.   Envuelto con extracto de Centella asiática de 10.000 ppm para calmar la piel irritada y dañada y al mismo tiempo reponer la rica humedad para mantener la piel suave y saludable. Enriquecido con 5.000 ppm de urea y pantenol para mantener la piel hidratada durante todo el día y prevenir la deshidratación.  Presenta una textura refrescante tipo esencia que permite una rápida absorción.   Cómo utilizar:  1. Abra el embalaje a lo largo de la línea de puntos.  2. Úselo en los pies y ajuste la mascarilla con la pegatina.  3. Déjalo reposar durante 15-20 minutos y dale palmaditas suaves para absorber la esencia restante después de retirarlo.",
+    "imagen": "https://d1flfk77wl2xk4.cloudfront.net/Assets/81/849/XXL_p0206684981.jpg"
+  },
+  {
+    "id": 30,
+    "nombre": "Centellian24 - Gel pelador tonificante Madeca Matcha",
+    "marca": "Centellian24",
+    "categoria": "Peelings",
+    "precio": 15.84,
+    "descripcion": "Este gel peeling ofrece cuidados de exfoliación y tonificación a la vez. Jeju Matcha proporciona beneficios antioxidantes para restaurar una piel radiante y clara. Enriquecido con extracto de Cica y Aqua Ceramida, calma la piel después de pelarla. Formulado con polvo de carbón, absorbe eficazmente los puntos negros, blancos y sebo obstruidos dentro de los poros.  CÓMO UTILIZAR: 1. Aplicar una cantidad adecuada sobre la piel y masajear con movimientos rodantes. 2. Enjuagar con agua tibia. 3. Se recomienda usarlo 1-2 veces por semana.",
+    "imagen": "https://d1flfk77wl2xk4.cloudfront.net/Assets/centellian24-madeca-matcha-toning-peeling-gel-150ml/54/124/XXL_p0221312454.jpg"
+  },
+  {
+    "id": 31,
+    "nombre": "Beauty of Joseon - Protector Solar Relief Sun Aqua-fresh",
+    "marca": "Beauty of Joseon",
+    "categoria": "Protector solar ",
+    "precio": 15.84,
+    "descripcion": "Una versión extra hidratante del popular protector solar Relief Sun de Beauty of Joseon, Relief Sun Aqua-fresh cuenta con una fórmula líquida ligera y refrescante que no deja residuos blancos ni pegajosos. Este protector solar químico ofrece protección solar con SPF 50+ PA++++. Está formulado con un 30% de agua de semilla de arroz, junto con avena coloidal y pantenol para calmar y revitalizar la piel. Apto para todo tipo de piel.",
+    "imagen": "https://d1flfk77wl2xk4.cloudfront.net/Assets/beauty-of-joseon-relief-sun-aqua-fresh-50ml/27/780/XXL_p0211178027.jpg"
+  },
+  {
+    "id": 32,
+    "nombre": "ViCREA - Aceite Reparador para Cabello &honey Melty Moist Repair Hair Oil 3.0",
+    "marca": "ViCREA",
+    "categoria": "Cuidado de Cabello",
+    "precio": 17.03,
+    "descripcion": "Aceite capilar que contiene una mezcla de miel, propóleo y aceite de salvado de arroz, proporcionando a tu cabello una intensa nutrición para dejarlo suave y brillante. También está formulado con queratina, extracto de jalea real y ceramida NP para reparar los mechones dañados y mejorar la elasticidad del cabello.  JAPONÉS",
+    "imagen": "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/86/362/L_g0219836286.jpg"
+  },
+  {
+    "id": 33,
+    "nombre": "mixsoon - Esencia Facial Essence Jumbo 100ml - 3 Tipos",
+    "marca": "mixsoon",
+    "categoria": "Esencias Faciales",
+    "precio": 18.22,
+    "descripcion": "La Essence de Mixsoon está disponible en diferentes tipos para tratar distintas necesidades de la piel. distintas necesidades de la piel. Su fórmula acuosa contiene solo ingredientes esenciales y deja una sensación refrescante en la piel. La Centella Asiatica Essence calma la piel sensible e irritada. La Bifida Ferment Essence previene el daño causado por los radicales libres y forma una barrera de humedad sobre la piel. La Galactomyces Ferment Essence combate los signos del envejecimiento. -  OPCIONES DISPONIBLES: 1. 'Esencia Facial Soondy Centella Asiatica Essence': Ofrece un efecto calmante instantáneo para piel irritada y sensible. Aporta nutrientes y ayuda a reducir la irritación de la piel. Edición limitada de la mascota de mixsoon “Soondy”. 2. 'Esencia Facial Bifida Ferment Essence':  Forma una barrera de humedad para mantener la piel saludable con 100% extracto de fermento de Bifida. Hidrata la piel cansada y ofrece un excelente efecto revitalizante.   3. 'Esencia Facial Galactomyces Ferment Essence': Proporciona hidratación profunda para mejorar la piel opaca y cansada con 100% filtrado de fermento de Galactomyces. Revitaliza la piel y crea un cutis luminoso y radiante. -  MODO DE EMPLEO: Aplica una cantidad moderada y masajea suavemente para una mejor absorción.",
+    "imagen": "https://d1flfk77wl2xk4.cloudfront.net/Assets/mixsoon-essence-jumbo-100ml-3-types-bifida-ferment-galactomyces-ferment-soondy-centella-asiatica/30/563/XXL_p0222056330.jpg"
+  },
+  {
+    "id": 34,
+    "nombre": "celimax - Sérum Facial The Vita-A Retinal Shot Tightening Booster",
+    "marca": "Celimax",
+    "categoria": "Sérums Faciales",
+    "precio": 11.88,
+    "descripcion": "Un pequeño tubo del Retinal Shot Tightening Booster de celimax concentra mucha tecnología avanzada de skincare para ayudar a reducir esas arrugas. Este tratamiento antiedad combina 0.1% de retinal en tamaño nano con liposomas para cuidar suavemente los poros y mejorar la elasticidad. El pantenol y los péptidos de bajo peso molecular Matrixyl 3000 refuerzan el colágeno y la hidratación para una piel más firme y suave. El toque final es el ingrediente exclusivo de celimax, A-Shot™, compuesto por micropartículas que estimulan la piel y mejoran la absorción de los activos — ¡ese cosquilleo significa que está funcionando! POR QUE LO AMAMOS: ¡Retinal, péptidos y espículas en un solo producto poderoso!   -   BENEFICIOS:   Afirma y suaviza la piel: Gracias al retinal puro y a su complejo de péptidos, este booster antiedad ayuda a estimular la producción de colágeno y elastina. El resultado: una piel más rellena, firme y con menos líneas visibles. Ilumina y unifica el tono: Al acelerar el proceso de renovación celular, el Retinal Shot Tightening Booster ayuda a reducir manchas oscuras y zonas con hiperpigmentación, dejando tu piel más clara y radiante. Absorción profunda: La tecnología A-Shot™ de celimax utiliza 20,250 micropartículas, 16 veces más pequeñas que tus poros, lo que permite que los ingredientes activos lleguen a las capas profundas de la piel y ofrezcan resultados más efectivos. Calma e hidrata: Gracias a su 1% de vitamina B5 (pantenol) y otros ingredientes humectantes, esta fórmula ayuda a reducir la resequedad y la irritación que el retinal puede causar al principio. La piel se siente nutrida, cómoda y equilibrada.",
+    "imagen": "https://d1flfk77wl2xk4.cloudfront.net/Assets/celimax-the-vita-a-retinal-shot-tightening-booster-15ml/03/274/XXL_p0212227403.jpg"
+  },
+  {
+    "id": 35,
+    "nombre": "MENOKIN - Máscara de burbujas rápida de 30 segundos: 5 tipos",
+    "marca": "MENOFIN",
+    "categoria": "Mascarillas",
+    "precio": 11.88,
+    "descripcion": "Para ti: 95ml - BENEFICIOS: Esta mascarilla de burbujas ofrece un momento de brillo húmedo instantáneo a la piel en solo 30 segundos. Mejora del 96,1% en la humedad de la piel, mejora del 42,6% en la luminosidad de la piel. Cápsulas de Micro Burbujas que potencian la absorción directamente en la piel. Una botella contiene el equivalente a 70 mascarillas en láminas. TIPOS DISPONIBLES: Elevador: El colágeno brilla con el colágeno de hibisco de tercera generación más avanzado. Brillante: Brillo iluminador con glutatión y extracto de fruta de árbol vitamínico de baja irritación. Húmedo: Resplandor de hidratación profunda con 8 tipos de ácido hialurónico y extracto de Centella asiática. Reparación: Reparar el brillo con liposoma de EGF y extracto de raíz de Cnidium Officinale. Claro: brillo relajante con el extracto de Centella asiática y el extracto de hierbas de Jeju.  Cómo utilizar: Aplique la burbuja después de la limpieza y deje que se absorba en la piel.",
+    "imagen": "https://d1flfk77wl2xk4.cloudfront.net/Assets/menokin-30-seconds-quick-bubble-mask-5-types-bright-clear-lift-moist-repair/38/635/XXL_p0222563538.jpg"
   }
 ]
 }
