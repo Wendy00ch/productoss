@@ -119,7 +119,7 @@
       "imagen":"https://d1flfk77wl2xk4.cloudfront.net/Assets/81/680/M_p0197268081.jpg"
     },
     {
-      "id": 14,
+      "id": 15,
       "nombre": "Beauty of Joseon - Sérum Facial Calming Serum",
       "marca": "Beauty of Joseon",
       "categoria": "Serum",
@@ -128,7 +128,7 @@
       "imagen":"https://d1flfk77wl2xk4.cloudfront.net/Assets/beauty-of-joseon-calming-serum-30ml/21/938/XXL_p0126093821.jpg"
     },
     {
-    "id": 1,
+    "id": 16,
     "nombre": "Dr. Althea - Bálsamo limpiador Pure Grinding Cleansing Balm",
     "marca": "Yeyan",
     "categoria": "Bálsamos Limpiadores",
@@ -137,7 +137,7 @@
     "imagen": "https://d1flfk77wl2xk4.cloudfront.net/Assets/dr-althea-pure-grinding-cleansing-balm-50ml/22/019/XXL_p0207101922.png"
   },
   {
-    "id": 2,
+    "id": 17,
     "nombre": "mixsoon - Esencia Facial Bean Essence",
     "marca": "mixsoon",
     "categoria": "Esencia",
@@ -146,16 +146,16 @@
     "imagen": "https://d1flfk77wl2xk4.cloudfront.net/Assets/mixsoon-bean-essence-50ml/96/346/XXL_p0159334696.jpg"
   },
   {
-    "id": 3,
+    "id": 18,
     "nombre": "EQUALBERRY - Sérum Facial Bakuchiol Plumping Serum",
     "marca": "EQUALBERRY",
-    "categoria": "Serum",
+    "categoria": "Sérums Faciales",
     "precio": 18.40,
     "descripcion": "Sérum que contiene bakuchiol (una alternativa natural al retinol) y alantoína para promover la producción de colágeno y disminuir los signos del envejecimiento. Está enriquecido con cinco tipos de ceramidas y varios péptidos para reforzar la barrera cutánea, retener la humedad y proteger la piel contra agresores externos. El sérum también contiene nacinámida y glicerina para equilibrar los niveles de aceite y humedad mientras minimiza los poros dilatados.",
     "imagen": "https://d1flfk77wl2xk4.cloudfront.net/Assets/63/376/M_p0213137663.jpg"
   },
   {
-    "id": 4,
+    "id": 19,
     "nombre": "SKIN1004 - Lab in Nature Madagascar Centella Retinol 0.2 Boosting Shot Ampoule",
     "marca": "SKIN1004",
     "categoria": "Ampollas",
@@ -164,7 +164,7 @@
     "imagen": "https://d1flfk77wl2xk4.cloudfront.net/Assets/43/269/M_p0218526943.jpg"
   },
   {
-    "id": 5,
+    "id": 20,
     "nombre": "Celmax - Ampolla Facial Noni Ampoule Calming + Radiance Jumbo",
     "marca": "Celmax",
     "categoria": "Ampollas",
@@ -173,14 +173,31 @@
     "imagen": "https://d1flfk77wl2xk4.cloudfront.net/Assets/celimax-noni-ampoule-calming-radiance-jumbo-50ml/20/107/XXL_p0212510720.jpg"
   },
   {
-    "id": 6,
+    "id": 21,
     "nombre": "Beauty of Joseon - Mascarilla Facial Red Bean Refreshing Pore Mask",
     "marca": "Beauty of Joseon",
     "categoria": "Mascarillas",
     "precio": 19.80,
     "descripcion": "Use esta mascarilla de arcilla libre de crueldad para minimizar los poros dilatados y controlar la producción de sebo para una piel clara y refinada. Con ingredientes clave como la arcilla de caolin y el extracto de frijol rojo, esta mascarilla que se enjuaga, elimina suavemente las células muertas de la piel y las impurezas de los poros. La fórmula contiene extractos de frutas de pera y fresa ricos en antioxidantes para proteger la piel del daño de los radicales libres. La textura de arcilla suave absorbe el aceite y no reseca la piel. Esta mascarilla está hecha libre de fragencias artificiales y aceites esenciales.",
     "imagen": "https://d1flfk77wl2xk4.cloudfront.net/Assets/beauty-of-joseon-red-bean-refreshing-pore-mask-140ml/11/386/XXL_p0183938611.jpg"
+  },
+  {
+    "id": 22,
+    "nombre": "Beauty of Joseon - Bálsamo Limpiador Radiance Cleansing Balm NEW",
+    "marca": "Beauty of Joseon",
+    "categoria": "Bálsamos Limpiadores",
+    "precio": 19.80,
+    "descripcion": "El bálsamo limpiador Radiance Cleansing Balm ahora está disponible en una fórmula mejorada capaz de eliminar cualquier rastro de maquillaje y suciedad. Su infusión de agua de salvado de arroz y extracto de grano de arroz hidrata completamente la piel previniendo la sequedad.",
+    "imagen": "https://d1flfk77wl2xk4.cloudfront.net/Assets/beauty-of-joseon-radiance-cleansing-balm-new-100ml/48/268/XXL_p0153126848.jpg"
+  },
+  {
+    "id": 23,
+    "nombre": "TIRTIR - Bálsamo Limpiador Hydro Boost Enzyme Cleansing Balm",
+    "marca": "TIRTIR",
+    "categoria": "Bálsamos Limpiadores",
+    "precio": 19.80,
+    "descripcion": "El bálsamo limpiador Radiance Cleansing Balm ahora está disponible en una fórmula mejorada capaz de eliminar cualquier rastro de maquillaje y suciedad. Su infusión de agua de salvado de arroz y extracto de grano de arroz hidrata completamente la piel previniendo la sequedad.",
+    "imagen": "https://d1flfk77wl2xk4.cloudfront.net/Assets/tirtir-hydro-boost-enzyme-cleansing-balm-50ml/88/499/XXL_p0207949988.png"
   }
 ]
-
 }
