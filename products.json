@@ -1,0 +1,131 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "mixsoon - Sérum con Ácido Hialurónico Glacier Water Hyaluronic Acid Serum Jumbo",
+      "marca": "mixsoon",
+      "categoria": "Sérums Faciales",
+      "precio": 20.63,
+      "descripcion": "Enriquecido con agua glacial y tres tipos de ácido hialurónico, este sérum ofrece una hidratación potente para una piel flexible y tersa. Forma una película de humedad sobre la piel para ayudar a fortalecer la barrera cutánea.",
+      "imagen": "https://d1flfk77wl2xk4.cloudfront.net/Assets/mixsoon-glacier-water-hyaluronic-acid-serum-jumbo-300ml/92/347/L_p0159334792.jpg"
+    },
+    {
+      "id": 2,
+      "nombre": "Anua - Sérum Facial Calmante Azelalc Acid 10 Hyaluron Redness Soothing Serum",
+      "marca": "Anua",
+      "categoria": "Sérums Faciales",
+      "precio": 21.32,
+      "descripcion": "Sérum con 10% de ácido azelalco para aliviar el acné, la rosácea y la hiperpigmentación, mientras el ácido hialurónico da una hidratación de larga duración. Contiene complejo calmante con agua de hoja de té verde, aloe y cica.",
+      "imagen": "https://d1flfk77wl2xk4.cloudfront.net/Assets/30/774/M_p0214877430.jpg"
+    },
+    {
+      "id": 3,
+      "nombre": "COSRX - Esencia con baba de caracol Advanced Snail 96 Much Power Essence",
+      "marca": "COSRX",
+      "categoria": "Esencias",
+      "precio": 15.60,
+      "descripcion": "Esencia con 96% de filtrado de secreción de caracol que agrega humectación intensa, ayuda a reparar la piel dañada, reduce el enrojecimiento y mejora la textura y pigmentación de la piel.",
+      "imagen": "https://d1flfk77wl2xk4.cloudfront.net/Assets/96/819/M_p0056481996.jpg"
+    },
+    {
+      "id": 4,
+      "nombre": "SKIN1004 - Set de Aceite Limpiador y Espuma Limpiadora Madagascar Centella Double Cleansing Duo Set",
+      "marca": "SKIN1004",
+      "categoria": "Limpieza Facial",
+      "precio": 22.55,
+      "descripcion": "Set de limpieza con aceite limpiador y espuma, ambos con extracto de cica de Madagascar. El aceite ofrece un acabado refrescante y la espuma proporciona limpieza profunda con beneficios calmantes e hidratantes.",
+      "imagen":"https://d1flfk77wl2xk4.cloudfront.net/Assets/88/638/M_p0209463888.jpg"
+    },
+    {
+      "id": 5,
+      "nombre": "SKIN1004 - Sérum Facial Iluminador Madagascar Centella Tone Brightening Capsule Ampoule Jumbo",
+      "marca": "SKIN1004",
+      "categoria": "Sérums Faciales",
+      "precio": 15.29,
+      "descripcion": "Tónico ligero y potente con MadeWhite™ (extractos de centella asiática y niacinamida) para iluminación, hidratación y efectos calmantes. Incluye extractos de papaya y manzana para exfoliación suave.",
+      "imagen":"https://d1flfk77wl2xk4.cloudfront.net/Assets/55/808/M_p0161880855.jpg"
+    },
+    {
+      "id": 6,
+      "nombre": "Dr. Althea - Crema hidratante 147 Barrier Cream",
+      "marca": "Dr. Althea",
+      "categoria": "Cremas Hidratantes",
+      "precio": 21.38,
+      "descripcion": "Hidratante calmante enriquecida con azuleno derivado de manzanilla y ceramidas que ayuda a aliviar la irritación, fortalece la barrera de la piel y aumenta su capacidad de retención de humedad.",
+      "imagen":"https://d1flfk77wl2xk4.cloudfront.net/Assets/15/614/M_p0105361415.jpg"
+    },
+    {
+      "id": 7,
+      "nombre": "medicube - Crema Facial TXA Niacinamide Capsule Cream",
+      "marca": "medicube",
+      "categoria": "Cremas Faciales",
+      "precio": 21.48,
+      "descripcion": "Crema que aumenta el brillo con ácido tranexámico, alpha-arbutin y cápsulas de niacinamida que aumentan los niveles de humedad e iluminan la piel opaca. Producto gentil y no comedogénico.",
+      "imagen":"https://d1flfk77wl2xk4.cloudfront.net/Assets/02/124/M_p0218112402.jpg"
+    },
+    {
+      "id": 8,
+      "nombre": "SKIN1004 - Crema Hidratante Madagascar Centella Poremizing Light Gel Cream",
+      "marca": "SKIN1004",
+      "categoria": "Cremas Hidratantes",
+      "precio": 14.30,
+      "descripcion": "Crema en gel refrescante con sal rosa del Himalaya que ayuda a eliminar células muertas y exceso de sebo, desobstruyendo los poros. Contiene adenosina, extracto de aloe vera y niacinamida.",
+      "imagen":"https://d1flfk77wl2xk4.cloudfront.net/Assets/78/407/M_p0180240778.jpg"
+    },
+    {
+      "id": 9,
+      "nombre": "Dr. Althea - Sérum facial Gentle Vitamin C Serum",
+      "marca": "Dr. Althea",
+      "categoria": "Sérums Faciales",
+      "precio": 19.65,
+      "descripcion": "Sérum facial con niacinamida, ácido ascórbico 3-O etílico y extracto de fruta de espino amarillo rico en vitamina C para iluminar la piel, atenuar la hiperpigmentación y dejar la piel suave con brillo radiante.",
+      "imagen":"https://d1flfk77wl2xk4.cloudfront.net/Assets/26/693/M_p0219369326.jpg"
+    },
+    {
+      "id": 10,
+      "nombre": "JUMISO - Sérum Facial Niacinamide 20 Serum",
+      "marca": "JUMISO",
+      "categoria": "Sérums Faciales",
+      "precio": 19.21,
+      "descripcion": "Sérum con niacinamida, ácido tranexámico y glutation para combatir la hiperpigmentación y tono desigual de la piel. Contiene extracto de cica y ácido hialurónico para mantener la piel calmada e hidratada.",
+      "imagen":"https://d1flfk77wl2xk4.cloudfront.net/Assets/56/758/M_p0220175856.jpg"
+
+    },
+    {
+      "id": 11,
+      "nombre": "mixsoon - Double Cleansing Set",
+      "marca": "mixsoon",
+      "categoria": "Limpieza Facial",
+      "precio": 30.81,
+      "descripcion": "Set de doble limpieza con Bean Cleansing Oil (195ml) y Centella Cleansing Foam (150ml). El aceite elimina maquillaje e impurezas mientras hidrata, y la espuma es suave y calmante con extracto de centella asiática.",
+      "imagen":"https://d1flfk77wl2xk4.cloudfront.net/Assets/72/176/M_p0217117672.jpg"
+    },
+    {
+      "id": 12,
+      "nombre": "Dr. Althea - Crema Hidratante 345 Relief Cream",
+      "marca": "Dr. Althea",
+      "categoria": "Cremas Hidratantes",
+      "precio": 21.38,
+      "descripcion": "Crema que combina tres ingredientes para tratar imperfecciones, cuatro ingredientes nutritivos y cinco ingredientes calmantes. Con niacinamida, resveratrol y extractos vegetales para calmar el enrojecimiento y fortalecer la piel.",
+      "imagen":"https://d1flfk77wl2xk4.cloudfront.net/Assets/31/614/M_p0105361431.jpg"
+    },
+    {
+      "id": 13,
+      "nombre": "SKIN1004 - Crema Hidratante Madagascar Centella Hyalu-Cica Moisture Cream",
+      "marca": "SKIN1004",
+      "categoria": "Cremas Hidratantes",
+      "precio": 17.52,
+      "descripcion": "Crema con 50% de extracto de centella asiática que calma la piel, fortalece la barrera cutánea y proporciona hidratación duradera. Contiene colágeno de origen vegetal para mejorar la elasticidad de la piel.",
+      "imagen":"https://d1flfk77wl2xk4.cloudfront.net/Assets/42/710/M_p0173471042.jpg"
+    },
+    {
+      "id": 14,
+      "nombre": "SKIN1004 - Ampolla Madagascar Centella Probio-Cica Intensive Ampoule",
+      "marca": "SKIN1004",
+      "categoria": "Ampollas",
+      "precio": 12.82,
+      "descripcion": "Ampolla nutritiva con alta concentración de extracto de cica fermentada que proporciona hidratación intensa y fortalece la barrera cutánea. Con pantenol, betaina y alantoina para un efecto rellenador.",
+      "imagen":"https://d1flfk77wl2xk4.cloudfront.net/Assets/81/680/M_p0197268081.jpg"
+    }
+  ]
+}

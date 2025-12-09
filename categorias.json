@@ -1,0 +1,12 @@
+{
+  "categorias": [
+    {
+      "nombre": "Cuidado de la Piel",
+      "subcategorias": ["Cremas Hidratantes", "Limpiadores Faciales", "Sérums Faciales", "Tónicos Faciales"]
+    },
+    {
+      "nombre": "Más Belleza",
+      "subcategorias": ["Cuidado de Manos y Pies", "Grooming Hombres", "Higiene Dental", "Perfumería y Fragancias"]
+    }
+  ]
+} 

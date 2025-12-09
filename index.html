@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos de Belleza</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Estilos temporales para el modal */
+        .product-modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0,0,0,0.7);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+            padding: 20px;
+        }
+
+        .product-modal {
+            background: white;
+            border-radius: 8px;
+            max-width: 900px;
+            width: 100%;
+            max-height: 90vh;
+            overflow-y: auto;
+            animation: modalFadeIn 0.3s ease;
+            position: relative;
+        }
+
+        @keyframes modalFadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .modal-close {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: none;
+            border: none;
+            font-size: 24px;
+            cursor: pointer;
+            color: #666;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            z-index: 10;
+        }
+
+        .modal-close:hover {
+            background-color: #f5f5f5;
+        }
+
+        .modal-content {
+            padding: 30px;
+        }
+
+        .modal-product-info {
+            display: flex;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+
+        .modal-product-image {
+            flex: 0 0 300px;
+        }
+
+        .modal-product-image .image-container {
+            height: 300px;
+            border-radius: 8px;
+            overflow: hidden;
+            background-color: #f5f5f5;
+            position: relative;
+        }
+
+        .modal-product-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            background-color: white;
+        }
+
+        .modal-product-details {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .modal-product-title {
+            font-size: 24px;
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .modal-product-price {
+            font-size: 28px;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .modal-description {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 4px;
+            margin-top: 20px;
+        }
+
+        .modal-description h3 {
+            font-size: 16px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .modal-description p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        /* Cursor pointer para tarjetas de producto */
+        .product-card {
+            cursor: pointer;
+            position: relative;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+        }
+
+        /* Botón de ver detalles */
+        .btn-view-details {
+            background-color: transparent;
+            color: #333;
+            border: 1px solid #ddd;
+            padding: 8px 15px;
+            border-radius: 4px;
+            font-weight: 500;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.2s;
+            margin-top: 10px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .btn-view-details:hover {
+            background-color: #f5f5f5;
+            border-color: #ccc;
+        }
+
+        /* Acciones en tarjetas */
+        .product-card-actions {
+            margin-top: 10px;
+        }
+
+        .product-card .btn-add {
+            width: 100%;
+            margin-top: 8px;
+        }
+
+        /* Main content padding */
+        main {
+            padding: 30px 0;
+        }
+
+        /* Sección de productos */
+        .productos-section {
+            padding: 40px 0;
+        }
+
+        /* Indicador de carga */
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+            font-size: 18px;
+            grid-column: 1 / -1;
+        }
+
+        .loading i {
+            font-size: 24px;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        /* Header del carrito */
+        .header-icons {
+            position: relative;
+        }
+
+        .cart-badge {
+            position: absolute;
+            top: -8px;
+            right: -8px;
+            background-color: #d97777;
+            color: white;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+
+        /* Estilos para imágenes de productos */
+        .product-card-image {
+            height: 200px;
+            overflow: hidden;
+            position: relative;
+            background-color: #f5f5f5;
+            border-radius: 8px 8px 0 0;
+        }
+
+        .product-card-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .product-card:hover .product-card-image img {
+            transform: scale(1.05);
+        }
+
+        .image-placeholder {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f0e6d6;
+            color: #666;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        /* Notificaciones */
+        .notification {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 20px;
+            border-radius: 4px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            z-index: 1001;
+            animation: slideIn 0.3s ease;
+        }
+
+        @keyframes slideIn {
+            from { transform: translateX(100%); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <!-- SCRIPT DE LIMPIEZA AUTOMÁTICA - AGREGADO AL PRINCIPIO -->
+    <script>
+        // LIMPIEZA AUTOMÁTICA DEL CARRITO VIEJO/CORRUPTO
+        (function() {
+            const CARRITO_KEY = 'carrito_belleza_coreana';
+            const carritoJSON = localStorage.getItem(CARRITO_KEY);
+            
+            if (carritoJSON) {
+                try {
+                    const carrito = JSON.parse(carritoJSON);
+                    console.log('🔍 Carrito actual en localStorage:', carrito);
+                    
+                    // Verificar si hay datos inválidos o viejos
+                    const tieneDatosInvalidos = !Array.isArray(carrito) || 
+                        carrito.some(item => !item || typeof item !== 'object' || 
+                        !item.id || !item.cantidad || 
+                        typeof item.id !== 'number' || typeof item.cantidad !== 'number');
+                    
+                    if (tieneDatosInvalidos) {
+                        console.log('🧹 Limpiando carrito corrupto...');
+                        localStorage.removeItem(CARRITO_KEY);
+                        console.log('✅ Carrito limpiado exitosamente');
+                    } else {
+                        console.log('✅ Carrito válido encontrado:', carrito.length, 'productos');
+                    }
+                } catch (error) {
+                    console.log('🧹 Error al leer carrito, limpiando...', error);
+                    localStorage.removeItem(CARRITO_KEY);
+                }
+            } else {
+                console.log('✅ No hay carrito viejo en localStorage');
+            }
+        })();
+    </script>
+    
+    <!-- Header con navegación -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">Belleza<span>Coreana</span></div>
+            
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Buscar productos...">
+                <button onclick="buscarProductos()"><i class="fas fa-search"></i></button>
+            </div>
+            
+            <div class="header-icons">
+                <a href="carrito.html"><i class="fas fa-shopping-cart"></i><span class="cart-badge" id="cartBadge">0</span></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Contenido principal -->
+    <main class="productos-section">
+        <div class="container">
+            <!-- Contador de productos -->
+            <div class="products-header" style="margin-bottom: 20px;">
+                <h2 style="margin-bottom: 5px;">Nuestros Productos</h2>
+                <p id="productCount" style="color: #666;">Cargando productos...</p>
+            </div>
+            
+            <!-- Grid de productos -->
+            <div class="products-grid" id="productsContainer">
+                <!-- Los productos se cargarán aquí dinámicamente -->
+                <div class="loading">
+                    <i class="fas fa-spinner fa-spin"></i>
+                    Cargando productos...
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer vacío - solo espacio en blanco -->
+    <footer>
+        <div class="container">
+            <!-- Espacio en blanco -->
+        </div>
+    </footer>
+
+    <!-- Modal para detalles del producto -->
+    <div id="productModal" class="product-modal-overlay">
+        <!-- El contenido del modal se genera dinámicamente con JavaScript -->
+    </div>
+
+    <script>
+        // Variables globales
+        let todosProductos = [];
+        let productosFiltrados = [];
+        
+        // Función para cargar productos desde el JSON
+        async function cargarProductos() {
+            try {
+                console.log('🔄 Cargando productos desde products.json...');
+                const response = await fetch('products.json');
+                
+                if (!response.ok) {
+                    throw new Error(`Error HTTP: ${response.status}`);
+                }
+                
+                const data = await response.json();
+                todosProductos = data.productos;
+                productosFiltrados = [...todosProductos];
+                
+                console.log(`✅ ${todosProductos.length} productos cargados exitosamente`);
+                mostrarProductos();
+                actualizarContadorProductos();
+                actualizarContadorCarrito();
+                
+            } catch (error) {
+                console.error('❌ Error al cargar productos:', error);
+                mostrarError('No se pudieron cargar los productos. Por favor, intenta más tarde.');
+            }
+        }
+        
+        // Función para mostrar productos en el grid CON IMÁGENES
+        function mostrarProductos() {
+            const container = document.getElementById('productsContainer');
+            
+            if (productosFiltrados.length === 0) {
+                container.innerHTML = `
+                    <div class="no-products" style="text-align: center; padding: 40px; grid-column: 1/-1;">
+                        <i class="fas fa-search" style="font-size: 48px; color: #ddd; margin-bottom: 20px;"></i>
+                        <h3 style="color: #666; margin-bottom: 10px;">No se encontraron productos</h3>
+                        <p>Intenta con otros términos de búsqueda</p>
+                    </div>
+                `;
+                return;
+            }
+            
+            let html = '';
+            
+            productosFiltrados.forEach(producto => {
+                // URL de la imagen (puede ser URL externa o null)
+                const imagenUrl = producto.imagen || null;
+                
+                // Determinar color de fondo según categoría (para placeholder)
+                const colorFondo = getColorPorCategoria(producto.categoria);
+                
+                html += `
+                    <div class="product-card" onclick="abrirModalProducto(${producto.id})">
+                        <div class="product-card-image">
+                            ${imagenUrl ? 
+                                `<img src="${imagenUrl}" 
+                                      alt="${producto.nombre}"
+                                      loading="lazy"
+                                      onerror="manejarErrorImagen(this, '${producto.marca}')">` 
+                                : 
+                                `<div class="image-placeholder" style="background-color: ${colorFondo}">
+                                    ${producto.marca}
+                                </div>`
+                            }
+                        </div>
+                        
+                        <div class="product-card-info">
+                            <h3 class="product-card-title">${producto.nombre}</h3>
+                            
+                            <div class="product-card-price">
+                                <span class="product-current-price">US$ ${producto.precio.toFixed(2)}</span>
+                            </div>
+                            
+                            <div class="product-card-actions">
+                                <button class="btn-view-details" onclick="event.stopPropagation(); abrirModalProducto(${producto.id})">
+                                    VER DETALLES
+                                </button>
+                                <button class="btn-add" onclick="event.stopPropagation(); agregarAlCarrito(${producto.id}, this)">
+                                    AGREGAR A LA CESTA
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            });
+            
+            container.innerHTML = html;
+        }
+        
+        // Función para manejar errores de carga de imágenes
+        function manejarErrorImagen(imgElement, marca) {
+            imgElement.onerror = null; // Prevenir bucles infinitos
+            
+            // Ocultar la imagen
+            imgElement.style.display = 'none';
+            
+            // Crear placeholder si no existe
+            let placeholder = imgElement.nextElementSibling;
+            if (!placeholder || !placeholder.classList.contains('image-placeholder')) {
+                placeholder = document.createElement('div');
+                placeholder.className = 'image-placeholder';
+                placeholder.style.backgroundColor = getColorPorCategoria('');
+                placeholder.textContent = marca;
+                imgElement.parentNode.appendChild(placeholder);
+            }
+            
+            placeholder.style.display = 'flex';
+        }
+        
+        // Función para obtener color según categoría
+        function getColorPorCategoria(categoria) {
+            const colores = {
+                'Sérums Faciales': '#e6f0f7',  // Azul claro
+                'Cremas Hidratantes': '#f7e6e6', // Rosa claro
+                'Cremas Faciales': '#f7f0e6',   // Beige
+                'Limpieza Facial': '#e6f7e9',   // Verde claro
+                'Esencias': '#f7e6f7',          // Lila claro
+                'Ampollas': '#e6e7f7',          // Azul lila
+                'default': '#f5f5f5'            // Gris claro
+            };
+            
+            if (!categoria) return colores.default;
+            
+            for (const [key, color] of Object.entries(colores)) {
+                if (categoria.includes(key)) return color;
+            }
+            return colores.default;
+        }
+        
+        // Función para actualizar el contador de productos
+        function actualizarContadorProductos() {
+            const element = document.getElementById('productCount');
+            if (element) {
+                element.textContent = `${productosFiltrados.length} productos encontrados`;
+            }
+        }
+        
+        // Función para mostrar error
+        function mostrarError(mensaje) {
+            const container = document.getElementById('productsContainer');
+            container.innerHTML = `
+                <div style="text-align: center; padding: 40px; grid-column: 1/-1;">
+                    <i class="fas fa-exclamation-triangle" style="font-size: 48px; color: #d97777; margin-bottom: 20px;"></i>
+                    <h3 style="color: #666; margin-bottom: 10px;">Error</h3>
+                    <p>${mensaje}</p>
+                    <button onclick="cargarProductos()" style="margin-top: 20px; padding: 10px 20px; background: #333; color: white; border: none; border-radius: 4px; cursor: pointer;">
+                        Reintentar
+                    </button>
+                </div>
+            `;
+        }
+        
+        // Función para buscar productos
+        function buscarProductos() {
+            const searchInput = document.getElementById('searchInput');
+            const termino = searchInput.value.toLowerCase().trim();
+            
+            if (termino === '') {
+                productosFiltrados = [...todosProductos];
+            } else {
+                productosFiltrados = todosProductos.filter(producto => {
+                    return producto.nombre.toLowerCase().includes(termino) ||
+                           producto.marca.toLowerCase().includes(termino) ||
+                           producto.categoria.toLowerCase().includes(termino) ||
+                           producto.descripcion.toLowerCase().includes(termino);
+                });
+            }
+            
+            mostrarProductos();
+            actualizarContadorProductos();
+        }
+        
+        // Función para abrir modal con producto real del JSON
+        function abrirModalProducto(productId) {
+            try {
+                // Buscar el producto en la lista ya cargada
+                const producto = todosProductos.find(p => p.id === productId);
+                
+                if (!producto) {
+                    console.error(`Producto con ID ${productId} no encontrado`);
+                    return;
+                }
+                
+                // URL de la imagen (puede ser URL externa o null)
+                const imagenUrl = producto.imagen || null;
+                
+                // Crear contenido del modal
+                const modalHTML = `
+                    <div class="product-modal">
+                        <button class="modal-close" onclick="cerrarModalProducto()">×</button>
+                        <div class="modal-content">
+                            <div class="modal-product-info">
+                                <div class="modal-product-image">
+                                    <div class="image-container">
+                                        ${imagenUrl ? 
+                                            `<img src="${imagenUrl}" 
+                                                  alt="${producto.nombre}"
+                                                  onerror="this.onerror=null; this.style.display='none'; this.nextElementSibling.style.display='flex';">` 
+                                            : 
+                                            ''
+                                        }
+                                        <div class="image-placeholder" style="display: ${imagenUrl ? 'none' : 'flex'};">
+                                            ${producto.marca}
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-product-details">
+                                    <h2 class="modal-product-title">${producto.nombre}</h2>
+                                    <div class="modal-product-price">US$ ${producto.precio.toFixed(2)}</div>
+                                    <p><strong>Marca:</strong> ${producto.marca}</p>
+                                    <p><strong>Categoría:</strong> ${producto.categoria}</p>
+                                    
+                                    <div class="action-buttons" style="margin-top: 20px;">
+                                        <button class="btn-add" onclick="agregarAlCarritoDesdeModal(${producto.id})">
+                                            AGREGAR A LA CESTA
+                                        </button>
+                                    </div>
+                                    
+                                    <div class="modal-description">
+                                        <h3>Descripción del Producto</h3>
+                                        <p>${producto.descripcion}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                
+                // Insertar modal en el contenedor
+                const modalContainer = document.getElementById('productModal');
+                modalContainer.innerHTML = modalHTML;
+                modalContainer.style.display = 'flex';
+                
+                // Prevenir scroll del body
+                document.body.style.overflow = 'hidden';
+                
+                // Cerrar modal al hacer clic fuera
+                modalContainer.addEventListener('click', function(e) {
+                    if (e.target === this) {
+                        cerrarModalProducto();
+                    }
+                });
+                
+            } catch (error) {
+                console.error('Error al abrir modal:', error);
+                alert('Error al cargar los detalles del producto');
+            }
+        }
+        
+        function cerrarModalProducto() {
+            const modalContainer = document.getElementById('productModal');
+            modalContainer.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }
+        
+        function agregarAlCarritoDesdeModal(productId) {
+            agregarAlCarrito(productId);
+            cerrarModalProducto();
+        }
+        
+        // Función para agregar al carrito CON VALIDACIÓN
+        function agregarAlCarrito(productId, buttonElement = null) {
+            console.log(`🛒 Agregando producto ${productId} al carrito`);
+            
+            // Cargar carrito existente
+            const CARRITO_KEY = 'carrito_belleza_coreana';
+            const carritoJSON = localStorage.getItem(CARRITO_KEY);
+            let carrito = carritoJSON ? JSON.parse(carritoJSON) : [];
+            
+            // Validar que sea un array
+            if (!Array.isArray(carrito)) {
+                console.warn('Carrito no es array, inicializando nuevo');
+                carrito = [];
+            }
+            
+            // Buscar si el producto ya está en el carrito
+            const index = carrito.findIndex(item => item && item.id === productId);
+            
+            if (index !== -1) {
+                // Si ya existe, incrementar cantidad (máximo 99)
+                if (carrito[index].cantidad < 99) {
+                    carrito[index].cantidad += 1;
+                } else {
+                    alert('Has alcanzado el límite máximo de 99 unidades para este producto');
+                    return;
+                }
+            } else {
+                // Si no existe, agregar nuevo
+                carrito.push({
+                    id: productId,
+                    cantidad: 1
+                });
+            }
+            
+            // Guardar en localStorage
+            localStorage.setItem(CARRITO_KEY, JSON.stringify(carrito));
+            
+            // Actualizar contador visual
+            actualizarContadorCarrito();
+            
+            // Animación del botón si se proporcionó
+            if (buttonElement) {
+                const originalText = buttonElement.textContent;
+                buttonElement.textContent = '¡AGREGADO!';
+                buttonElement.style.backgroundColor = '#4CAF50';
+                buttonElement.style.color = 'white';
+                
+                setTimeout(() => {
+                    buttonElement.textContent = originalText;
+                    buttonElement.style.backgroundColor = '#333';
+                    buttonElement.style.color = 'white';
+                }, 1500);
+            }
+            
+            console.log(`🛒 Carrito actualizado: ${carrito.length} tipos de productos`);
+            
+            // Mostrar notificación
+            mostrarNotificacion('Producto agregado al carrito');
+        }
+        
+        // Función para mostrar notificación
+        function mostrarNotificacion(mensaje) {
+            // Crear elemento de notificación
+            const notificacion = document.createElement('div');
+            notificacion.className = 'notification';
+            
+            notificacion.innerHTML = `
+                <i class="fas fa-check-circle" style="margin-right: 10px;"></i>
+                ${mensaje}
+            `;
+            
+            document.body.appendChild(notificacion);
+            
+            // Remover después de 3 segundos
+            setTimeout(() => {
+                notificacion.style.opacity = '0';
+                notificacion.style.transition = 'opacity 0.5s';
+                setTimeout(() => {
+                    if (notificacion.parentNode) {
+                        document.body.removeChild(notificacion);
+                    }
+                }, 500);
+            }, 3000);
+        }
+        
+        // Función para actualizar contador del carrito CON VALIDACIÓN
+        function actualizarContadorCarrito() {
+            const CARRITO_KEY = 'carrito_belleza_coreana';
+            const carritoJSON = localStorage.getItem(CARRITO_KEY);
+            let totalItems = 0;
+            
+            if (carritoJSON) {
+                try {
+                    const carrito = JSON.parse(carritoJSON);
+                    if (Array.isArray(carrito)) {
+                        totalItems = carrito.reduce((total, item) => {
+                            if (item && item.cantidad) {
+                                return total + item.cantidad;
+                            }
+                            return total;
+                        }, 0);
+                    }
+                } catch (error) {
+                    console.error('Error al contar carrito:', error);
+                    // Si hay error, limpiar el carrito corrupto
+                    localStorage.removeItem(CARRITO_KEY);
+                }
+            }
+            
+            // Actualizar badge
+            const badge = document.getElementById('cartBadge');
+            if (badge) {
+                badge.textContent = totalItems;
+                badge.style.display = totalItems > 0 ? 'flex' : 'none';
+            }
+            
+            return totalItems;
+        }
+        
+        // Función para buscar con Enter
+        function setupBusqueda() {
+            const searchInput = document.getElementById('searchInput');
+            if (searchInput) {
+                searchInput.addEventListener('keypress', function(e) {
+                    if (e.key === 'Enter') {
+                        buscarProductos();
+                    }
+                });
+            }
+        }
+        
+        // Inicializar cuando la página cargue
+        document.addEventListener('DOMContentLoaded', function() {
+            cargarProductos();
+            actualizarContadorCarrito();
+            setupBusqueda();
+        });
+        
+        // Hacer funciones disponibles globalmente
+        window.abrirModalProducto = abrirModalProducto;
+        window.cerrarModalProducto = cerrarModalProducto;
+        window.agregarAlCarrito = agregarAlCarrito;
+        window.agregarAlCarritoDesdeModal = agregarAlCarritoDesdeModal;
+        window.buscarProductos = buscarProductos;
+        window.manejarErrorImagen = manejarErrorImagen;
+    </script>
+</body>
+</html>
