@@ -19,7 +19,7 @@
       "imagen": "https://d1flfk77wl2xk4.cloudfront.net/Assets/30/774/M_p0214877430.jpg"
     },
     {
-      "id": 4,
+      "id": 3,
       "nombre": "SKIN1004 - Set de Aceite Limpiador y Espuma Limpiadora Madagascar Centella Double Cleansing Duo Set",
       "marca": "SKIN1004",
       "categoria": "Limpieza Facial",
@@ -28,7 +28,7 @@
       "imagen":"https://d1flfk77wl2xk4.cloudfront.net/Assets/88/638/M_p0209463888.jpg"
     },
     {
-      "id": 5,
+      "id": 4,
       "nombre": "SKIN1004 - Sérum Facial Iluminador Madagascar Centella Tone Brightening Capsule Ampoule Jumbo",
       "marca": "SKIN1004",
       "categoria": "Sérums Faciales",
@@ -37,7 +37,7 @@
       "imagen":"https://d1flfk77wl2xk4.cloudfront.net/Assets/55/808/M_p0161880855.jpg"
     },
     {
-      "id": 6,
+      "id": 5,
       "nombre": "Dr. Althea - Crema hidratante 147 Barrier Cream",
       "marca": "Dr. Althea",
       "categoria": "Cremas Hidratantes",
@@ -46,7 +46,7 @@
       "imagen":"https://d1flfk77wl2xk4.cloudfront.net/Assets/15/614/M_p0105361415.jpg"
     },
     {
-      "id": 7,
+      "id": 6,
       "nombre": "medicube - Crema Facial TXA Niacinamide Capsule Cream",
       "marca": "medicube",
       "categoria": "Cremas Faciales",
@@ -55,7 +55,7 @@
       "imagen":"https://d1flfk77wl2xk4.cloudfront.net/Assets/02/124/M_p0218112402.jpg"
     },
     {
-      "id": 8,
+      "id": 7,
       "nombre": "SKIN1004 - Crema Hidratante Madagascar Centella Poremizing Light Gel Cream",
       "marca": "SKIN1004",
       "categoria": "Cremas Hidratantes",
@@ -64,7 +64,7 @@
       "imagen":"https://d1flfk77wl2xk4.cloudfront.net/Assets/78/407/M_p0180240778.jpg"
     },
     {
-      "id": 9,
+      "id": 8,
       "nombre": "Dr. Althea - Sérum facial Gentle Vitamin C Serum",
       "marca": "Dr. Althea",
       "categoria": "Sérums Faciales",
@@ -73,7 +73,7 @@
       "imagen":"https://d1flfk77wl2xk4.cloudfront.net/Assets/26/693/M_p0219369326.jpg"
     },
     {
-      "id": 10,
+      "id": 9,
       "nombre": "JUMISO - Sérum Facial Niacinamide 20 Serum",
       "marca": "JUMISO",
       "categoria": "Sérums Faciales",
@@ -83,7 +83,7 @@
 
     },
     {
-      "id": 11,
+      "id": 10,
       "nombre": "mixsoon - Double Cleansing Set",
       "marca": "mixsoon",
       "categoria": "Limpieza Facial",
@@ -92,7 +92,7 @@
       "imagen":"https://d1flfk77wl2xk4.cloudfront.net/Assets/72/176/M_p0217117672.jpg"
     },
     {
-      "id": 12,
+      "id": 11,
       "nombre": "Dr. Althea - Crema Hidratante 345 Relief Cream",
       "marca": "Dr. Althea",
       "categoria": "Cremas Hidratantes",
@@ -101,7 +101,7 @@
       "imagen":"https://d1flfk77wl2xk4.cloudfront.net/Assets/31/614/M_p0105361431.jpg"
     },
     {
-      "id": 13,
+      "id": 12,
       "nombre": "SKIN1004 - Crema Hidratante Madagascar Centella Hyalu-Cica Moisture Cream",
       "marca": "SKIN1004",
       "categoria": "Cremas Hidratantes",
@@ -110,7 +110,7 @@
       "imagen":"https://d1flfk77wl2xk4.cloudfront.net/Assets/42/710/M_p0173471042.jpg"
     },
     {
-      "id": 14,
+      "id": 13,
       "nombre": "SKIN1004 - Ampolla Madagascar Centella Probio-Cica Intensive Ampoule",
       "marca": "SKIN1004",
       "categoria": "Ampollas",
@@ -119,7 +119,7 @@
       "imagen":"https://d1flfk77wl2xk4.cloudfront.net/Assets/81/680/M_p0197268081.jpg"
     },
     {
-      "id": 15,
+      "id": 14,
       "nombre": "Beauty of Joseon - Sérum Facial Calming Serum",
       "marca": "Beauty of Joseon",
       "categoria": "Serum",
@@ -128,7 +128,7 @@
       "imagen":"https://d1flfk77wl2xk4.cloudfront.net/Assets/beauty-of-joseon-calming-serum-30ml/21/938/XXL_p0126093821.jpg"
     },
     {
-    "id": 16,
+    "id": 15,
     "nombre": "Dr. Althea - Bálsamo limpiador Pure Grinding Cleansing Balm",
     "marca": "Yeyan",
     "categoria": "Bálsamos Limpiadores",
@@ -137,7 +137,7 @@
     "imagen": "https://d1flfk77wl2xk4.cloudfront.net/Assets/dr-althea-pure-grinding-cleansing-balm-50ml/22/019/XXL_p0207101922.png"
   },
   {
-    "id": 17,
+    "id": 16,
     "nombre": "mixsoon - Esencia Facial Bean Essence",
     "marca": "mixsoon",
     "categoria": "Esencia",
@@ -146,7 +146,7 @@
     "imagen": "https://d1flfk77wl2xk4.cloudfront.net/Assets/mixsoon-bean-essence-50ml/96/346/XXL_p0159334696.jpg"
   },
   {
-    "id": 18,
+    "id": 17,
     "nombre": "EQUALBERRY - Sérum Facial Bakuchiol Plumping Serum",
     "marca": "EQUALBERRY",
     "categoria": "Sérums Faciales",
@@ -155,7 +155,7 @@
     "imagen": "https://d1flfk77wl2xk4.cloudfront.net/Assets/63/376/M_p0213137663.jpg"
   },
   {
-    "id": 19,
+    "id": 18,
     "nombre": "SKIN1004 - Lab in Nature Madagascar Centella Retinol 0.2 Boosting Shot Ampoule",
     "marca": "SKIN1004",
     "categoria": "Ampollas",
@@ -164,7 +164,7 @@
     "imagen": "https://d1flfk77wl2xk4.cloudfront.net/Assets/43/269/M_p0218526943.jpg"
   },
   {
-    "id": 20,
+    "id": 19,
     "nombre": "Celmax - Ampolla Facial Noni Ampoule Calming + Radiance Jumbo",
     "marca": "Celmax",
     "categoria": "Ampollas",
@@ -173,7 +173,7 @@
     "imagen": "https://d1flfk77wl2xk4.cloudfront.net/Assets/celimax-noni-ampoule-calming-radiance-jumbo-50ml/20/107/XXL_p0212510720.jpg"
   },
   {
-    "id": 21,
+    "id": 20,
     "nombre": "Beauty of Joseon - Mascarilla Facial Red Bean Refreshing Pore Mask",
     "marca": "Beauty of Joseon",
     "categoria": "Mascarillas",
@@ -182,7 +182,7 @@
     "imagen": "https://d1flfk77wl2xk4.cloudfront.net/Assets/beauty-of-joseon-red-bean-refreshing-pore-mask-140ml/11/386/XXL_p0183938611.jpg"
   },
   {
-    "id": 22,
+    "id": 21,
     "nombre": "Beauty of Joseon - Bálsamo Limpiador Radiance Cleansing Balm NEW",
     "marca": "Beauty of Joseon",
     "categoria": "Bálsamos Limpiadores",
@@ -191,7 +191,7 @@
     "imagen": "https://d1flfk77wl2xk4.cloudfront.net/Assets/beauty-of-joseon-radiance-cleansing-balm-new-100ml/48/268/XXL_p0153126848.jpg"
   },
   {
-    "id": 23,
+    "id": 22,
     "nombre": "TIRTIR - Bálsamo Limpiador Hydro Boost Enzyme Cleansing Balm",
     "marca": "TIRTIR",
     "categoria": "Bálsamos Limpiadores",
@@ -200,13 +200,49 @@
     "imagen": "https://d1flfk77wl2xk4.cloudfront.net/Assets/tirtir-hydro-boost-enzyme-cleansing-balm-50ml/88/499/XXL_p0207949988.png"
   },
   {
-    "id": 24,
+    "id": 23,
     "nombre": "Dr. Althea - Pore Refresh Grinding Cleansing Balm",
     "marca": "Dr. Althea",
     "categoria": "Bálsamos Limpiadores",
     "precio": 19.80,
-    "descripcion": "El bálsamo limpiador Radiance Cleansing Balm ahora está disponible en una fórmula mejorada capaz de eliminar cualquier rastro de maquillaje y suciedad. Su infusión de agua de salvado de arroz y extracto de grano de arroz hidrata completamente la piel previniendo la sequedad.",
-    "imagen": "https://d1flfk77wl2xk4.cloudfront.net/Assets/tirtir-hydro-boost-enzyme-cleansing-balm-50ml/88/499/XXL_p0207949988.png"
+    "descripcion": "Beneficios: Un bálsamo limpiador hipoalergénico que limpia suave y profundamente el maquillaje y las impurezas de la piel sin irritarla. Formulado con extracto de hoja de Camellia Sinensis, que ayuda a controlar la secreción sebácea, y aceite de soja, que ayuda a mantener el equilibrio de hidratación de la piel. Contiene guaiazuleno sulfonato de sodio, que ayuda a calmar el enrojecimiento y a aliviar la piel irritada y sensible. Contiene aceite de semilla de Simmondsia Chinensis (jojoba), aceite de salvado de Oryza Sativa (arroz) y un complejo botánico que mantiene la piel hidratada después de la limpieza. Modo de empleo: 1. Aplique una cantidad generosa y masajee suavemente el rostro para eliminar el maquillaje y las impurezas. 2. Enjuague bien con agua tibia.",
+    "imagen": "https://d1flfk77wl2xk4.cloudfront.net/Assets/dr-althea-pore-refresh-grinding-cleansing-balm-50ml/10/589/XXL_p0216858910.jpg"
+  },
+  {
+    "id": 24,
+    "nombre": "Arencia - Limpiador Facial Fresh Green Rice Mochi Cleanser",
+    "marca": "Arencia",
+    "categoria": "Limpiadores Faciales",
+    "precio": 19.11,
+    "descripcion": "Limpiador purificante con agua y polvo de arroz para exfoliación suave, elimina puntos negros y desobstruye poros para una piel clara, suave y luminosa. Contiene extractos de té verde, centella y hamamelis para calmar, hidratar y equilibrar piel grasa o con tendencia al acné. Textura suave y esponjosa tipo mochi lograda mediante un proceso tradicional de amasado. Se puede usar como mascarilla con enjuague para limpieza profunda.",
+    "imagen": "https://d1flfk77wl2xk4.cloudfront.net/Assets/30/375/XXL_p0211937530.jpg"
+  },
+  {
+    "id": 25,
+    "nombre": "Arencia - Limpiador Facial Calendula Rice Mochi Cleanser",
+    "marca": "Arencia",
+    "categoria": "Limpiadores Faciales",
+    "precio": 19.60,
+    "descripcion": "Limpiador todo en uno para pieles sensibles con tres efectos: limpiador diario, exfoliante facial y desmaquillante. Enriquecido con más de 34 ingredientes naturales como extracto de caléndula (rico en vitamina C y flavonoides), extracto de Houttrynia Cordata y extracto de fruto de nopal. Proporciona hidratación profunda, efecto iluminador y calmante para piel irritada. Seguro para pieles sensibles.",
+    "imagen": "https://d1flfk77wl2xk4.cloudfront.net/Assets/91/370/XXL_p0217237091.jpg"
+  },
+  {
+    "id": 26,
+    "nombre": "Arencia - Limpiador Facial Fresh Blue Hyssop Rice Mochi Cleanser",
+    "marca": "Arencia",
+    "categoria": "Limpiadores Faciales",
+    "precio": 19.60,
+    "descripcion": "Limpiador todo en uno para piel mixta con tres efectos: limpiador diario, exfoliante facial y desmaquillante. Enriquecido con extracto de hisopo francés, rico en vitamina C y minerales, que suaviza la textura de la piel, elimina puntos negros y repone la hidratación. Formulado con la textura patentada de pastel de arroz (rice mochi) que ofrece limpieza profunda y alta hidratación. Seguro para pieles sensibles.",
+    "imagen": "https://d1flfk77wl2xk4.cloudfront.net/Assets/84/370/XXL_p0217237084.jpg"
+  },
+  {
+    "id": 27,
+    "nombre": "Arencia - Fresh Rosehip Rice Mochi Cleanser",
+    "marca": "Arencia",
+    "categoria": "Limpiadores Faciales",
+    "precio": 19.60,
+    "descripcion": "Detalles Esta es la versión renovada del Limpiador Fresh Royal de Rosa Mosqueta. Solo se han modificado el nombre del producto y el envase. Beneficios: Un limpiador hidratante que limpia a la vez que suaviza y calma la piel con una textura pastosa. Elaborado tras 170 horas de molienda, frotado y prensado repetidos de los ingredientes crudos con el método ASDT para obtener una textura densa y elástica similar a una masa. Contiene extracto de rosa mosqueta, rico en diversas vitaminas para nutrir la piel, y aloe vera rosa y manzanilla azul alemana para hidratar la piel y proporcionar beneficios antioxidantes. Enriquecido con polvo de almendra finamente molido para exfoliar la piel con suavidad. Mascarilla y limpiador 2 en 1 que ayuda a equilibrar los niveles de grasa y agua de la piel. Modo de empleo: Tome una cantidad adecuada de limpiador y añada agua para formar espuma. Masajee suavemente sobre la piel y enjuague con agua tibia.",
+    "imagen": "https://d1flfk77wl2xk4.cloudfront.net/Assets/28/375/XXL_p0211937528.jpg"
   }
 ]
 }
