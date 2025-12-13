@@ -541,6 +541,7 @@ function agregarAlCarritoDesdeModal(productId) {
 }
 
 // =================== FUNCIONES DE CARRITO ===================
+// Función modificada: eliminada la animación que cambiaba el texto a "¡AGREGADO!"
 function agregarAlCarrito(productId, buttonElement = null) {
     console.log(`🛒 Agregando producto ${productId} al carrito`);
     
@@ -550,21 +551,20 @@ function agregarAlCarrito(productId, buttonElement = null) {
     // Actualizar badge visual
     actualizarContadorCarrito();
     
-    // Animación del botón si se proporcionó
+    // Solo cambio de color momentáneo sin texto (eliminado el texto "¡AGREGADO!")
     if (buttonElement) {
-        const originalText = buttonElement.textContent;
-        buttonElement.textContent = '¡AGREGADO!';
+        const originalBg = buttonElement.style.backgroundColor;
+        const originalColor = buttonElement.style.color;
+        
         buttonElement.style.backgroundColor = '#4CAF50';
         buttonElement.style.color = 'white';
         
         setTimeout(() => {
-            buttonElement.textContent = originalText;
-            buttonElement.style.backgroundColor = '#333';
-            buttonElement.style.color = 'white';
-        }, 1500);
+            buttonElement.style.backgroundColor = originalBg || '#333';
+            buttonElement.style.color = originalColor || 'white';
+        }, 300);
     }
     
-    // En una implementación real, aquí guardarías el producto en el carrito
     console.log(`🛒 Carrito: ${carritoCount} productos`);
 }
 

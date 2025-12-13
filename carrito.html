@@ -385,22 +385,87 @@
     </style>
 </head>
 <body>
-    <!-- Header con navegación -->
-    <header>
-        <div class="container header-container">
-            <div class="logo">Belleza<span>Coreana</span></div>
-            
-            <div class="search-bar">
-                <input type="text" id="searchInputCarrito" placeholder="Buscar productos...">
-                <button onclick="filtrarCarrito()"><i class="fas fa-search"></i></button>
-            </div>
-            
-            <div class="header-icons">
-                <a href="index.html" title="Inicio"><i class="fas fa-home"></i></a>
-                <a href="carrito.html" title="Carrito"><i class="fas fa-shopping-cart"></i><span class="cart-badge" id="cartBadge">0</span></a>
-            </div>
+  <!-- Header con navegación -->
+<header>
+    <div class="container header-container">
+        <div class="logo">Belleza<span>Coreana</span></div>
+        
+        <div class="search-bar">
+            <input type="text" id="searchInputCarrito" placeholder="Buscar productos...">
+            <button onclick="filtrarCarrito()"><i class="fas fa-search"></i></button>
         </div>
-    </header>
+        
+        <div class="header-icons">
+            <a href="index.html" title="Inicio"><i class="fas fa-home"></i></a>
+            <a href="carrito.html" title="Carrito"><i class="fas fa-shopping-cart"></i><span class="cart-badge" id="cartBadge">0</span></a>
+        </div>
+    </div>
+</header>
+
+<!-- NAVBAR COMO EN LA IMAGEN - ACTUALIZADO -->
+<nav class="main-nav">
+    <div class="nav-container">
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link">CUIDADO DE LA PIEL <i class="fas fa-chevron-down"></i></a>
+                <div class="dropdown-menu">
+                    <div class="dropdown-column">
+                        <ul>
+                            <li><a href="#">Cremas Hidratantes</a></li>
+                            <li><a href="#">Limpiadores faciales</a></li>
+                            <li><a href="#">Sérums faciales</a></li>
+                            <li><a href="#">Tónicos faciales</a></li>
+                            <li><a href="#">Protectores Solares</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            
+            <li class="nav-item">
+                <a href="#" class="nav-link">MÁS BELLEZA <i class="fas fa-chevron-down"></i></a>
+                <div class="dropdown-menu">
+                    <div class="dropdown-column">
+                        <ul>
+                            <li><a href="#">Cuidado de manos y pies</a></li>
+                            <li><a href="#">Perfumes y Fragancias</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            
+            <li class="nav-item">
+                <a href="#" class="nav-link">MARCAS <i class="fas fa-chevron-down"></i></a>
+                <div class="dropdown-menu">
+                    <div class="dropdown-column">
+                        <ul>
+                            <li><a href="#">Anua</a></li>
+                            <li><a href="#">Beauty of Joseon</a></li>
+                            <li><a href="#">COSRX</a></li>
+                            <li><a href="#">I'm from</a></li>
+                            <li><a href="#">iUNIK</a></li>
+                            <li><a href="#">romand</a></li>
+                            <li><a href="#">LANEIGE</a></li>
+                            <li><a href="#">Robto Mentholatum</a></li>
+                            <li><a href="#">Shu Uemura</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            
+            <li class="nav-item">
+                <a href="#" class="nav-link">CUIDADO DEL CABELLO <i class="fas fa-chevron-down"></i></a>
+                <div class="dropdown-menu">
+                    <div class="dropdown-column">
+                        <ul>
+                            <li><a href="#">Champús</a></li>
+                            <li><a href="#">Tratamientos para Cabello</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
 
     <!-- Contenido principal del carrito -->
     <main class="carrito-container">

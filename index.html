@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <style>
-        /* Estilos para el modal */
+        /* Estilos para el modal de producto */
         .product-modal-overlay {
             position: fixed;
             top: 0;
@@ -80,6 +80,7 @@
             overflow: hidden;
             background-color: #f5f5f5;
             position: relative;
+            cursor: pointer;
         }
 
         .modal-product-image img {
@@ -125,57 +126,26 @@
             line-height: 1.6;
         }
 
-        /* Cursor pointer para tarjetas de producto */
-        .product-card {
-            cursor: pointer;
-            position: relative;
-            transition: transform 0.3s, box-shadow 0.3s;
-        }
-
-        .product-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
-        }
-
-        /* Botón de ver detalles */
-        .btn-view-details {
+        /* Botón para abrir galería en modal */
+        .btn-view-gallery-modal {
             background-color: transparent;
             color: #333;
             border: 1px solid #ddd;
-            padding: 8px 15px;
+            padding: 10px 20px;
             border-radius: 4px;
             font-weight: 500;
             cursor: pointer;
             font-size: 14px;
             transition: all 0.2s;
-            margin-top: 10px;
-            width: 100%;
-            text-align: center;
+            margin-right: 10px;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
         }
 
-        .btn-view-details:hover {
+        .btn-view-gallery-modal:hover {
             background-color: #f5f5f5;
             border-color: #ccc;
-        }
-
-        /* Acciones en tarjetas */
-        .product-card-actions {
-            margin-top: 10px;
-        }
-
-        .product-card .btn-add {
-            width: 100%;
-            margin-top: 8px;
-        }
-
-        /* Main content padding */
-        main {
-            padding: 30px 0;
-        }
-
-        /* Sección de productos */
-        .productos-section {
-            padding: 40px 0;
         }
 
         /* Indicador de carga */
@@ -193,170 +163,13 @@
             display: block;
         }
 
-        /* Header del carrito */
-        .header-icons {
-            position: relative;
-        }
-
-        .cart-badge {
-            position: absolute;
-            top: -8px;
-            right: -8px;
-            background-color: #d97777;
-            color: white;
-            border-radius: 50%;
-            width: 20px;
-            height: 20px;
-            font-size: 12px;
-            display: none;
-            align-items: center;
-            justify-content: center;
-            font-weight: bold;
-        }
-
-        /* Estilos para imágenes de productos */
-        .product-card-image {
-            height: 200px;
-            overflow: hidden;
-            position: relative;
-            background-color: #f5f5f5;
-            border-radius: 8px 8px 0 0;
-        }
-
-        .product-card-image img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            transition: transform 0.3s ease;
-        }
-
-        .product-card:hover .product-card-image img {
-            transform: scale(1.05);
-        }
-
-        .image-placeholder {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background-color: #f0e6d6;
-            color: #666;
-            font-weight: bold;
-            font-size: 16px;
-        }
-
-        /* Notificaciones */
-        .notification {
-            position: fixed;
-            top: 20px;
-            right: 20px;
-            background-color: #4CAF50;
-            color: white;
-            padding: 15px 20px;
-            border-radius: 4px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-            z-index: 1001;
-            animation: slideIn 0.3s ease;
-        }
-
-        @keyframes slideIn {
-            from { transform: translateX(100%); opacity: 0; }
-            to { transform: translateY(0); opacity: 1; }
-        }
-
-        /* Paginación */
-        .pagination {
-            display: flex;
-            justify-content: center;
-            margin-top: 40px;
-            gap: 10px;
-        }
-
-        .page-btn {
-            padding: 8px 15px;
-            border: 1px solid #ddd;
-            background-color: white;
-            border-radius: 4px;
-            cursor: pointer;
-            transition: all 0.3s;
-        }
-
-        .page-btn:hover {
-            background-color: #f5f5f5;
-        }
-
-        .page-btn.active {
-            background-color: #333;
-            color: white;
-            border-color: #333;
-        }
-
-        .page-btn.disabled {
-            opacity: 0.5;
-            cursor: not-allowed;
-        }
-
-        /* Filtros */
-        .filters-container {
-            display: flex;
-            gap: 15px;
-            margin-bottom: 20px;
-            flex-wrap: wrap;
-        }
-
-        .filter-select {
-            padding: 8px 15px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            background-color: white;
-            font-size: 14px;
-            min-width: 150px;
+        /* Contenedor principal de productos */
+        .productos-section {
+            padding: 40px 0;
         }
     </style>
 </head>
 <body>
-    <!-- SCRIPT DE LIMPIEZA AUTOMÁTICA MEJORADO -->
-    <script>
-        (function() {
-            const CARRITO_KEY = 'carrito_belleza_coreana';
-            
-            // Solo limpiar si hay datos corruptos
-            const carritoJSON = localStorage.getItem(CARRITO_KEY);
-            
-            if (carritoJSON) {
-                try {
-                    const carrito = JSON.parse(carritoJSON);
-                    
-                    // Verificar estructura válida
-                    const esValido = Array.isArray(carrito) && 
-                        carrito.every(item => 
-                            item && 
-                            typeof item === 'object' && 
-                            'id' in item && 
-                            'cantidad' in item &&
-                            Number.isInteger(item.id) &&
-                            Number.isInteger(item.cantidad) &&
-                            item.cantidad > 0 &&
-                            item.cantidad <= 99
-                        );
-                    
-                    if (!esValido) {
-                        console.log('🧹 Limpiando carrito corrupto...');
-                        localStorage.removeItem(CARRITO_KEY);
-                        console.log('✅ Carrito limpiado');
-                    }
-                } catch (error) {
-                    console.log('🧹 Error al leer carrito, limpiando...', error);
-                    localStorage.removeItem(CARRITO_KEY);
-                }
-            }
-        })();
-    </script>
-    
     <!-- Header con navegación -->
     <header>
         <div class="container header-container">
@@ -368,36 +181,80 @@
             </div>
             
             <div class="header-icons">
-                <a href="carrito.html"><i class="fas fa-shopping-cart"></i><span class="cart-badge" id="cartBadge">0</span></a>
+                <a href="index.html" title="Inicio"><i class="fas fa-home"></i></a>
+                <a href="carrito.html" title="Carrito"><i class="fas fa-shopping-cart"></i><span class="cart-badge" id="cartBadge">0</span></a>
             </div>
         </div>
+
+        <!-- NAVBAR COMO EN LA IMAGEN - ACTUALIZADO -->
+        <nav class="main-nav">
+            <div class="nav-container">
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">CUIDADO DE LA PIEL <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-menu">
+                            <div class="dropdown-column">
+                                <ul>
+                                    <li><a href="#">Cremas Hidratantes</a></li>
+                                    <li><a href="#">Limpiadores faciales</a></li>
+                                    <li><a href="#">Sérums faciales</a></li>
+                                    <li><a href="#">Tónicos faciales</a></li>
+                                    <li><a href="#">Protectores Solares</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">MÁS BELLEZA <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-menu">
+                            <div class="dropdown-column">
+                                <ul>
+                                    <li><a href="#">Cuidado de manos y pies</a></li>
+                                    <li><a href="#">Perfumes y Fragancias</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">MARCAS <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-menu">
+                            <div class="dropdown-column">
+                                <ul>
+                                    <li><a href="#">Anua</a></li>
+                                    <li><a href="#">Beauty of Joseon</a></li>
+                                    <li><a href="#">COSRX</a></li>
+                                    <li><a href="#">I'm from</a></li>
+                                    <li><a href="#">iUNIK</a></li>
+                                    <li><a href="#">romand</a></li>
+                                    <li><a href="#">LANEIGE</a></li>
+                                    <li><a href="#">Robto Mentholatum</a></li>
+                                    <li><a href="#">Shu Uemura</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">CUIDADO DEL CABELLO <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-menu">
+                            <div class="dropdown-column">
+                                <ul>
+                                    <li><a href="#">Champús</a></li>
+                                    <li><a href="#">Tratamientos para Cabello</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
 
     <!-- Contenido principal -->
     <main class="productos-section">
         <div class="container">
-            <!-- Contador de productos -->
-            <div class="products-header" style="margin-bottom: 20px;">
-                <h2 style="margin-bottom: 5px;">Nuestros Productos</h2>
-                <p id="productCount" style="color: #666;">Cargando productos...</p>
-            </div>
-            
-            <!-- Filtros -->
-            <div class="filters-container" id="filtersContainer" style="display: none;">
-                <select id="filterCategory" class="filter-select" onchange="aplicarFiltros()">
-                    <option value="">Todas las categorías</option>
-                </select>
-                <select id="filterBrand" class="filter-select" onchange="aplicarFiltros()">
-                    <option value="">Todas las marcas</option>
-                </select>
-                <select id="sortBy" class="filter-select" onchange="aplicarFiltros()">
-                    <option value="nombre">Ordenar por: Nombre</option>
-                    <option value="precio-asc">Precio: Menor a Mayor</option>
-                    <option value="precio-desc">Precio: Mayor a Menor</option>
-                    <option value="marca">Marca</option>
-                </select>
-            </div>
-            
             <!-- Grid de productos -->
             <div class="products-grid" id="productsContainer">
                 <div class="loading">
@@ -405,31 +262,19 @@
                     Cargando productos...
                 </div>
             </div>
-            
-            <!-- Paginación -->
-            <div class="pagination" id="paginationContainer" style="display: none;"></div>
         </div>
     </main>
 
-    <!-- Footer vacío - solo espacio en blanco -->
-    <footer>
-        <div class="container">
-            <!-- Espacio en blanco -->
-        </div>
-    </footer>
-
     <!-- Modal para detalles del producto -->
     <div id="productModal" class="product-modal-overlay"></div>
+
+    <!-- Modal para galería de imágenes -->
+    <div id="galleryModal" class="gallery-modal-overlay"></div>
 
     <script>
         // =================== VARIABLES GLOBALES ===================
         let todosProductos = [];           // Todos los productos del JSON
         let productosFiltrados = [];       // Productos después de filtros
-        let productosMostrados = [];       // Productos que se muestran actualmente
-        let productosPorPagina = 12;       // Cantidad de productos por página
-        let paginaActual = 1;              // Página actual
-        let marcasUnicas = new Set();      // Marcas únicas para filtros
-        let categoriasUnicas = new Set();  // Categorías únicas para filtros
         
         // =================== FUNCIONES PRINCIPALES ===================
         
@@ -438,49 +283,19 @@
             try {
                 console.log('🔄 Cargando productos desde products.json...');
                 
-                // Intentar varias rutas posibles para el JSON
-                const rutas = [
-                    'products.json',
-                    './products.json',
-                    '/products.json',
-                    'products.json?v=' + Date.now()
-                ];
+                const response = await fetch('products.json?v=' + Date.now());
+                if (!response.ok) throw new Error('Error al cargar JSON');
                 
-                let data = null;
-                
-                for (const ruta of rutas) {
-                    try {
-                        const response = await fetch(ruta);
-                        if (response.ok) {
-                            data = await response.json();
-                            console.log(`✅ JSON cargado desde: ${ruta}`);
-                            break;
-                        }
-                    } catch (error) {
-                        console.log(`❌ Error con ruta ${ruta}:`, error.message);
-                    }
-                }
-                
-                if (!data || !data.productos) {
-                    throw new Error('No se pudieron cargar los productos');
-                }
-                
+                const data = await response.json();
                 todosProductos = data.productos;
                 console.log(`✅ ${todosProductos.length} productos cargados exitosamente`);
-                
-                // Extraer marcas y categorías únicas para filtros
-                extraerFiltrosUnicos();
                 
                 // Inicializar productos filtrados
                 productosFiltrados = [...todosProductos];
                 
                 // Mostrar productos
                 mostrarProductos();
-                actualizarContadorProductos();
                 actualizarContadorCarrito();
-                
-                // Mostrar filtros
-                mostrarFiltros();
                 
             } catch (error) {
                 console.error('❌ Error al cargar productos:', error);
@@ -488,115 +303,33 @@
             }
         }
         
-        // Extraer marcas y categorías únicas para filtros
-        function extraerFiltrosUnicos() {
-            marcasUnicas.clear();
-            categoriasUnicas.clear();
-            
-            todosProductos.forEach(producto => {
-                if (producto.marca) marcasUnicas.add(producto.marca);
-                if (producto.categoria) categoriasUnicas.add(producto.categoria);
-            });
-        }
-        
-        // Mostrar filtros en la interfaz
-        function mostrarFiltros() {
-            const filtersContainer = document.getElementById('filtersContainer');
-            const filterCategory = document.getElementById('filterCategory');
-            const filterBrand = document.getElementById('filterBrand');
-            
-            if (filtersContainer && filterCategory && filterBrand) {
-                // Limpiar opciones existentes
-                filterCategory.innerHTML = '<option value="">Todas las categorías</option>';
-                filterBrand.innerHTML = '<option value="">Todas las marcas</option>';
-                
-                // Agregar categorías
-                Array.from(categoriasUnicas).sort().forEach(categoria => {
-                    filterCategory.innerHTML += `<option value="${categoria}">${categoria}</option>`;
-                });
-                
-                // Agregar marcas
-                Array.from(marcasUnicas).sort().forEach(marca => {
-                    filterBrand.innerHTML += `<option value="${marca}">${marca}</option>`;
-                });
-                
-                filtersContainer.style.display = 'flex';
-            }
-        }
-        
-        // Aplicar filtros
-        function aplicarFiltros() {
-            const filterCategory = document.getElementById('filterCategory');
-            const filterBrand = document.getElementById('filterBrand');
-            const sortBy = document.getElementById('sortBy');
-            
-            let productosTemp = [...todosProductos];
-            
-            // Aplicar filtro por categoría
-            if (filterCategory && filterCategory.value) {
-                productosTemp = productosTemp.filter(p => p.categoria === filterCategory.value);
-            }
-            
-            // Aplicar filtro por marca
-            if (filterBrand && filterBrand.value) {
-                productosTemp = productosTemp.filter(p => p.marca === filterBrand.value);
-            }
-            
-            // Aplicar ordenamiento
-            if (sortBy && sortBy.value) {
-                switch(sortBy.value) {
-                    case 'precio-asc':
-                        productosTemp.sort((a, b) => a.precio - b.precio);
-                        break;
-                    case 'precio-desc':
-                        productosTemp.sort((a, b) => b.precio - a.precio);
-                        break;
-                    case 'marca':
-                        productosTemp.sort((a, b) => a.marca.localeCompare(b.marca));
-                        break;
-                    case 'nombre':
-                    default:
-                        productosTemp.sort((a, b) => a.nombre.localeCompare(b.nombre));
-                        break;
-                }
-            }
-            
-            productosFiltrados = productosTemp;
-            paginaActual = 1; // Volver a la primera página
-            mostrarProductos();
-            actualizarContadorProductos();
-        }
-        
         // Función para mostrar productos en el grid
         function mostrarProductos() {
             const container = document.getElementById('productsContainer');
             if (!container) return;
             
-            // Calcular índices para la paginación
-            const inicio = (paginaActual - 1) * productosPorPagina;
-            const fin = inicio + productosPorPagina;
-            productosMostrados = productosFiltrados.slice(inicio, fin);
-            
-            if (productosMostrados.length === 0) {
+            if (productosFiltrados.length === 0) {
                 container.innerHTML = `
                     <div class="no-products" style="text-align: center; padding: 40px; grid-column: 1/-1;">
                         <i class="fas fa-search" style="font-size: 48px; color: #ddd; margin-bottom: 20px;"></i>
                         <h3 style="color: #666; margin-bottom: 10px;">No se encontraron productos</h3>
-                        <p>Intenta con otros términos de búsqueda o filtros</p>
+                        <p>Intenta con otros términos de búsqueda</p>
                     </div>
                 `;
-                document.getElementById('paginationContainer').style.display = 'none';
                 return;
             }
             
             let html = '';
             
-            productosMostrados.forEach(producto => {
-                // URL de la imagen (puede ser URL externa o null)
-                const imagenUrl = producto.imagen || null;
+            productosFiltrados.forEach(producto => {
+                // Obtener la primera imagen del array de imágenes (si existe)
+                const imagenUrl = (producto.imagenes && producto.imagenes.length > 0) ? producto.imagenes[0] : null;
                 
                 // Determinar color de fondo según categoría (para placeholder)
                 const colorFondo = getColorPorCategoria(producto.categoria);
+                
+                // Generar imágenes para la galería
+                const galeriaImagenes = generarImagenesGaleria(producto);
                 
                 html += `
                     <div class="product-card" data-id="${producto.id}" onclick="abrirModalProducto(${producto.id})">
@@ -621,9 +354,6 @@
                             </div>
                             
                             <div class="product-card-actions">
-                                <button class="btn-view-details" onclick="event.stopPropagation(); abrirModalProducto(${producto.id})">
-                                    VER DETALLES
-                                </button>
                                 <button class="btn-add" onclick="event.stopPropagation(); agregarAlCarrito(${producto.id}, this)">
                                     AGREGAR A LA CESTA
                                 </button>
@@ -634,9 +364,43 @@
             });
             
             container.innerHTML = html;
+        }
+        
+        // Generar imágenes para la galería desde el array de imágenes
+        function generarImagenesGaleria(producto) {
+            // Si el producto tiene array de imágenes, usarlas todas
+            if (producto.imagenes && Array.isArray(producto.imagenes) && producto.imagenes.length > 0) {
+                return producto.imagenes; // Devuelve todas las imágenes del array
+            }
             
-            // Actualizar paginación
-            actualizarPaginacion();
+            // Si no hay imágenes, usar placeholders
+            const colorHex = getColorHex(producto.categoria);
+            return [
+                `https://via.placeholder.com/400x400/${colorHex}/FFFFFF?text=${encodeURIComponent(producto.marca)}`,
+                `https://via.placeholder.com/400x400/${colorHex}/FFFFFF?text=${encodeURIComponent(producto.marca)}+2`,
+                `https://via.placeholder.com/400x400/${colorHex}/FFFFFF?text=${encodeURIComponent(producto.marca)}+3`,
+                `https://via.placeholder.com/400x400/${colorHex}/FFFFFF?text=${encodeURIComponent(producto.marca)}+4`
+            ];
+        }
+        
+        // Obtener color hexadecimal para placeholder
+        function getColorHex(categoria) {
+            const colores = {
+                'Sérums Faciales': 'e6f0f7',
+                'Cremas Hidratantes': 'f7e6e6',
+                'Cremas Faciales': 'f7f0e6',
+                'Limpieza Facial': 'e6f7e9',
+                'Esencias': 'f7e6f7',
+                'Ampollas': 'e6e7f7',
+                'default': 'f5f5f5'
+            };
+            
+            if (!categoria) return colores.default;
+            
+            for (const [key, color] of Object.entries(colores)) {
+                if (categoria.includes(key)) return color;
+            }
+            return colores.default;
         }
         
         // Función para manejar errores de carga de imágenes
@@ -670,10 +434,10 @@
                 'Ampollas': '#e6e7f7',
                 'Mascarillas': '#f0e6f7',
                 'Tónicos': '#e6f4f7',
-                'Protección Solar': '#fff7e6',
-                'Aceites': '#e6f7f7',
-                'Exfoliantes': '#f7e6f0',
-                'Contornos de Ojos': '#f0f7e6',
+                'Protector solar': '#fff7e6',
+                'Labios': '#f7e6f0',
+                'Bases de Maquillaje': '#e6f0f7',
+                'Cuidado de Cabello': '#f0f7e6',
                 'default': '#f5f5f5'
             };
             
@@ -683,81 +447,6 @@
                 if (categoria.includes(key)) return color;
             }
             return colores.default;
-        }
-        
-        // Actualizar paginación
-        function actualizarPaginacion() {
-            const totalPaginas = Math.ceil(productosFiltrados.length / productosPorPagina);
-            const paginationContainer = document.getElementById('paginationContainer');
-            
-            if (totalPaginas <= 1) {
-                paginationContainer.style.display = 'none';
-                return;
-            }
-            
-            paginationContainer.style.display = 'flex';
-            
-            let html = '';
-            
-            // Botón anterior
-            html += `
-                <button class="page-btn ${paginaActual === 1 ? 'disabled' : ''}" 
-                        onclick="${paginaActual > 1 ? `cambiarPagina(${paginaActual - 1})` : ''}">
-                    <i class="fas fa-chevron-left"></i>
-                </button>
-            `;
-            
-            // Números de página
-            const paginasAMostrar = 5;
-            let inicioPagina = Math.max(1, paginaActual - Math.floor(paginasAMostrar / 2));
-            let finPagina = Math.min(totalPaginas, inicioPagina + paginasAMostrar - 1);
-            
-            if (finPagina - inicioPagina + 1 < paginasAMostrar) {
-                inicioPagina = Math.max(1, finPagina - paginasAMostrar + 1);
-            }
-            
-            for (let i = inicioPagina; i <= finPagina; i++) {
-                html += `
-                    <button class="page-btn ${i === paginaActual ? 'active' : ''}" 
-                            onclick="cambiarPagina(${i})">
-                        ${i}
-                    </button>
-                `;
-            }
-            
-            // Botón siguiente
-            html += `
-                <button class="page-btn ${paginaActual === totalPaginas ? 'disabled' : ''}" 
-                        onclick="${paginaActual < totalPaginas ? `cambiarPagina(${paginaActual + 1})` : ''}">
-                    <i class="fas fa-chevron-right"></i>
-                </button>
-            `;
-            
-            paginationContainer.innerHTML = html;
-        }
-        
-        // Cambiar página
-        function cambiarPagina(nuevaPagina) {
-            paginaActual = nuevaPagina;
-            mostrarProductos();
-            // Scroll suave hacia arriba
-            window.scrollTo({
-                top: 0,
-                behavior: 'smooth'
-            });
-        }
-        
-        // Función para actualizar el contador de productos
-        function actualizarContadorProductos() {
-            const element = document.getElementById('productCount');
-            if (element) {
-                const total = productosFiltrados.length;
-                const mostrando = productosMostrados.length;
-                const texto = total === mostrando ? 
-                    `${total} productos` : 
-                    `Mostrando ${mostrando} de ${total} productos`;
-                element.textContent = texto;
-            }
         }
         
         // Función para mostrar error
@@ -793,12 +482,173 @@
                 });
             }
             
-            paginaActual = 1;
             mostrarProductos();
-            actualizarContadorProductos();
         }
         
-        // Función para abrir modal con producto CORREGIDA
+        // =================== FUNCIONES DE GALERÍA ===================
+        
+        // Función para abrir galería de imágenes de un producto
+        function abrirGaleriaProducto(productId) {
+            try {
+                // Buscar el producto
+                const producto = todosProductos.find(p => p.id === productId);
+                
+                if (!producto) {
+                    console.error(`Producto con ID ${productId} no encontrado`);
+                    alert('Producto no encontrado');
+                    return;
+                }
+                
+                // Generar imágenes para la galería
+                const imagenesGaleria = generarImagenesGaleria(producto);
+                
+                // Crear contenido de la galería
+                const galeriaHTML = `
+                    <div class="gallery-modal">
+                        <button class="gallery-close" onclick="cerrarGaleria()">×</button>
+                        <div class="gallery-container">
+                            <div class="gallery-main-image" id="galleryMainImage">
+                                <img src="${imagenesGaleria[0]}" alt="${producto.nombre}" id="mainGalleryImage">
+                                <div class="gallery-counter" id="galleryCounter">1 / ${imagenesGaleria.length}</div>
+                                <button class="gallery-nav gallery-prev" onclick="cambiarImagenGaleria(-1)">‹</button>
+                                <button class="gallery-nav gallery-next" onclick="cambiarImagenGaleria(1)">›</button>
+                            </div>
+                            <div class="gallery-thumbnails" id="galleryThumbnails">
+                                ${imagenesGaleria.map((img, index) => `
+                                    <div class="thumbnail ${index === 0 ? 'active' : ''}" onclick="seleccionarImagenGaleria(${index})">
+                                        <img src="${img}" alt="${producto.nombre} - Vista ${index + 1}" loading="lazy">
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+                    </div>
+                `;
+                
+                // Insertar galería en el contenedor
+                const galeriaContainer = document.getElementById('galleryModal');
+                if (galeriaContainer) {
+                    galeriaContainer.innerHTML = galeriaHTML;
+                    galeriaContainer.style.display = 'flex';
+                    
+                    // Almacenar datos de la galería
+                    galeriaContainer.dataset.imagenes = JSON.stringify(imagenesGaleria);
+                    galeriaContainer.dataset.indiceActual = '0';
+                    galeriaContainer.dataset.productoId = productId;
+                    
+                    // Prevenir scroll del body
+                    document.body.style.overflow = 'hidden';
+                    
+                    // Cerrar galería al hacer clic fuera
+                    galeriaContainer.addEventListener('click', function(e) {
+                        if (e.target === this) {
+                            cerrarGaleria();
+                        }
+                    });
+                    
+                    // Cerrar con ESC
+                    document.addEventListener('keydown', function escHandler(e) {
+                        if (e.key === 'Escape') {
+                            cerrarGaleria();
+                            document.removeEventListener('keydown', escHandler);
+                        }
+                        // Navegación con teclado
+                        if (e.key === 'ArrowLeft') cambiarImagenGaleria(-1);
+                        if (e.key === 'ArrowRight') cambiarImagenGaleria(1);
+                    });
+                }
+                
+            } catch (error) {
+                console.error('Error al abrir galería:', error);
+                alert('Error al cargar la galería de imágenes');
+            }
+        }
+        
+        // Cerrar galería
+        function cerrarGaleria() {
+            const galeriaContainer = document.getElementById('galleryModal');
+            if (galeriaContainer) {
+                galeriaContainer.style.display = 'none';
+                document.body.style.overflow = 'auto';
+            }
+        }
+        
+        // Cambiar imagen en la galería
+        function cambiarImagenGaleria(direccion) {
+            const galeriaContainer = document.getElementById('galleryModal');
+            if (!galeriaContainer) return;
+            
+            const imagenes = JSON.parse(galeriaContainer.dataset.imagenes || '[]');
+            let indiceActual = parseInt(galeriaContainer.dataset.indiceActual || '0');
+            
+            // Calcular nuevo índice
+            indiceActual += direccion;
+            if (indiceActual < 0) indiceActual = imagenes.length - 1;
+            if (indiceActual >= imagenes.length) indiceActual = 0;
+            
+            // Actualizar imagen principal
+            const mainImage = document.getElementById('mainGalleryImage');
+            if (mainImage) {
+                mainImage.style.opacity = '0';
+                setTimeout(() => {
+                    mainImage.src = imagenes[indiceActual];
+                    mainImage.style.opacity = '1';
+                }, 200);
+            }
+            
+            // Actualizar contador
+            const counter = document.getElementById('galleryCounter');
+            if (counter) {
+                counter.textContent = `${indiceActual + 1} / ${imagenes.length}`;
+            }
+            
+            // Actualizar miniaturas activas
+            const thumbnails = document.querySelectorAll('.thumbnail');
+            thumbnails.forEach((thumb, index) => {
+                thumb.classList.toggle('active', index === indiceActual);
+            });
+            
+            // Actualizar índice almacenado
+            galeriaContainer.dataset.indiceActual = indiceActual.toString();
+        }
+        
+        // Seleccionar imagen específica desde miniatura
+        function seleccionarImagenGaleria(indice) {
+            const galeriaContainer = document.getElementById('galleryModal');
+            if (!galeriaContainer) return;
+            
+            const imagenes = JSON.parse(galeriaContainer.dataset.imagenes || '[]');
+            
+            if (indice >= 0 && indice < imagenes.length) {
+                // Actualizar imagen principal
+                const mainImage = document.getElementById('mainGalleryImage');
+                if (mainImage) {
+                    mainImage.style.opacity = '0';
+                    setTimeout(() => {
+                        mainImage.src = imagenes[indice];
+                        mainImage.style.opacity = '1';
+                    }, 200);
+                }
+                
+                // Actualizar contador
+                const counter = document.getElementById('galleryCounter');
+                if (counter) {
+                    counter.textContent = `${indice + 1} / ${imagenes.length}`;
+                }
+                
+                // Actualizar miniaturas activas
+                const thumbnails = document.querySelectorAll('.thumbnail');
+                thumbnails.forEach((thumb, index) => {
+                    thumb.classList.toggle('active', index === indice);
+                });
+                
+                // Actualizar índice almacenado
+                galeriaContainer.dataset.indiceActual = indice.toString();
+            }
+        }
+        
+        // =================== FUNCIONES DE MODAL DE PRODUCTO ===================
+        
+        // Función para abrir modal con producto
         function abrirModalProducto(productId) {
             try {
                 // Buscar el producto en TODOS los productos
@@ -810,9 +660,12 @@
                     return;
                 }
                 
-                // URL de la imagen (puede ser URL externa o null)
-                const imagenUrl = producto.imagen || null;
+                // Obtener la primera imagen del array de imágenes (si existe)
+                const imagenUrl = (producto.imagenes && producto.imagenes.length > 0) ? producto.imagenes[0] : null;
                 const colorFondo = getColorPorCategoria(producto.categoria);
+                
+                // Generar imágenes para la galería
+                const galeriaImagenes = generarImagenesGaleria(producto);
                 
                 // Crear contenido del modal
                 const modalHTML = `
@@ -821,7 +674,7 @@
                         <div class="modal-content">
                             <div class="modal-product-info">
                                 <div class="modal-product-image">
-                                    <div class="image-container">
+                                    <div class="image-container" onclick="abrirGaleriaDesdeModal(${producto.id})">
                                         ${imagenUrl ? 
                                             `<img src="${imagenUrl}" 
                                                   alt="${producto.nombre}"
@@ -841,6 +694,9 @@
                                     ${producto.categoria ? `<p><strong>Categoría:</strong> ${producto.categoria}</p>` : ''}
                                     
                                     <div class="action-buttons" style="margin-top: 20px;">
+                                        <button class="btn-view-gallery-modal" onclick="abrirGaleriaDesdeModal(${producto.id})">
+                                            <i class="fas fa-images"></i> Ver Galería (${galeriaImagenes.length} imágenes)
+                                        </button>
                                         <button class="btn-add" onclick="agregarAlCarritoDesdeModal(${producto.id})">
                                             AGREGAR A LA CESTA
                                         </button>
@@ -887,6 +743,12 @@
             }
         }
         
+        // Abrir galería desde el modal de producto
+        function abrirGaleriaDesdeModal(productId) {
+            cerrarModalProducto();
+            setTimeout(() => abrirGaleriaProducto(productId), 300);
+        }
+        
         function cerrarModalProducto() {
             const modalContainer = document.getElementById('productModal');
             if (modalContainer) {
@@ -900,7 +762,9 @@
             cerrarModalProducto();
         }
         
-        // Función para agregar al carrito MEJORADA
+        // =================== FUNCIONES DE CARRITO ===================
+        
+        // Función para agregar al carrito (MODIFICADA: eliminada la notificación)
         function agregarAlCarrito(productId, buttonElement = null) {
             console.log(`🛒 Agregando producto ${productId} al carrito`);
             
@@ -908,7 +772,6 @@
             const producto = todosProductos.find(p => p.id === productId);
             if (!producto) {
                 console.error(`Producto ID ${productId} no encontrado`);
-                mostrarNotificacion('Error: Producto no encontrado', 'error');
                 return;
             }
             
@@ -931,7 +794,6 @@
                 if (carrito[index].cantidad < 99) {
                     carrito[index].cantidad += 1;
                 } else {
-                    mostrarNotificacion('Límite máximo alcanzado (99 unidades)', 'warning');
                     return;
                 }
             } else {
@@ -948,62 +810,21 @@
             // Actualizar contador visual
             actualizarContadorCarrito();
             
-            // Animación del botón si se proporcionó
+            // Animación del botón si se proporcionó (SOLO ANIMACIÓN, SIN TEXTO "AGREGADO")
             if (buttonElement) {
-                const originalText = buttonElement.textContent;
                 const originalBg = buttonElement.style.backgroundColor;
                 const originalColor = buttonElement.style.color;
                 
-                buttonElement.textContent = '¡AGREGADO!';
                 buttonElement.style.backgroundColor = '#4CAF50';
                 buttonElement.style.color = 'white';
-                buttonElement.disabled = true;
                 
                 setTimeout(() => {
-                    buttonElement.textContent = originalText;
                     buttonElement.style.backgroundColor = originalBg || '#333';
                     buttonElement.style.color = originalColor || 'white';
-                    buttonElement.disabled = false;
-                }, 1500);
+                }, 300);
             }
             
             console.log(`🛒 Carrito actualizado: ${carrito.length} tipos de productos`);
-            
-            // Mostrar notificación
-            mostrarNotificacion(`${producto.nombre.substring(0, 30)}... agregado al carrito`);
-        }
-        
-        // Función para mostrar notificación mejorada
-        function mostrarNotificacion(mensaje, tipo = 'success') {
-            // Crear elemento de notificación
-            const notificacion = document.createElement('div');
-            notificacion.className = 'notification';
-            
-            const icon = tipo === 'error' ? 'fa-exclamation-circle' : 
-                        tipo === 'warning' ? 'fa-exclamation-triangle' : 
-                        'fa-check-circle';
-            const bgColor = tipo === 'error' ? '#f44336' : 
-                           tipo === 'warning' ? '#ff9800' : 
-                           '#4CAF50';
-            
-            notificacion.innerHTML = `
-                <i class="fas ${icon}" style="margin-right: 10px;"></i>
-                ${mensaje}
-            `;
-            notificacion.style.backgroundColor = bgColor;
-            
-            document.body.appendChild(notificacion);
-            
-            // Remover después de 3 segundos
-            setTimeout(() => {
-                notificacion.style.opacity = '0';
-                notificacion.style.transition = 'opacity 0.5s';
-                setTimeout(() => {
-                    if (notificacion.parentNode) {
-                        document.body.removeChild(notificacion);
-                    }
-                }, 500);
-            }, 3000);
         }
         
         // Función para actualizar contador del carrito
@@ -1057,27 +878,66 @@
             actualizarContadorCarrito();
             setupBusqueda();
             
-            // Configurar tamaño de productos por página según el dispositivo
-            if (window.innerWidth < 768) {
-                productosPorPagina = 6;
-            } else if (window.innerWidth < 1024) {
-                productosPorPagina = 9;
-            } else {
-                productosPorPagina = 12;
-            }
+            // Configurar navbar para dispositivos móviles
+            configurarNavbarResponsive();
             
             console.log('✅ Aplicación inicializada');
         });
         
+        // Configurar navbar responsive
+        function configurarNavbarResponsive() {
+            const navItems = document.querySelectorAll('.nav-item');
+            const isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+            
+            if (isTouchDevice && window.innerWidth <= 768) {
+                console.log('📱 Configurando navbar para dispositivos táctiles');
+                
+                navItems.forEach(item => {
+                    const link = item.querySelector('.nav-link');
+                    
+                    link.addEventListener('click', function(e) {
+                        if (window.innerWidth <= 768) {
+                            e.preventDefault();
+                            const dropdown = item.querySelector('.dropdown-menu');
+                            
+                            // Cerrar otros dropdowns
+                            document.querySelectorAll('.dropdown-menu').forEach(d => {
+                                if (d !== dropdown) d.style.display = 'none';
+                            });
+                            
+                            // Alternar este dropdown
+                            if (dropdown.style.display === 'block') {
+                                dropdown.style.display = 'none';
+                            } else {
+                                dropdown.style.display = 'block';
+                            }
+                        }
+                    });
+                });
+                
+                // Cerrar dropdowns al hacer clic fuera
+                document.addEventListener('click', function(e) {
+                    if (!e.target.closest('.nav-item')) {
+                        document.querySelectorAll('.dropdown-menu').forEach(d => {
+                            d.style.display = 'none';
+                        });
+                    }
+                });
+            }
+        }
+        
         // Hacer funciones disponibles globalmente
         window.abrirModalProducto = abrirModalProducto;
         window.cerrarModalProducto = cerrarModalProducto;
+        window.abrirGaleriaProducto = abrirGaleriaProducto;
+        window.cerrarGaleria = cerrarGaleria;
+        window.cambiarImagenGaleria = cambiarImagenGaleria;
+        window.seleccionarImagenGaleria = seleccionarImagenGaleria;
+        window.abrirGaleriaDesdeModal = abrirGaleriaDesdeModal;
         window.agregarAlCarrito = agregarAlCarrito;
         window.agregarAlCarritoDesdeModal = agregarAlCarritoDesdeModal;
         window.buscarProductos = buscarProductos;
         window.manejarErrorImagen = manejarErrorImagen;
-        window.aplicarFiltros = aplicarFiltros;
-        window.cambiarPagina = cambiarPagina;
     </script>
 </body>
-</html> 
+</html>
