@@ -687,6 +687,21 @@
       "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/51/554/L_g0221455451.jpg",
       "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/48/554/L_g0221455448.jpg"
     ]
+  },
+  {
+    "id": 54,
+    "nombre": "Nooni - Aceite Labial Apple Lip Oil - 13 Colores",
+    "marca": "Nooni",
+    "categoria": "Labios",
+    "precio": 11.20,
+    "descripcion": "El aceite labial Apple Lip Oil de Nooni suaviza los labios y les da un brillo saludable. Está formulado con aceites vegetales emolientes, incluyendo aceite de semilla de girasol, aceite de semilla de jojoba y aceite de semilla de manzana, para mantener a raya los labios agrietados. Presenta un aroma refrescante y ligero a manzana. Viene en varios colores, incluyendo una versión transparente.",
+    "detalles": "",
+    "imagenes": [
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/99/606/XXL_p0209860699.jpg",
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/38/709/L_g0222870938.jpg",
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/39/709/L_g0222870939.jpg",
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/36/709/L_g0222870936.jpg"
+    ]
   }
 ]
 }
