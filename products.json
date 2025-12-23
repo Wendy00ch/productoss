@@ -702,6 +702,137 @@
       "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/39/709/L_g0222870939.jpg",
       "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/36/709/L_g0222870936.jpg"
     ]
+  },
+  {
+    "id": 55,
+    "nombre": "AXIS - Y - Sérum Contorno de Ojos Vegan Collagen Eye Serum",
+    "marca": "Axis",
+    "categoria": "Cuidado de la piel",
+    "precio": 10.44,
+    "descripcion": "Sérum de colágeno vegano de AXIS-Y que revitaliza tu mirada. Su fórmula exclusiva 6+1+1 combina seis ingredientes botánicos hidratantes e iluminadores, como el aceite de jojoba y el extracto de manzana verde. Está enriquecido con colágeno vegano para tratar las arrugas y un complejo de cinco péptidos que mejora la firmeza de la piel. Incluye un aplicador con bola metálica para una aplicación cómoda y refrescante.",
+    "detalles": "",
+    "imagenes": [
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/axis-y-vegan-collagen-eye-serum-10ml/02/234/XXL_p0205723402.jpg",
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/35/002/L_g0221100235_004.jpg",
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/35/002/L_g0221100235_003.jpg",
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/35/002/L_g0221100235_002.jpg"
+    ]
+  },
+  {
+    "id": 56,
+    "nombre": "AXIS - Y - Aceite Labial Vita Glow Lip Oil - 3 Colores",
+    "marca": "Axis",
+    "categoria": "Cuidado de la piel",
+    "precio": 9.87,
+    "descripcion": "Da a tus labios un aumento de hidratación, un acabado jugoso y brillante con este aceite labial vegano. Formulado con vitamina E y ceramida NP, la formula mantiene los labios suaves y carnosos todo el día. Disponible en transparente Dreamy Olive, junto con opciones con color como en tonos cálidos Cozy Fig y tonos fríos Chilled Berry.",
+    "detalles": "",
+    "imagenes": [
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/axis-y-vita-glow-lip-oil-3-colors-chilled-berry-cozy-fig-dreamy-olive/43/888/XXL_p0218888843.jpg",
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/18/647/L_g0219464718.jpg",
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/19/647/L_g0219464719.jpg",
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/20/647/L_g0219464720.jpg"
+    ]
+  },
+  {
+    "id": 57,
+    "nombre": "AROUND LAB - Protector Solar Birch Juice",
+    "marca": "Axis",
+    "categoria": "Protector solar",
+    "precio": 10.30,
+    "descripcion": "Protector solar químico con SPF50+ PA++++ que protege la piel de los rayos UV mientras ofrece varios beneficios para el cuidado de la piel. Está enriquecido con 1.425 ppm de jugo de abedul y ácido hialurónico para mantener la piel hidratada, junto con niacinamida para dejar la piel radiante. Otros ingredientes como la adenosina ofrecen cuidado antienvejecimiento. El protector solar orgánico con una textura de crema suave deja un acabado sin residuos blancos y sin sensación pegajosa.",
+    "detalles": "",
+    "imagenes": [
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/round-lab-birch-juice-moisturizing-sunscreen-50ml/48/091/XXL_p0196509148.jpg",
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/09/570/L_g0207457009_002.jpg",
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/09/570/L_g0207457009_008.jpg",
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/09/570/L_g0207457009_013.jpg"
+    ]
+  },
+  {
+    "id": 58,
+    "nombre": "celimax - Protector Solar Pore+ Dark Spot Brightening Care Sunscreen",
+    "marca": "Celimax",
+    "categoria": "Protector solar",
+    "precio": 14.96,
+    "descripcion": "Este protector solar químico se adapta a tu piel para protegerla de los rayos UV con FPS50+ PA++++. Esta enriquecido con ácido tranexámico y niacinamida para tratar la hiperpigmentación y el tono de piel desigual, junto con pantenol para mantener los brotes bajo control. Esta formula ligera se absorbe rápido en la piel para un terminado libre de efecto blanco y no grasienta.",
+    "detalles": "",
+    "imagenes": [
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/celimax-pore-dark-spot-brightening-care-sunscreen-50ml/35/997/XXL_p0212699735.jpg",
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/36/997/L_g0212699736_001.jpg",
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/36/997/L_g0212699736_004.jpg",
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/36/997/L_g0212699736_002.jpg"
+    ]
+  },
+  {
+    "id": 59,
+    "nombre": "SKIN1004 - Protector Solar Madagascar Centella Hyalu-Cica Water-Fit Sun Serum",
+    "marca": "SKIN1004",
+    "categoria": "Protector solar",
+    "precio": 11.03,
+    "descripcion": "Protector solar orgánico con FPS 50+ PA++++, formulado con una proporción ideal de ácido hialurónico y extracto de centella asiática para calmar e hidratar la piel sin dejar residuos blancos. Contiene además extractos de hoja de rúcula, té verde y brócoli que aportan beneficios antioxidantes y mejoran el estado general de la piel. Su textura cremosa de rápida absorción deja la piel jugosa y luminosa, sin sensación pegajosa.",
+    "detalles": "",
+    "imagenes": [
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/skin1004-madagascar-centella-hyalu-cica-water-fit-sun-serum-50ml/59/332/XXL_p0175333259.jpg",
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/18/562/L_g0216456218_003.jpg",
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/18/562/L_g0216456218_004.jpg",
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/18/562/L_g0216456218_008.jpg"
+    ]
+  },
+  {
+    "id": 60,
+    "nombre": "Beauty of Joseon - Protector Solar Relief Sun",
+    "marca": "Beauty of Joseon",
+    "categoria": "Protector solar",
+    "precio": 12.58,
+    "descripcio": "Formulado con FPS 50+ PA++++ de amplio espectro para proteger tu piel de los rayos UVA y UVB, este protector solar orgánico tiene una textura ligera tipo crema que se absorbe rápido y no deja rastro blanco. Contiene niacinamida para darle a tu piel un brillo saludable y natural. Además, está enriquecido con extracto de arroz y probióticos de origen vegetal que ayudan a mantenerla suave e hidratada. Libre de oxibenzona, octinoxato e ingredientes de origen animal, el Relief Sun es perfecto para pieles sensibles.",
+    "detalles": "",
+    "imagenes": [
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/beauty-of-joseon-relief-sun-50ml/95/834/XXL_p0162883495.jpg",
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/35/308/L_g0221830835.jpg",
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/36/308/L_g0221830836.jpg",
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/37/308/L_g0221830837.jpg"
+    ]
+  },
+  {
+    "id": 61,
+    "nombre": "KSECRET - Crema Contorno de Ojos SEOUL 1988 Eye Cream : Retinal Liposome 4% + Fermented Bean",
+    "marca": "Seoul 1988",
+    "categoria": "Cuidado de la piel",
+    "precio": 15.08,
+    "descripcio": "Las bolsas de los ojos y las arrugas no tienen oportunidad con esta intensa Crema contorno de ojos SEOUL 1988 Eye Cream con cuidado antienvejecimiento. Fórmula con 4% de liposomas de retinal, que entra en capas más profundas de la piel para mejorar la elasticidad y difumina las líneas de expresión. El retinal trabaja con extractos fermentados que incluyen fermentado de soja para tersar e iluminar la piel madura. Vitamina C, Vitamina E, bakuchiol, péptidos y extractos de raíces de hierbas que sellan todo con antioxidantes y potencian el colágeno.   or qué nos encanta: La Crema contorno de ojos KSECRET SEOUL 1988 Eye Cream reúne prácticamente todos los potentes ingredientes antiedad que podrías desear en un solo lugar, incluyendo retinal en alta concentración, en una forma suave y estabilizada.",
+    "imagenes": [
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/ksecret-seoul-1988-eye-cream-retinal-liposome-4-fermented-bean-30ml/20/371/XXL_p0212137120.jpg",
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/21/371/L_g0212137121_005.jpg",
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/21/371/L_g0212137121_001.jpg",
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/21/371/L_g0212137121_004.jpg"
+    ]
+  },
+  {
+    "id": 61,
+    "nombre": "VT - Crema Contorno de Ojos Reedle Shot Lifting Eye Cream",
+    "marca": "VT",
+    "categoria": "Cuidado de la piel",
+    "precio": 16.10,
+    "descripcio": "Crema para contorno de ojos con CICA REEDLE™ que favorece la absorción profunda de ingredientes activos (como ácido cítrico, colágeno, ácido hialurónico y elastina) para nutrir la piel mientras reduce los signos de envejecimiento. También ayuda a mejorar las ojeras con niacinamida. La crema para contorno de ojos viene con un aplicador de metal para aplicar y masajear el producto en el área de los ojos con facilidad.",
+    "imagenes": [
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/vt-reedle-shot-lifting-eye-cream-15ml/12/578/XXL_p0205957812.jpg",
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/49/494/L_g0205949449_002.jpg",
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/49/494/L_g0205949449_003.jpg",
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/49/494/L_g0205949449_010.jpg"
+    ]
+  },
+  {
+    "id": 62,
+    "nombre": "Dr.Melaxin - Bálsamo Contorno de Ojos Cemenrete Calcium Volume Multi Balm",
+    "marca": "Dr. Melaxin",
+    "categoria": "Cuidado de la piel",
+    "precio": 21.90,
+    "descripcio": "Cuando busques un cambio verdadero en el cuidado de tus ojos — que atienda al mismo tiempo la flacidez, las ojeras y esas pequeñas pero notorias patas de gallo — confía en la marca de K‑Beauty Dr. Melaxin con esta solución todoterreno. El Cemenrete Calcium Volume Multi‑Balm combina calcio, extracto de colágeno y elastina para estimular la regeneración celular y reforzar la producción de colágeno, logrando un efecto reafirmante visible. Aceites naturales como el de aguacate mantienen la piel del contorno de ojos suave y tersa. Agentes iluminadores como la glutatión ayudan a reducir las manchas y aportar luminosidad. ¡Luce una mirada más radiante y rejuvenecida!  En pocas palabras: Bálsamo multiusos para el cuidado de ojos, formulado con reconocidos activos antiedad y potenciadores de luminosidad como colágeno y glutatión, para revitalizar y aportar frescura a la delicada zona del contorno de ojos.",    "imagenes": [
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/dr-melaxin-cemenrete-calcium-volume-multi-balm-9g/81/708/XXL_p0220770881.jpg",
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/81/275/L_g0222927581.jpg",
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/82/275/L_g0222927582.jpg",
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/80/275/L_g0222927580.jpg"
+    ]
   }
 ]
 }
