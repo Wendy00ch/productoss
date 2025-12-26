@@ -102,14 +102,17 @@
   },
   {
     "id": 9,
-    "nombre": "JUMISO - Sérum Facial Niacinamide 20 Serum",
-    "marca": "JUMISO",
+    "nombre": "JEQQUALBERRY - Sérum Facial Vitamin Illuminating Serum",
+    "marca": "JEQQUALBERRY",
     "categoria": "Sérums Faciales",
-    "precio": 19.21,
-    "descripcion": "Sérum con niacinamida, ácido tranexámico y glutation para combatir la hiperpigmentación y tono desigual de la piel. Contiene extracto de cica y ácido hialurónico para mantener la piel calmada e hidratada.",
+    "precio": 19.24,
+    "descripcion": "Sérum infundido con un 40% de acerola (un ingrediente rico en vitamina C) que atenúa la hiperpigmentación y las manchas oscuras para promover una piel de tono uniforme. Contiene hialuronato de sodio, escualano y ceramida NP para mantener la piel hidratada y tersa.",
     "detalles": "",
     "imagenes": [
-      "https://d1flfk77wl2xk4.cloudfront.net/Assets/56/758/M_p0220175856.jpg"
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/eqqualberry-vitamin-illuminating-serum-30ml/69/376/XXL_p0213137669.jpg",
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/46/700/L_g0221770046.jpg",
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/47/700/L_g0221770047.jpg",
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/50/700/L_g0221770050.jpg"
     ]
   },
   {
@@ -198,14 +201,14 @@
   },
   {
     "id": 17,
-    "nombre": "EQUALBERRY - Sérum Facial Bakuchiol Plumping Serum",
-    "marca": "EQUALBERRY",
-    "categoria": "Sérums Faciales",
-    "precio": 19.40,
-    "descripcion": "Sérum que contiene bakuchiol (una alternativa natural al retinol) y alantoína para promover la producción de colágeno y disminuir los signos del envejecimiento. Está enriquecido con cinco tipos de ceramidas y varios péptidos para reforzar la barrera cutánea, retener la humedad y proteger la piel contra agresores externos. El sérum también contiene nacinámida y glicerina para equilibrar los niveles de aceite y humedad mientras minimiza los poros dilatados.",
+    "nombre": "Purito SEOUL - Crema con Pantenol Mighty Bamboo Panthenol Cream",
+    "marca": "Purito SEOUL",
+    "categoria": "Cremas Hidratantes",
+    "precio": 17.42,
+    "descripcion": "Crema enriquecida con extracto de bambú coreano de Damyang y 100.000 ppm de pantenol calmante que repara la barrera cutánea dañada. La crema también contiene ingredientes hidratantes como el escualeno y el hialuronato sódico para aumentar los niveles de hidratación de la piel. Su fórmula sin perfume e hipoalergénica es apta para todo tipo de piel, incluidas las sensibles.",
     "detalles": "",
     "imagenes": [
-      "https://d1flfk77wl2xk4.cloudfront.net/Assets/63/376/M_p0213137663.jpg"
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/purito-seoul-mighty-bamboo-panthenol-cream-100ml/86/049/XXL_p0211004986.png"
     ]
   },
   {
@@ -246,26 +249,28 @@
   },
   {
     "id": 21,
-    "nombre": "Beauty of Joseon - Bálsamo Limpiador Radiance Cleansing Balm NEW",
-    "marca": "Beauty of Joseon",
-    "categoria": "Bálsamos Limpiadores",
-    "precio": 16.72,
-    "descripcion": "El bálsamo limpiador Radiance Cleansing Balm ahora está disponible en una fórmula mejorada capaz de eliminar cualquier rastro de maquillaje y suciedad. Su infusión de agua de salvado de arroz y extracto de grano de arroz hidrata completamente la piel previniendo la sequedad.",
+    "nombre": "celimax - Pore+Dark Spot Brightening Cream",
+    "marca": "Celimax",
+    "categoria":"Cremas Hidratantes",
+    "precio": 13.20,
+    "descripcion": "Una crema nutritiva ayuda a iluminar el tono de la piel y reducir la aparición de manchas oscuras e imperfecciones. Formulado con Ácido Tranexámico, Niacinamida y Melazero V2 que ayudan a prevenir la producción excesiva de melanina para prevenir la aparición de manchas oscuras.  Proporciona hidratación profunda a la piel seca para mantenerla suave y firme.  La textura cremosa permite una rápida absorción en la piel sin apelmazarse.Cómo utilizar:  Aplique una cantidad moderada uniformemente sobre el rostro y dé golpecitos suaves para una mejor absorción. Cómo utilizar:  Aplique una cantidad moderada uniformemente sobre el rostro y dé golpecitos suaves para una mejor absorción. Cómo utilizar:  Aplique una cantidad moderada uniformemente sobre el rostro y dé golpecitos suaves para una mejor absorción.",
     "detalles": "",
     "imagenes": [
-      "https://d1flfk77wl2xk4.cloudfront.net/Assets/beauty-of-joseon-radiance-cleansing-balm-new-100ml/48/268/XXL_p0153126848.jpg"
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/celimax-poredark-spot-brightening-cream-35ml/19/997/XXL_p0212699719.jpg"
     ]
   },
   {
     "id": 22,
-    "nombre": "TIRTIR - Bálsamo Limpiador Hydro Boost Enzyme Cleansing Balm",
-    "marca": "TIRTIR",
-    "categoria": "Bálsamos Limpiadores",
-    "precio": 12.44,
-    "descripcion": "El bálsamo limpiador Radiance Cleansing Balm ahora está disponible en una fórmula mejorada capaz de eliminar cualquier rastro de maquillaje y suciedad. Su infusión de agua de salvado de arroz y extracto de grano de arroz hidrata completamente la piel previniendo la sequedad.",
+    "nombre": "Dr.Melaxin - Ampolla Exfoliante Peel Shot Exfoliant Black Rice Ampoule",
+    "marca": "Dr.Melaxin",
+    "categoria": "Ampollas Exfoliantes",
+    "precio": 28.60,
+    "descripcion": "Esta ampolla elimina los puntos negros, destapa los poros y regula la producción de sebo mientras mejora la luminosidad de la piel. Está enriquecida con agua de salvado de arroz y PENTAVITIN para exfoliar suavemente la piel y dejar un acabado suave y flexible. También contiene ácidos hialurónicos y escualano para mantener la piel hidratada. Después de limpiar el rostro, aplicar una cantidad adecuada en la piel con movimientos de masaje y luego enjuagar bien con agua.",
     "detalles": "",
     "imagenes": [
-      "https://d1flfk77wl2xk4.cloudfront.net/Assets/tirtir-hydro-boost-enzyme-cleansing-balm-50ml/88/499/XXL_p0207949988.png"
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/02/143/XXL_p0223114302.jpg",
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/65/478/L_g0220847865.jpg",
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/66/478/L_g0220847866.jpg"
     ]
   },
   {
@@ -301,7 +306,9 @@
     "descripcion": "Limpiador todo en uno para pieles sensibles con tres efectos: limpiador diario, exfoliante facial y desmaquillante. Enriquecido con más de 34 ingredientes naturales como extracto de caléndula (rico en vitamina C y flavonoides), extracto de Houttrynia Cordata y extracto de fruto de nopal. Proporciona hidratación profunda, efecto iluminador y calmante para piel irritada. Seguro para pieles sensibles.",
     "detalles": "",
     "imagenes": [
-      "https://d1flfk77wl2xk4.cloudfront.net/Assets/91/370/XXL_p0217237091.jpg"
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/91/370/XXL_p0217237091.jpg",
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/23/997/L_g0212699723_000.jpg",
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/23/997/L_g0212699723_002.jpg"
     ]
   },
   {
@@ -378,14 +385,16 @@
   },
   {
     "id": 32,
-    "nombre": "ViCREA - Aceite Reparador para Cabello &honey Melty Moist Repair Hair Oil 3.0",
-    "marca": "ViCREA",
-    "categoria": "Cuidado de Cabello",
-    "precio": 18.03,
-    "descripcion": "Aceite capilar que contiene una mezcla de miel, propóleo y aceite de salvado de arroz, proporcionando a tu cabello una intensa nutrición para dejarlo suave y brillante. También está formulado con queratina, extracto de jalea real y ceramida NP para reparar los mechones dañados y mejorar la elasticidad del cabello.  JAPONÉS",
+    "nombre": "Anua - Sérum Facial Niacinamide 10% + TXA 4% Serum",
+    "marca": "Anua",
+    "categoria": "Sérum Facial",
+    "precio": 21.32,
+    "descripcion": "Se trata de la versión renovada del sérum corrector de manchas oscuras Niacinamide 10% + TXA 4% de Anua. Solo se ha cambiado el nombre del producto y el envase.  Beneficios del sérum Niacinamide 10 TXA 4 de Anua:  Contiene un 10 % de niacinamida, un 4 % de ácido tranexámico y un 2 % de arbutina para difuminar las manchas oscuras, las marcas de acné y el tono desigual de la piel, frenando la producción de melanina.   Favorece la hidratación con ácido hialurónico y ácido poliglutámico, reteniendo la humedad para mejorar la apariencia y elasticidad de la piel. Promueve una suave renovación celular para difuminar las irregularidades y afinar la textura, dejando la piel sedosa y radiante.  Refuerza la barrera cutánea con ceramidas que protegen contra los factores de estrés diarios, al tiempo que calma las rojeces y la irritación.  Presenta una textura ligera y acuosa que se absorbe rápidamente sin dejar sensación grasa ni pegajosa.  Es lo suficientemente suave para todo tipo de pieles. Cómo utilizar el sérum de Anua Niacinamide 10 TXA 4:  Después de limpiar y tonificar, aplica unas gotas del sérum de niacinamida de Anua en las zonas que desees tratar. Aplícalo de manera suave con las yemas de los dedos hasta que se absorba por completo. Sigue con una crema hidratante o aceite facial para fijar los beneficios. Si utilizas el sérum de niacinamida por la mañana, asegúrate de aplicarte protector solar para mantener tu piel segura, sana y radiante.  Preguntas frecuentes acerca del sérum Niacinamide 10 TXA 4 de Anua: ¿Se puede utilizar el sérum de niacinamida de Anua todos los días?  ¡Por supuesto! Puedes utilizar el sérum Niacinamide 10 TXA 4 de Anua a diario, pero es buena idea ir poco a poco. Empieza con una vez al día, y luego ve aumentando hasta utilizarlo por la mañana y por la noche, una vez que sientas cómoda la piel.  ¿Se puede utilizar el sérum de niacinamida de Anua sobre el acné activo?  No es la mejor opción. Aunque la niacinamida y el ácido tranexámico tienen propiedades antiinflamatorias que pueden ayudar con el acné, el sérum de Anua Niacinamide 10 TXA 4 no está pensado como tratamiento del acné. Considéralo más como un “potenciador de la luminosidad“ para la piel que se está recuperando, no como una solución rápida para los brotes activos. ¿Se puede utilizar el sérum de niacinamida de Anua con retinol?   ¡Por supuesto que sí! La niacinamida y el retinol son un dúo potente. La niacinamida mantiene la piel calmada e hidratada, lo que ayuda a equilibrar los efectos a veces secantes del retinol. Aplica primero el sérum de niacinamida de Anua, deja que se asiente, y luego sigue con un sérum de retinol. Como el retinol funciona mejor por la noche, es el momento perfecto para combinarlos.",
     "detalles": "",
     "imagenes": [
-      "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/86/362/L_g0219836286.jpg"
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/anua-niacinamide-10-txa-4-serum-30ml/15/229/XXL_p0215622915.jpg",
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/88/006/L_g0218800688.jpg",
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/86/006/L_g0218800686.jpg"
     ]
   },
   {
@@ -414,14 +423,14 @@
   },
   {
     "id": 35,
-    "nombre": "MENOKIN - Máscara de burbujas rápida de 30 segundos: 5 tipos",
-    "marca": "MENOFIN",
-    "categoria": "Mascarillas",
-    "precio": 12.88,
-    "descripcion": "Para ti: 95ml - BENEFICIOS: Esta mascarilla de burbujas ofrece un momento de brillo húmedo instantáneo a la piel en solo 30 segundos. Mejora del 96,1% en la humedad de la piel, mejora del 42,6% en la luminosidad de la piel. Cápsulas de Micro Burbujas que potencian la absorción directamente en la piel. Una botella contiene el equivalente a 70 mascarillas en láminas. TIPOS DISPONIBLES: Elevador: El colágeno brilla con el colágeno de hibisco de tercera generación más avanzado. Brillante: Brillo iluminador con glutatión y extracto de fruta de árbol vitamínico de baja irritación. Húmedo: Resplandor de hidratación profunda con 8 tipos de ácido hialurónico y extracto de Centella asiática. Reparación: Reparar el brillo con liposoma de EGF y extracto de raíz de Cnidium Officinale. Claro: brillo relajante con el extracto de Centella asiática y el extracto de hierbas de Jeju.  Cómo utilizar: Aplique la burbuja después de la limpieza y deje que se absorba en la piel.",
+    "nombre": "Centellian24 - Crema Facial Madeca Cream Time Reverse",
+    "marca": " Centellian24",
+    "categoria": "Cremas Hidratantes",
+    "precio": 29.92,
+    "descripcion": "Combate los signos del envejecimiento con esta crema ligera, enriquecida con colágeno y retinol para mejorar la elasticidad de la piel. Su fórmula rica en antioxidantes contiene centella asiática y extracto de cimicífuga para calmar y proteger la piel de agresores externos. Probada clínicamente como apta para pieles sensibles y propensas al acné.",
     "detalles": "",
     "imagenes": [
-      "https://d1flfk77wl2xk4.cloudfront.net/Assets/menokin-30-seconds-quick-bubble-mask-5-types-bright-clear-lift-moist-repair/38/635/XXL_p0222563538.jpg"
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/17/653/XXL_p0215565317.jpg"
     ]
   },
   {
