@@ -227,7 +227,7 @@ async function renderizarCarrito() {
 function actualizarResumen(subtotal) {
     // Total es igual al subtotal (sin envío)
     const total = subtotal;
-    const TASA_CAMBIO = 7.66; // USD a GTQ
+    const TASA_CAMBIO = 7.70; // USD a GTQ
     
     // Actualizar DOM si los elementos existen
     const subtotalElement = document.getElementById('subtotal');

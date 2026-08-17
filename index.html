@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Belleza Coreana | Productos de K-Beauty</title>
+  <title>Tiendita Coreana | Productos de K-Beauty</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="style.css">
@@ -13,7 +13,7 @@
   <header class="site-header">
     <div class="container header-top">
       <div class="d-flex align-items-center justify-content-between flex-wrap gap-2">
-        <a href="index.html" class="logo">Belleza<span>Coreana</span></a>
+        <a href="index.html" class="logo">Tiendita<span>Coreana</span></a>
 
         <div class="search-wrapper flex-grow-1 mx-md-4">
           <div class="input-group">
@@ -110,39 +110,6 @@
     </div>
   </main>
 
-  <!-- FOOTER -->
-  <footer class="site-footer">
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-col">
-          <h5>Belleza Coreana</h5>
-          <p class="small text-muted">Tu tienda de confianza para productos de K-Beauty auténticos. Envíos a toda Guatemala.</p>
-        </div>
-        <div class="footer-col">
-          <h5>Categorías</h5>
-          <a href="#" data-filter="Sérums Faciales">Sérums</a>
-          <a href="#" data-filter="Cremas Hidratantes">Cremas</a>
-          <a href="#" data-filter="Limpiadores Faciales">Limpiadores</a>
-          <a href="#" data-filter="Protectores Solares">Solares</a>
-        </div>
-        <div class="footer-col">
-          <h5>Marcas</h5>
-          <a href="#" data-filter-marca="COSRX">COSRX</a>
-          <a href="#" data-filter-marca="Beauty of Joseon">Beauty of Joseon</a>
-          <a href="#" data-filter-marca="Anua">Anua</a>
-          <a href="#" data-filter-marca="LANEIGE">LANEIGE</a>
-        </div>
-        <div class="footer-col">
-          <h5>Ayuda</h5>
-          <a href="carrito.html">Mi carrito</a>
-          <a href="#">Envíos</a>
-          <a href="#">Contacto</a>
-        </div>
-      </div>
-      <div class="copyright">© 2026 Belleza Coreana. Todos los derechos reservados.</div>
-    </div>
-  </footer>
-
   <!-- PRODUCT MODAL -->
   <div id="productModal" class="product-modal-overlay"></div>
 
@@ -156,7 +123,7 @@
   <script>
     // =================== CONFIG ===================
     const CARRITO_KEY = 'carrito_belleza_coreana';
-    const TASA_CAMBIO = 7.66;
+    const TASA_CAMBIO = 7.70;
 
     let todosProductos = [];
     let productosFiltrados = [];
@@ -431,7 +398,6 @@
                 <h2 class="modal-product-title">${p.nombre}</h2>
                 <div class="modal-product-price">US$ ${p.precio.toFixed(2)}</div>
                 <p class="modal-meta"><strong>Categoría:</strong> ${p.categoria || '—'}</p>
-                <p class="modal-meta"><strong>Precio en GTQ:</strong> Q ${(p.precio * TASA_CAMBIO).toFixed(2)}</p>
                 <div class="modal-actions">
                   <button class="btn btn-outline-secondary" onclick="abrirGaleria(${p.id})"><i class="fas fa-images"></i> Ver imagen${numImgs > 1 ? 'es (' + numImgs + ')' : ''}</button>
                   <button class="btn-add" style="width:auto;padding:10px 24px" onclick="agregarAlCarrito(${p.id}); cerrarModal();">Agregar a la cesta</button>
