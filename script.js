@@ -1,4 +1,3 @@
-// script.js - VERSIÓN para archivos JSON en RAÍZ
 
 // Variables globales
 let productosData = null;

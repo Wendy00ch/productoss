@@ -1,943 +1,659 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Productos de Belleza Coreana</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-    <style>
-        /* Estilos para el modal de producto */
-        .product-modal-overlay {
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-color: rgba(0,0,0,0.7);
-            display: none;
-            align-items: center;
-            justify-content: center;
-            z-index: 1000;
-            padding: 20px;
-        }
-
-        .product-modal {
-            background: white;
-            border-radius: 8px;
-            max-width: 900px;
-            width: 100%;
-            max-height: 90vh;
-            overflow-y: auto;
-            animation: modalFadeIn 0.3s ease;
-            position: relative;
-        }
-
-        @keyframes modalFadeIn {
-            from { opacity: 0; transform: translateY(-20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-
-        .modal-close {
-            position: absolute;
-            top: 15px;
-            right: 15px;
-            background: none;
-            border: none;
-            font-size: 24px;
-            cursor: pointer;
-            color: #666;
-            width: 30px;
-            height: 30px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 50%;
-            z-index: 10;
-        }
-
-        .modal-close:hover {
-            background-color: #f5f5f5;
-        }
-
-        .modal-content {
-            padding: 30px;
-        }
-
-        .modal-product-info {
-            display: flex;
-            gap: 40px;
-            flex-wrap: wrap;
-        }
-
-        .modal-product-image {
-            flex: 0 0 300px;
-        }
-
-        .modal-product-image .image-container {
-            height: 300px;
-            border-radius: 8px;
-            overflow: hidden;
-            background-color: #f5f5f5;
-            position: relative;
-            cursor: pointer;
-        }
-
-        .modal-product-image img {
-            width: 100%;
-            height: 100%;
-            object-fit: contain;
-            background-color: white;
-        }
-
-        .modal-product-details {
-            flex: 1;
-            min-width: 300px;
-        }
-
-        .modal-product-title {
-            font-size: 24px;
-            margin-bottom: 15px;
-            color: #333;
-        }
-
-        .modal-product-price {
-            font-size: 28px;
-            font-weight: 600;
-            color: #333;
-            margin-bottom: 20px;
-        }
-
-        .modal-description {
-            background-color: #f9f9f9;
-            padding: 20px;
-            border-radius: 4px;
-            margin-top: 20px;
-        }
-
-        .modal-description h3 {
-            font-size: 16px;
-            margin-bottom: 10px;
-            color: #333;
-        }
-
-        .modal-description p {
-            color: #666;
-            line-height: 1.6;
-        }
-
-        /* Botón para abrir galería en modal */
-        .btn-view-gallery-modal {
-            background-color: transparent;
-            color: #333;
-            border: 1px solid #ddd;
-            padding: 10px 20px;
-            border-radius: 4px;
-            font-weight: 500;
-            cursor: pointer;
-            font-size: 14px;
-            transition: all 0.2s;
-            margin-right: 10px;
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-        }
-
-        .btn-view-gallery-modal:hover {
-            background-color: #f5f5f5;
-            border-color: #ccc;
-        }
-
-        /* Indicador de carga */
-        .loading {
-            text-align: center;
-            padding: 40px;
-            color: #666;
-            font-size: 18px;
-            grid-column: 1 / -1;
-        }
-
-        .loading i {
-            font-size: 24px;
-            margin-bottom: 10px;
-            display: block;
-        }
-
-        /* Contenedor principal de productos */
-        .productos-section {
-            padding: 40px 0;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Belleza Coreana | Productos de K-Beauty</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header con navegación -->
-    <header>
-        <div class="container header-container">
-            <div class="logo">Belleza<span>Coreana</span></div>
-            
-            <div class="search-bar">
-                <input type="text" id="searchInput" placeholder="Buscar productos...">
-                <button onclick="buscarProductos()"><i class="fas fa-search"></i></button>
-            </div>
-            
-            <div class="header-icons">
-                <a href="index.html" title="Inicio"><i class="fas fa-home"></i></a>
-                <a href="carrito.html" title="Carrito"><i class="fas fa-shopping-cart"></i><span class="cart-badge" id="cartBadge">0</span></a>
-            </div>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-top">
+      <div class="d-flex align-items-center justify-content-between flex-wrap gap-2">
+        <a href="index.html" class="logo">Belleza<span>Coreana</span></a>
+
+        <div class="search-wrapper flex-grow-1 mx-md-4">
+          <div class="input-group">
+            <input type="text" class="form-control" id="searchInput" placeholder="Buscar productos, marcas o categorías..." aria-label="Buscar">
+            <button class="btn btn-dark" type="button" id="searchBtn"><i class="fas fa-search"></i></button>
+          </div>
         </div>
 
-        <!-- NAVBAR COMO EN LA IMAGEN - ACTUALIZADO -->
-        <nav class="main-nav">
-            <div class="nav-container">
-                <ul class="nav-menu">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link active">CUIDADO DE LA PIEL <i class="fas fa-chevron-down"></i></a>
-                        <div class="dropdown-menu">
-                            <div class="dropdown-column">
-                                <ul>
-                                    <li><a href="#">Cremas Hidratantes</a></li>
-                                    <li><a href="#">Limpiadores faciales</a></li>
-                                    <li><a href="#">Sérums faciales</a></li>
-                                    <li><a href="#">Tónicos faciales</a></li>
-                                    <li><a href="#">Protectores Solares</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </li>
-                    
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">MÁS BELLEZA <i class="fas fa-chevron-down"></i></a>
-                        <div class="dropdown-menu">
-                            <div class="dropdown-column">
-                                <ul>
-                                    <li><a href="#">Cuidado de manos y pies</a></li>
-                                    <li><a href="#">Perfumes y Fragancias</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </li>
-                    
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">MARCAS <i class="fas fa-chevron-down"></i></a>
-                        <div class="dropdown-menu">
-                            <div class="dropdown-column">
-                                <ul>
-                                    <li><a href="#">Anua</a></li>
-                                    <li><a href="#">Beauty of Joseon</a></li>
-                                    <li><a href="#">COSRX</a></li>
-                                    <li><a href="#">I'm from</a></li>
-                                    <li><a href="#">iUNIK</a></li>
-                                    <li><a href="#">romand</a></li>
-                                    <li><a href="#">LANEIGE</a></li>
-                                    <li><a href="#">Robto Mentholatum</a></li>
-                                    <li><a href="#">Shu Uemura</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </li>
-                    
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">CUIDADO DEL CABELLO <i class="fas fa-chevron-down"></i></a>
-                        <div class="dropdown-menu">
-                            <div class="dropdown-column">
-                                <ul>
-                                    <li><a href="#">Champús</a></li>
-                                    <li><a href="#">Tratamientos para Cabello</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+        <div class="header-icons d-flex align-items-center gap-3">
+          <a href="index.html" title="Inicio"><i class="fas fa-home"></i></a>
+          <a href="carrito.html" title="Carrito" class="position-relative">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="cart-badge" id="cartBadge">0</span>
+          </a>
+        </div>
+      </div>
+    </div>
 
-    <!-- Contenido principal -->
-    <main class="productos-section">
-        <div class="container">
-            <!-- Grid de productos -->
-            <div class="products-grid" id="productsContainer">
-                <div class="loading">
-                    <i class="fas fa-spinner fa-spin"></i>
-                    Cargando productos...
+    <!-- NAV CATEGORIES -->
+    <nav class="main-nav">
+      <div class="container">
+        <ul class="nav-menu" id="navMenu">
+          <li class="nav-item">
+            <button class="nav-link-custom" data-filter="all">Todos</button>
+          </li>
+          <li class="nav-item">
+            <button class="nav-link-custom">Cuidado de la Piel <i class="fas fa-chevron-down ms-1" style="font-size:0.7rem"></i></button>
+            <div class="dropdown-menu-custom">
+              <a href="#" data-filter="Cremas Hidratantes">Cremas Hidratantes</a>
+              <a href="#" data-filter="Limpiadores Faciales">Limpiadores Faciales</a>
+              <a href="#" data-filter="Sérums Faciales">Sérums Faciales</a>
+              <a href="#" data-filter="Tónicos Faciales">Tónicos Faciales</a>
+              <a href="#" data-filter="Protectores Solares">Protectores Solares</a>
+              <a href="#" data-filter="Esencias">Esencias</a>
+              <a href="#" data-filter="Mascarillas">Mascarillas</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <button class="nav-link-custom">Más Belleza <i class="fas fa-chevron-down ms-1" style="font-size:0.7rem"></i></button>
+            <div class="dropdown-menu-custom">
+              <a href="#" data-filter="Labios">Labios</a>
+              <a href="#" data-filter="Bases de Maquillaje">Bases de Maquillaje</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <button class="nav-link-custom">Marcas <i class="fas fa-chevron-down ms-1" style="font-size:0.7rem"></i></button>
+            <div class="dropdown-menu-custom">
+              <a href="#" data-filter-marca="Anua">Anua</a>
+              <a href="#" data-filter-marca="Beauty of Joseon">Beauty of Joseon</a>
+              <a href="#" data-filter-marca="COSRX">COSRX</a>
+              <a href="#" data-filter-marca="I'm from">I'm from</a>
+              <a href="#" data-filter-marca="iUNIK">iUNIK</a>
+              <a href="#" data-filter-marca="romand">romand</a>
+              <a href="#" data-filter-marca="LANEIGE">LANEIGE</a>
+              <a href="#" data-filter-marca="Dr. Althea">Dr. Althea</a>
+              <a href="#" data-filter-marca="celimax">celimax</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- FILTER BAR -->
+  <div class="filter-bar" id="filterBar" style="display:none;">
+    <div class="container">
+      <div class="filter-chips" id="filterChips">
+        <span class="results-count" id="resultsCount"></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- PRODUCTS -->
+  <main class="products-section">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center mb-3 flex-wrap gap-2">
+        <h1 class="h4 mb-0 fw-bold" id="sectionTitle">Todos los productos</h1>
+        <div class="d-flex align-items-center gap-2">
+          <label class="small text-muted">Ordenar:</label>
+          <select class="form-select form-select-sm" id="sortSelect" style="width:auto;">
+            <option value="default">Destacados</option>
+            <option value="price-asc">Precio: menor a mayor</option>
+            <option value="price-desc">Precio: mayor a menor</option>
+            <option value="name">Nombre A-Z</option>
+          </select>
+        </div>
+      </div>
+      <div class="products-grid" id="productsContainer">
+        <div class="loading-state">
+          <i class="fas fa-spinner fa-spin"></i>
+          <p>Cargando productos...</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h5>Belleza Coreana</h5>
+          <p class="small text-muted">Tu tienda de confianza para productos de K-Beauty auténticos. Envíos a toda Guatemala.</p>
+        </div>
+        <div class="footer-col">
+          <h5>Categorías</h5>
+          <a href="#" data-filter="Sérums Faciales">Sérums</a>
+          <a href="#" data-filter="Cremas Hidratantes">Cremas</a>
+          <a href="#" data-filter="Limpiadores Faciales">Limpiadores</a>
+          <a href="#" data-filter="Protectores Solares">Solares</a>
+        </div>
+        <div class="footer-col">
+          <h5>Marcas</h5>
+          <a href="#" data-filter-marca="COSRX">COSRX</a>
+          <a href="#" data-filter-marca="Beauty of Joseon">Beauty of Joseon</a>
+          <a href="#" data-filter-marca="Anua">Anua</a>
+          <a href="#" data-filter-marca="LANEIGE">LANEIGE</a>
+        </div>
+        <div class="footer-col">
+          <h5>Ayuda</h5>
+          <a href="carrito.html">Mi carrito</a>
+          <a href="#">Envíos</a>
+          <a href="#">Contacto</a>
+        </div>
+      </div>
+      <div class="copyright">© 2026 Belleza Coreana. Todos los derechos reservados.</div>
+    </div>
+  </footer>
+
+  <!-- PRODUCT MODAL -->
+  <div id="productModal" class="product-modal-overlay"></div>
+
+  <!-- GALLERY MODAL -->
+  <div id="galleryModal" class="gallery-modal-overlay"></div>
+
+  <!-- TOAST -->
+  <div class="toast-container-custom" id="toastContainer"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // =================== CONFIG ===================
+    const CARRITO_KEY = 'carrito_belleza_coreana';
+    const TASA_CAMBIO = 7.66;
+
+    let todosProductos = [];
+    let productosFiltrados = [];
+    let filtroActual = { tipo: 'all', valor: null };
+    let terminoBusqueda = '';
+
+    // =================== LOAD PRODUCTS ===================
+    async function cargarProductos() {
+      try {
+        const res = await fetch('products.json?v=' + Date.now());
+        if (!res.ok) throw new Error('No se pudo cargar products.json');
+        const data = await res.json();
+        todosProductos = data.productos || [];
+        productosFiltrados = [...todosProductos];
+        aplicarFiltrosYMostrar();
+        actualizarContadorCarrito();
+      } catch (err) {
+        console.error(err);
+        document.getElementById('productsContainer').innerHTML = `
+          <div class="empty-state">
+            <i class="fas fa-exclamation-triangle"></i>
+            <h3>Error al cargar productos</h3>
+            <p>${err.message}</p>
+            <button class="btn btn-dark mt-3" onclick="cargarProductos()">Reintentar</button>
+          </div>`;
+      }
+    }
+
+    // =================== FILTERS & SEARCH ===================
+    function setFiltro(tipo, valor) {
+      filtroActual = { tipo, valor };
+      terminoBusqueda = '';
+      document.getElementById('searchInput').value = '';
+      aplicarFiltrosYMostrar();
+      updateNavActive(tipo, valor);
+    }
+
+    function aplicarFiltrosYMostrar() {
+      let lista = [...todosProductos];
+
+      // Filtro de categoría o marca
+      if (filtroActual.tipo === 'categoria' && filtroActual.valor) {
+        lista = lista.filter(p => p.categoria && p.categoria.includes(filtroActual.valor));
+      } else if (filtroActual.tipo === 'marca' && filtroActual.valor) {
+        lista = lista.filter(p => p.marca && p.marca.toLowerCase() === filtroActual.valor.toLowerCase());
+      }
+
+      // Búsqueda
+      if (terminoBusqueda) {
+        const t = terminoBusqueda.toLowerCase();
+        lista = lista.filter(p =>
+          (p.nombre && p.nombre.toLowerCase().includes(t)) ||
+          (p.marca && p.marca.toLowerCase().includes(t)) ||
+          (p.categoria && p.categoria.toLowerCase().includes(t)) ||
+          (p.descripcion && p.descripcion.toLowerCase().includes(t))
+        );
+      }
+
+      // Orden
+      const sort = document.getElementById('sortSelect').value;
+      if (sort === 'price-asc') lista.sort((a, b) => a.precio - b.precio);
+      else if (sort === 'price-desc') lista.sort((a, b) => b.precio - a.precio);
+      else if (sort === 'name') lista.sort((a, b) => a.nombre.localeCompare(b.nombre));
+      else lista.sort((a, b) => (b.destacado ? 1 : 0) - (a.destacado ? 1 : 0));
+
+      productosFiltrados = lista;
+      mostrarProductos();
+      actualizarFilterBar();
+    }
+
+    function buscar() {
+      terminoBusqueda = document.getElementById('searchInput').value.trim();
+      filtroActual = { tipo: 'all', valor: null };
+      updateNavActive('all', null);
+      aplicarFiltrosYMostrar();
+    }
+
+    function updateNavActive(tipo, valor) {
+      document.querySelectorAll('.nav-link-custom').forEach(el => el.classList.remove('active'));
+      if (tipo === 'all') {
+        const btn = document.querySelector('[data-filter="all"]');
+        if (btn) btn.classList.add('active');
+      }
+    }
+
+    function actualizarFilterBar() {
+      const bar = document.getElementById('filterBar');
+      const chips = document.getElementById('filterChips');
+      const count = document.getElementById('resultsCount');
+      const title = document.getElementById('sectionTitle');
+
+      let label = 'Todos los productos';
+      let showBar = false;
+
+      if (filtroActual.tipo === 'categoria' && filtroActual.valor) {
+        label = filtroActual.valor;
+        showBar = true;
+      } else if (filtroActual.tipo === 'marca' && filtroActual.valor) {
+        label = 'Marca: ' + filtroActual.valor;
+        showBar = true;
+      }
+      if (terminoBusqueda) {
+        label = `Resultados para "${terminoBusqueda}"`;
+        showBar = true;
+      }
+
+      title.textContent = label;
+      count.textContent = `${productosFiltrados.length} producto${productosFiltrados.length !== 1 ? 's' : ''}`;
+
+      if (showBar) {
+        bar.style.display = 'block';
+        chips.innerHTML = `
+          <span class="filter-chip active">
+            ${label}
+            <button class="btn-close-chip border-0 bg-transparent text-white" onclick="limpiarFiltros()" aria-label="Quitar filtro">×</button>
+          </span>
+          <span class="results-count ms-auto">${productosFiltrados.length} producto${productosFiltrados.length !== 1 ? 's' : ''}</span>
+        `;
+      } else {
+        bar.style.display = 'none';
+      }
+    }
+
+    function limpiarFiltros() {
+      filtroActual = { tipo: 'all', valor: null };
+      terminoBusqueda = '';
+      document.getElementById('searchInput').value = '';
+      document.getElementById('sortSelect').value = 'default';
+      updateNavActive('all', null);
+      aplicarFiltrosYMostrar();
+    }
+
+    // =================== RENDER PRODUCTS ===================
+    function getColorClass(categoria) {
+      if (!categoria) return 'color-default';
+      if (categoria.includes('Sérum')) return 'color-serums';
+      if (categoria.includes('Crema')) return 'color-cremas';
+      if (categoria.includes('Limpieza') || categoria.includes('Limpiador')) return 'color-limpieza';
+      if (categoria.includes('Esencia')) return 'color-esencias';
+      if (categoria.includes('Mascarilla')) return 'color-mascarillas';
+      if (categoria.includes('Tónico')) return 'color-tonicos';
+      if (categoria.includes('Solar') || categoria.includes('Protector')) return 'color-solares';
+      if (categoria.includes('Labio')) return 'color-labios';
+      return 'color-default';
+    }
+
+    function mostrarProductos() {
+      const container = document.getElementById('productsContainer');
+      if (!productosFiltrados.length) {
+        container.innerHTML = `
+          <div class="empty-state">
+            <i class="fas fa-search"></i>
+            <h3>No se encontraron productos</h3>
+            <p>Intenta con otros términos o quita los filtros</p>
+            <button class="btn btn-outline-dark mt-3" onclick="limpiarFiltros()">Ver todos</button>
+          </div>`;
+        return;
+      }
+
+      container.innerHTML = productosFiltrados.map(p => {
+        const img = (p.imagenes && p.imagenes[0]) ? p.imagenes[0] : null;
+        const color = getColorClass(p.categoria);
+        return `
+          <div class="product-card" data-id="${p.id}" onclick="abrirModal(${p.id})">
+            <div class="product-card-image">
+              ${img
+                ? `<img src="${img}" alt="${p.nombre}" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                   <div class="image-placeholder ${color}" style="display:none">${p.marca}</div>`
+                : `<div class="image-placeholder ${color}">${p.marca}</div>`
+              }
+            </div>
+            <div class="product-card-info">
+              <div class="product-card-brand">${p.marca}</div>
+              <h3 class="product-card-title">${p.nombre}</h3>
+              <div class="product-card-price">US$ ${p.precio.toFixed(2)}</div>
+              <button class="btn-add" onclick="event.stopPropagation(); agregarAlCarrito(${p.id}, this)">
+                Agregar a la cesta
+              </button>
+            </div>
+          </div>`;
+      }).join('');
+    }
+
+    // =================== CART ===================
+    function cargarCarrito() {
+      try {
+        const raw = localStorage.getItem(CARRITO_KEY);
+        const arr = raw ? JSON.parse(raw) : [];
+        return Array.isArray(arr) ? arr : [];
+      } catch {
+        return [];
+      }
+    }
+
+    function guardarCarrito(carrito) {
+      localStorage.setItem(CARRITO_KEY, JSON.stringify(carrito));
+    }
+
+    function actualizarContadorCarrito() {
+      const carrito = cargarCarrito();
+      const total = carrito.reduce((s, i) => s + (i.cantidad || 0), 0);
+      document.querySelectorAll('.cart-badge').forEach(b => {
+        b.textContent = total;
+        b.style.display = total > 0 ? 'flex' : 'none';
+      });
+      return total;
+    }
+
+    function agregarAlCarrito(productId, btn) {
+      const producto = todosProductos.find(p => p.id === productId);
+      if (!producto) return;
+
+      let carrito = cargarCarrito();
+      const idx = carrito.findIndex(i => i.id === productId);
+
+      if (idx !== -1) {
+        if (carrito[idx].cantidad >= 99) {
+          showToast('Máximo 99 unidades por producto', false);
+          return;
+        }
+        carrito[idx].cantidad += 1;
+      } else {
+        carrito.push({ id: productId, cantidad: 1 });
+      }
+
+      guardarCarrito(carrito);
+      actualizarContadorCarrito();
+
+      if (btn) {
+        btn.classList.add('added');
+        btn.textContent = '¡Agregado!';
+        setTimeout(() => {
+          btn.classList.remove('added');
+          btn.textContent = 'Agregar a la cesta';
+        }, 900);
+      }
+
+      showToast(`${producto.marca} agregado al carrito`);
+    }
+
+    function showToast(msg, success = true) {
+      const container = document.getElementById('toastContainer');
+      const toast = document.createElement('div');
+      toast.className = 'toast-custom' + (success ? ' success' : '');
+      toast.innerHTML = `<i class="fas fa-${success ? 'check-circle' : 'info-circle'}"></i> ${msg}`;
+      container.appendChild(toast);
+      setTimeout(() => toast.remove(), 2800);
+    }
+
+    // =================== MODAL ===================
+    function abrirModal(id) {
+      const p = todosProductos.find(x => x.id === id);
+      if (!p) return;
+
+      const img = (p.imagenes && p.imagenes[0]) ? p.imagenes[0] : null;
+      const color = getColorClass(p.categoria);
+      const numImgs = (p.imagenes && p.imagenes.length) || 0;
+
+      const html = `
+        <div class="product-modal">
+          <button class="modal-close" onclick="cerrarModal()">×</button>
+          <div class="modal-body-custom">
+            <div class="modal-product-grid">
+              <div class="modal-image-box ${color}" onclick="abrirGaleria(${p.id})">
+                ${img
+                  ? `<img src="${img}" alt="${p.nombre}" onerror="this.style.display='none'">`
+                  : `<div class="image-placeholder">${p.marca}</div>`
+                }
+              </div>
+              <div>
+                <div class="product-card-brand mb-1">${p.marca}</div>
+                <h2 class="modal-product-title">${p.nombre}</h2>
+                <div class="modal-product-price">US$ ${p.precio.toFixed(2)}</div>
+                <p class="modal-meta"><strong>Categoría:</strong> ${p.categoria || '—'}</p>
+                <p class="modal-meta"><strong>Precio en GTQ:</strong> Q ${(p.precio * TASA_CAMBIO).toFixed(2)}</p>
+                <div class="modal-actions">
+                  <button class="btn btn-outline-secondary" onclick="abrirGaleria(${p.id})"><i class="fas fa-images"></i> Ver imagen${numImgs > 1 ? 'es (' + numImgs + ')' : ''}</button>
+                  <button class="btn-add" style="width:auto;padding:10px 24px" onclick="agregarAlCarrito(${p.id}); cerrarModal();">Agregar a la cesta</button>
                 </div>
+                <div class="modal-description">
+                  <h4>Descripción</h4>
+                  <p>${p.descripcion || 'Sin descripción disponible.'}</p>
+                  ${p.detalles ? `<h4 style="margin-top:14px">Detalles</h4><p>${p.detalles}</p>` : ''}
+                  ${p.ingredientes ? `<h4 style="margin-top:14px">Ingredientes</h4><p>${p.ingredientes}</p>` : ''}
+                </div>
+              </div>
             </div>
-        </div>
-    </main>
+          </div>
+        </div>`;
 
-    <!-- Modal para detalles del producto -->
-    <div id="productModal" class="product-modal-overlay"></div>
+      const overlay = document.getElementById('productModal');
+      overlay.innerHTML = html;
+      overlay.style.display = 'flex';
+      document.body.style.overflow = 'hidden';
 
-    <!-- Modal para galería de imágenes -->
-    <div id="galleryModal" class="gallery-modal-overlay"></div>
+      overlay.onclick = e => { if (e.target === overlay) cerrarModal(); };
+    }
 
-    <script>
-        // =================== VARIABLES GLOBALES ===================
-        let todosProductos = [];           // Todos los productos del JSON
-        let productosFiltrados = [];       // Productos después de filtros
-        
-        // =================== FUNCIONES PRINCIPALES ===================
-        
-        // Función para cargar productos desde el JSON
-        async function cargarProductos() {
-            try {
-                console.log('🔄 Cargando productos desde products.json...');
-                
-                const response = await fetch('products.json?v=' + Date.now());
-                if (!response.ok) throw new Error('Error al cargar JSON');
-                
-                const data = await response.json();
-                todosProductos = data.productos;
-                console.log(`✅ ${todosProductos.length} productos cargados exitosamente`);
-                
-                // Inicializar productos filtrados
-                productosFiltrados = [...todosProductos];
-                
-                // Mostrar productos
-                mostrarProductos();
-                actualizarContadorCarrito();
-                
-            } catch (error) {
-                console.error('❌ Error al cargar productos:', error);
-                mostrarError('No se pudieron cargar los productos. Por favor, intenta más tarde.');
-            }
+    function cerrarModal() {
+      document.getElementById('productModal').style.display = 'none';
+      document.body.style.overflow = '';
+    }
+
+    // =================== GALLERY (fullscreen + swipe) ===================
+    let galleryTouchStartX = 0;
+    let galleryTouchStartY = 0;
+
+    function abrirGaleria(id) {
+      const p = todosProductos.find(x => x.id === id);
+      if (!p) return;
+
+      // Fallback: if no images array, create one placeholder from brand
+      let imgs = (p.imagenes && p.imagenes.length) ? p.imagenes : [];
+      if (!imgs.length) {
+        const color = getColorClass(p.categoria).replace('color-', '');
+        const hex = { serums:'e6f0f7', cremas:'f7e6e6', limpieza:'e6f7e9', esencias:'f7e6f7',
+                      mascarillas:'f0e6f7', tonicos:'e6f4f7', solares:'fff7e6', labios:'f7e6f0', default:'f5f5f5' }[color] || 'f5f5f5';
+        imgs = [`https://via.placeholder.com/800x800/${hex}/333333?text=${encodeURIComponent(p.marca)}`];
+      }
+
+      cerrarModal();
+
+      const html = `
+        <div class="gallery-modal">
+          <button class="gallery-close" onclick="cerrarGaleria()" aria-label="Cerrar">×</button>
+          <div class="gallery-main" id="galleryMainArea">
+            <img src="${imgs[0]}" id="galleryMainImg" alt="${p.nombre}" draggable="false">
+            <div class="gallery-counter" id="galleryCounter">1 / ${imgs.length}</div>
+            ${imgs.length > 1 ? `
+              <button class="gallery-nav gallery-prev" onclick="cambiarImg(-1)" aria-label="Anterior">‹</button>
+              <button class="gallery-nav gallery-next" onclick="cambiarImg(1)" aria-label="Siguiente">›</button>
+            ` : ''}
+          </div>
+          ${imgs.length > 1 ? `
+            <div class="gallery-thumbs" id="galleryThumbs">
+              ${imgs.map((src, i) => `
+                <div class="thumb ${i === 0 ? 'active' : ''}" onclick="irAImg(${i})">
+                  <img src="${src}" alt="Vista ${i+1}" loading="lazy" draggable="false">
+                </div>
+              `).join('')}
+            </div>
+          ` : ''}
+        </div>`;
+
+      const overlay = document.getElementById('galleryModal');
+      overlay.innerHTML = html;
+      overlay.style.display = 'flex';
+      overlay.dataset.imgs = JSON.stringify(imgs);
+      overlay.dataset.idx = '0';
+      document.body.style.overflow = 'hidden';
+      document.body.style.touchAction = 'none';
+
+      // Close only when clicking the dark background (not the image/controls)
+      overlay.onclick = e => {
+        if (e.target === overlay || e.target.classList.contains('gallery-modal')) {
+          cerrarGaleria();
         }
-        
-        // Función para mostrar productos en el grid
-        function mostrarProductos() {
-            const container = document.getElementById('productsContainer');
-            if (!container) return;
-            
-            if (productosFiltrados.length === 0) {
-                container.innerHTML = `
-                    <div class="no-products" style="text-align: center; padding: 40px; grid-column: 1/-1;">
-                        <i class="fas fa-search" style="font-size: 48px; color: #ddd; margin-bottom: 20px;"></i>
-                        <h3 style="color: #666; margin-bottom: 10px;">No se encontraron productos</h3>
-                        <p>Intenta con otros términos de búsqueda</p>
-                    </div>
-                `;
-                return;
-            }
-            
-            let html = '';
-            
-            productosFiltrados.forEach(producto => {
-                // Obtener la primera imagen del array de imágenes (si existe)
-                const imagenUrl = (producto.imagenes && producto.imagenes.length > 0) ? producto.imagenes[0] : null;
-                
-                // Determinar color de fondo según categoría (para placeholder)
-                const colorFondo = getColorPorCategoria(producto.categoria);
-                
-                // Generar imágenes para la galería
-                const galeriaImagenes = generarImagenesGaleria(producto);
-                
-                html += `
-                    <div class="product-card" data-id="${producto.id}" onclick="abrirModalProducto(${producto.id})">
-                        <div class="product-card-image">
-                            ${imagenUrl ? 
-                                `<img src="${imagenUrl}" 
-                                      alt="${producto.nombre}"
-                                      loading="lazy"
-                                      onerror="manejarErrorImagen(this, '${producto.marca}', '${colorFondo}')">` 
-                                : 
-                                `<div class="image-placeholder" style="background-color: ${colorFondo}">
-                                    ${producto.marca}
-                                </div>`
-                            }
-                        </div>
-                        
-                        <div class="product-card-info">
-                            <h3 class="product-card-title">${producto.nombre}</h3>
-                            
-                            <div class="product-card-price">
-                                <span class="product-current-price">US$ ${producto.precio.toFixed(2)}</span>
-                            </div>
-                            
-                            <div class="product-card-actions">
-                                <button class="btn-add" onclick="event.stopPropagation(); agregarAlCarrito(${producto.id}, this)">
-                                    AGREGAR A LA CESTA
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                `;
-            });
-            
-            container.innerHTML = html;
-        }
-        
-        // Generar imágenes para la galería desde el array de imágenes
-        function generarImagenesGaleria(producto) {
-            // Si el producto tiene array de imágenes, usarlas todas
-            if (producto.imagenes && Array.isArray(producto.imagenes) && producto.imagenes.length > 0) {
-                return producto.imagenes; // Devuelve todas las imágenes del array
-            }
-            
-            // Si no hay imágenes, usar placeholders
-            const colorHex = getColorHex(producto.categoria);
-            return [
-                `https://via.placeholder.com/400x400/${colorHex}/FFFFFF?text=${encodeURIComponent(producto.marca)}`,
-                `https://via.placeholder.com/400x400/${colorHex}/FFFFFF?text=${encodeURIComponent(producto.marca)}+2`,
-                `https://via.placeholder.com/400x400/${colorHex}/FFFFFF?text=${encodeURIComponent(producto.marca)}+3`,
-                `https://via.placeholder.com/400x400/${colorHex}/FFFFFF?text=${encodeURIComponent(producto.marca)}+4`
-            ];
-        }
-        
-        // Obtener color hexadecimal para placeholder
-        function getColorHex(categoria) {
-            const colores = {
-                'Sérums Faciales': 'e6f0f7',
-                'Cremas Hidratantes': 'f7e6e6',
-                'Cremas Faciales': 'f7f0e6',
-                'Limpieza Facial': 'e6f7e9',
-                'Esencias': 'f7e6f7',
-                'Ampollas': 'e6e7f7',
-                'default': 'f5f5f5'
-            };
-            
-            if (!categoria) return colores.default;
-            
-            for (const [key, color] of Object.entries(colores)) {
-                if (categoria.includes(key)) return color;
-            }
-            return colores.default;
-        }
-        
-        // Función para manejar errores de carga de imágenes
-        function manejarErrorImagen(imgElement, marca, colorFondo) {
-            imgElement.onerror = null; // Prevenir bucles infinitos
-            
-            // Ocultar la imagen
-            imgElement.style.display = 'none';
-            
-            // Crear placeholder si no existe
-            let placeholder = imgElement.nextElementSibling;
-            if (!placeholder || !placeholder.classList.contains('image-placeholder')) {
-                placeholder = document.createElement('div');
-                placeholder.className = 'image-placeholder';
-                placeholder.style.backgroundColor = colorFondo || '#f5f5f5';
-                placeholder.textContent = marca;
-                imgElement.parentNode.appendChild(placeholder);
-            }
-            
-            placeholder.style.display = 'flex';
-        }
-        
-        // Función para obtener color según categoría
-        function getColorPorCategoria(categoria) {
-            const colores = {
-                'Sérums Faciales': '#e6f0f7',
-                'Cremas Hidratantes': '#f7e6e6',
-                'Cremas Faciales': '#f7f0e6',
-                'Limpieza Facial': '#e6f7e9',
-                'Esencias': '#f7e6f7',
-                'Ampollas': '#e6e7f7',
-                'Mascarillas': '#f0e6f7',
-                'Tónicos': '#e6f4f7',
-                'Protector solar': '#fff7e6',
-                'Labios': '#f7e6f0',
-                'Bases de Maquillaje': '#e6f0f7',
-                'Cuidado de Cabello': '#f0f7e6',
-                'default': '#f5f5f5'
-            };
-            
-            if (!categoria) return colores.default;
-            
-            for (const [key, color] of Object.entries(colores)) {
-                if (categoria.includes(key)) return color;
-            }
-            return colores.default;
-        }
-        
-        // Función para mostrar error
-        function mostrarError(mensaje) {
-            const container = document.getElementById('productsContainer');
-            if (container) {
-                container.innerHTML = `
-                    <div style="text-align: center; padding: 40px; grid-column: 1/-1;">
-                        <i class="fas fa-exclamation-triangle" style="font-size: 48px; color: #d97777; margin-bottom: 20px;"></i>
-                        <h3 style="color: #666; margin-bottom: 10px;">Error</h3>
-                        <p>${mensaje}</p>
-                        <button onclick="cargarProductos()" style="margin-top: 20px; padding: 10px 20px; background: #333; color: white; border: none; border-radius: 4px; cursor: pointer;">
-                            Reintentar
-                        </button>
-                    </div>
-                `;
-            }
-        }
-        
-        // Función para buscar productos
-        function buscarProductos() {
-            const searchInput = document.getElementById('searchInput');
-            const termino = searchInput.value.toLowerCase().trim();
-            
-            if (termino === '') {
-                productosFiltrados = [...todosProductos];
-            } else {
-                productosFiltrados = todosProductos.filter(producto => {
-                    return producto.nombre.toLowerCase().includes(termino) ||
-                           producto.marca.toLowerCase().includes(termino) ||
-                           (producto.categoria && producto.categoria.toLowerCase().includes(termino)) ||
-                           (producto.descripcion && producto.descripcion.toLowerCase().includes(termino));
-                });
-            }
-            
-            mostrarProductos();
-        }
-        
-        // =================== FUNCIONES DE GALERÍA ===================
-        
-        // Función para abrir galería de imágenes de un producto
-        function abrirGaleriaProducto(productId) {
-            try {
-                // Buscar el producto
-                const producto = todosProductos.find(p => p.id === productId);
-                
-                if (!producto) {
-                    console.error(`Producto con ID ${productId} no encontrado`);
-                    alert('Producto no encontrado');
-                    return;
-                }
-                
-                // Generar imágenes para la galería
-                const imagenesGaleria = generarImagenesGaleria(producto);
-                
-                // Crear contenido de la galería
-                const galeriaHTML = `
-                    <div class="gallery-modal">
-                        <button class="gallery-close" onclick="cerrarGaleria()">×</button>
-                        <div class="gallery-container">
-                            <div class="gallery-main-image" id="galleryMainImage">
-                                <img src="${imagenesGaleria[0]}" alt="${producto.nombre}" id="mainGalleryImage">
-                                <div class="gallery-counter" id="galleryCounter">1 / ${imagenesGaleria.length}</div>
-                                <button class="gallery-nav gallery-prev" onclick="cambiarImagenGaleria(-1)">‹</button>
-                                <button class="gallery-nav gallery-next" onclick="cambiarImagenGaleria(1)">›</button>
-                            </div>
-                            <div class="gallery-thumbnails" id="galleryThumbnails">
-                                ${imagenesGaleria.map((img, index) => `
-                                    <div class="thumbnail ${index === 0 ? 'active' : ''}" onclick="seleccionarImagenGaleria(${index})">
-                                        <img src="${img}" alt="${producto.nombre} - Vista ${index + 1}" loading="lazy">
-                                    </div>
-                                `).join('')}
-                            </div>
-                        </div>
-                    </div>
-                `;
-                
-                // Insertar galería en el contenedor
-                const galeriaContainer = document.getElementById('galleryModal');
-                if (galeriaContainer) {
-                    galeriaContainer.innerHTML = galeriaHTML;
-                    galeriaContainer.style.display = 'flex';
-                    
-                    // Almacenar datos de la galería
-                    galeriaContainer.dataset.imagenes = JSON.stringify(imagenesGaleria);
-                    galeriaContainer.dataset.indiceActual = '0';
-                    galeriaContainer.dataset.productoId = productId;
-                    
-                    // Prevenir scroll del body
-                    document.body.style.overflow = 'hidden';
-                    
-                    // Cerrar galería al hacer clic fuera
-                    galeriaContainer.addEventListener('click', function(e) {
-                        if (e.target === this) {
-                            cerrarGaleria();
-                        }
-                    });
-                    
-                    // Cerrar con ESC
-                    document.addEventListener('keydown', function escHandler(e) {
-                        if (e.key === 'Escape') {
-                            cerrarGaleria();
-                            document.removeEventListener('keydown', escHandler);
-                        }
-                        // Navegación con teclado
-                        if (e.key === 'ArrowLeft') cambiarImagenGaleria(-1);
-                        if (e.key === 'ArrowRight') cambiarImagenGaleria(1);
-                    });
-                }
-                
-            } catch (error) {
-                console.error('Error al abrir galería:', error);
-                alert('Error al cargar la galería de imágenes');
-            }
-        }
-        
-        // Cerrar galería
-        function cerrarGaleria() {
-            const galeriaContainer = document.getElementById('galleryModal');
-            if (galeriaContainer) {
-                galeriaContainer.style.display = 'none';
-                document.body.style.overflow = 'auto';
-            }
-        }
-        
-        // Cambiar imagen en la galería
-        function cambiarImagenGaleria(direccion) {
-            const galeriaContainer = document.getElementById('galleryModal');
-            if (!galeriaContainer) return;
-            
-            const imagenes = JSON.parse(galeriaContainer.dataset.imagenes || '[]');
-            let indiceActual = parseInt(galeriaContainer.dataset.indiceActual || '0');
-            
-            // Calcular nuevo índice
-            indiceActual += direccion;
-            if (indiceActual < 0) indiceActual = imagenes.length - 1;
-            if (indiceActual >= imagenes.length) indiceActual = 0;
-            
-            // Actualizar imagen principal
-            const mainImage = document.getElementById('mainGalleryImage');
-            if (mainImage) {
-                mainImage.style.opacity = '0';
-                setTimeout(() => {
-                    mainImage.src = imagenes[indiceActual];
-                    mainImage.style.opacity = '1';
-                }, 200);
-            }
-            
-            // Actualizar contador
-            const counter = document.getElementById('galleryCounter');
-            if (counter) {
-                counter.textContent = `${indiceActual + 1} / ${imagenes.length}`;
-            }
-            
-            // Actualizar miniaturas activas
-            const thumbnails = document.querySelectorAll('.thumbnail');
-            thumbnails.forEach((thumb, index) => {
-                thumb.classList.toggle('active', index === indiceActual);
-            });
-            
-            // Actualizar índice almacenado
-            galeriaContainer.dataset.indiceActual = indiceActual.toString();
-        }
-        
-        // Seleccionar imagen específica desde miniatura
-        function seleccionarImagenGaleria(indice) {
-            const galeriaContainer = document.getElementById('galleryModal');
-            if (!galeriaContainer) return;
-            
-            const imagenes = JSON.parse(galeriaContainer.dataset.imagenes || '[]');
-            
-            if (indice >= 0 && indice < imagenes.length) {
-                // Actualizar imagen principal
-                const mainImage = document.getElementById('mainGalleryImage');
-                if (mainImage) {
-                    mainImage.style.opacity = '0';
-                    setTimeout(() => {
-                        mainImage.src = imagenes[indice];
-                        mainImage.style.opacity = '1';
-                    }, 200);
-                }
-                
-                // Actualizar contador
-                const counter = document.getElementById('galleryCounter');
-                if (counter) {
-                    counter.textContent = `${indice + 1} / ${imagenes.length}`;
-                }
-                
-                // Actualizar miniaturas activas
-                const thumbnails = document.querySelectorAll('.thumbnail');
-                thumbnails.forEach((thumb, index) => {
-                    thumb.classList.toggle('active', index === indice);
-                });
-                
-                // Actualizar índice almacenado
-                galeriaContainer.dataset.indiceActual = indice.toString();
-            }
-        }
-        
-        // =================== FUNCIONES DE MODAL DE PRODUCTO ===================
-        
-        // Función para abrir modal con producto
-        function abrirModalProducto(productId) {
-            try {
-                // Buscar el producto en TODOS los productos
-                const producto = todosProductos.find(p => p.id === productId);
-                
-                if (!producto) {
-                    console.error(`Producto con ID ${productId} no encontrado`);
-                    alert('Producto no encontrado');
-                    return;
-                }
-                
-                // Obtener la primera imagen del array de imágenes (si existe)
-                const imagenUrl = (producto.imagenes && producto.imagenes.length > 0) ? producto.imagenes[0] : null;
-                const colorFondo = getColorPorCategoria(producto.categoria);
-                
-                // Generar imágenes para la galería
-                const galeriaImagenes = generarImagenesGaleria(producto);
-                
-                // Crear contenido del modal
-                const modalHTML = `
-                    <div class="product-modal">
-                        <button class="modal-close" onclick="cerrarModalProducto()">×</button>
-                        <div class="modal-content">
-                            <div class="modal-product-info">
-                                <div class="modal-product-image">
-                                    <div class="image-container" onclick="abrirGaleriaDesdeModal(${producto.id})">
-                                        ${imagenUrl ? 
-                                            `<img src="${imagenUrl}" 
-                                                  alt="${producto.nombre}"
-                                                  onerror="this.onerror=null; this.style.display='none'; this.nextElementSibling.style.display='flex';">` 
-                                            : 
-                                            ''
-                                        }
-                                        <div class="image-placeholder" style="display: ${imagenUrl ? 'none' : 'flex'}; background-color: ${colorFondo}">
-                                            ${producto.marca}
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="modal-product-details">
-                                    <h2 class="modal-product-title">${producto.nombre}</h2>
-                                    <div class="modal-product-price">US$ ${producto.precio.toFixed(2)}</div>
-                                    <p><strong>Marca:</strong> ${producto.marca}</p>
-                                    ${producto.categoria ? `<p><strong>Categoría:</strong> ${producto.categoria}</p>` : ''}
-                                    
-                                    <div class="action-buttons" style="margin-top: 20px;">
-                                        <button class="btn-view-gallery-modal" onclick="abrirGaleriaDesdeModal(${producto.id})">
-                                            <i class="fas fa-images"></i> Ver Galería (${galeriaImagenes.length} imágenes)
-                                        </button>
-                                        <button class="btn-add" onclick="agregarAlCarritoDesdeModal(${producto.id})">
-                                            AGREGAR A LA CESTA
-                                        </button>
-                                    </div>
-                                    
-                                    <div class="modal-description">
-                                        <h3>Descripción del Producto</h3>
-                                        <p>${producto.descripcion || 'Sin descripción disponible.'}</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                `;
-                
-                // Insertar modal en el contenedor
-                const modalContainer = document.getElementById('productModal');
-                if (modalContainer) {
-                    modalContainer.innerHTML = modalHTML;
-                    modalContainer.style.display = 'flex';
-                    
-                    // Prevenir scroll del body
-                    document.body.style.overflow = 'hidden';
-                    
-                    // Cerrar modal al hacer clic fuera
-                    modalContainer.addEventListener('click', function(e) {
-                        if (e.target === this) {
-                            cerrarModalProducto();
-                        }
-                    });
-                    
-                    // Cerrar con ESC
-                    document.addEventListener('keydown', function escHandler(e) {
-                        if (e.key === 'Escape') {
-                            cerrarModalProducto();
-                            document.removeEventListener('keydown', escHandler);
-                        }
-                    });
-                }
-                
-            } catch (error) {
-                console.error('Error al abrir modal:', error);
-                alert('Error al cargar los detalles del producto');
-            }
-        }
-        
-        // Abrir galería desde el modal de producto
-        function abrirGaleriaDesdeModal(productId) {
-            cerrarModalProducto();
-            setTimeout(() => abrirGaleriaProducto(productId), 300);
-        }
-        
-        function cerrarModalProducto() {
-            const modalContainer = document.getElementById('productModal');
-            if (modalContainer) {
-                modalContainer.style.display = 'none';
-                document.body.style.overflow = 'auto';
-            }
-        }
-        
-        function agregarAlCarritoDesdeModal(productId) {
-            agregarAlCarrito(productId);
-            cerrarModalProducto();
-        }
-        
-        // =================== FUNCIONES DE CARRITO ===================
-        
-        // Función para agregar al carrito (MODIFICADA: eliminada la notificación)
-        function agregarAlCarrito(productId, buttonElement = null) {
-            console.log(`🛒 Agregando producto ${productId} al carrito`);
-            
-            // Verificar que el producto existe
-            const producto = todosProductos.find(p => p.id === productId);
-            if (!producto) {
-                console.error(`Producto ID ${productId} no encontrado`);
-                return;
-            }
-            
-            // Cargar carrito existente
-            const CARRITO_KEY = 'carrito_belleza_coreana';
-            const carritoJSON = localStorage.getItem(CARRITO_KEY);
-            let carrito = carritoJSON ? JSON.parse(carritoJSON) : [];
-            
-            // Validar que sea un array
-            if (!Array.isArray(carrito)) {
-                console.warn('Carrito no es array, inicializando nuevo');
-                carrito = [];
-            }
-            
-            // Buscar si el producto ya está en el carrito
-            const index = carrito.findIndex(item => item && item.id === productId);
-            
-            if (index !== -1) {
-                // Si ya existe, incrementar cantidad (máximo 99)
-                if (carrito[index].cantidad < 99) {
-                    carrito[index].cantidad += 1;
-                } else {
-                    return;
-                }
-            } else {
-                // Si no existe, agregar nuevo
-                carrito.push({
-                    id: productId,
-                    cantidad: 1
-                });
-            }
-            
-            // Guardar en localStorage
-            localStorage.setItem(CARRITO_KEY, JSON.stringify(carrito));
-            
-            // Actualizar contador visual
-            actualizarContadorCarrito();
-            
-            // Animación del botón si se proporcionó (SOLO ANIMACIÓN, SIN TEXTO "AGREGADO")
-            if (buttonElement) {
-                const originalBg = buttonElement.style.backgroundColor;
-                const originalColor = buttonElement.style.color;
-                
-                buttonElement.style.backgroundColor = '#4CAF50';
-                buttonElement.style.color = 'white';
-                
-                setTimeout(() => {
-                    buttonElement.style.backgroundColor = originalBg || '#333';
-                    buttonElement.style.color = originalColor || 'white';
-                }, 300);
-            }
-            
-            console.log(`🛒 Carrito actualizado: ${carrito.length} tipos de productos`);
-        }
-        
-        // Función para actualizar contador del carrito
-        function actualizarContadorCarrito() {
-            const CARRITO_KEY = 'carrito_belleza_coreana';
-            const carritoJSON = localStorage.getItem(CARRITO_KEY);
-            let totalItems = 0;
-            
-            if (carritoJSON) {
-                try {
-                    const carrito = JSON.parse(carritoJSON);
-                    if (Array.isArray(carrito)) {
-                        totalItems = carrito.reduce((total, item) => {
-                            if (item && item.cantidad) {
-                                return total + item.cantidad;
-                            }
-                            return total;
-                        }, 0);
-                    }
-                } catch (error) {
-                    console.error('Error al contar carrito:', error);
-                }
-            }
-            
-            // Actualizar badge
-            const badge = document.getElementById('cartBadge');
-            if (badge) {
-                badge.textContent = totalItems;
-                badge.style.display = totalItems > 0 ? 'flex' : 'none';
-            }
-            
-            return totalItems;
-        }
-        
-        // Función para buscar con Enter
-        function setupBusqueda() {
-            const searchInput = document.getElementById('searchInput');
-            if (searchInput) {
-                searchInput.addEventListener('keypress', function(e) {
-                    if (e.key === 'Enter') {
-                        buscarProductos();
-                    }
-                });
-            }
-        }
-        
-        // =================== INICIALIZACIÓN ===================
-        document.addEventListener('DOMContentLoaded', function() {
-            console.log('🚀 Inicializando aplicación...');
-            cargarProductos();
-            actualizarContadorCarrito();
-            setupBusqueda();
-            
-            // Configurar navbar para dispositivos móviles
-            configurarNavbarResponsive();
-            
-            console.log('✅ Aplicación inicializada');
+      };
+
+      // Touch swipe support
+      const mainArea = document.getElementById('galleryMainArea');
+      if (mainArea && imgs.length > 1) {
+        mainArea.addEventListener('touchstart', onGalleryTouchStart, { passive: true });
+        mainArea.addEventListener('touchend', onGalleryTouchEnd, { passive: true });
+      }
+    }
+
+    function onGalleryTouchStart(e) {
+      if (!e.changedTouches || !e.changedTouches[0]) return;
+      galleryTouchStartX = e.changedTouches[0].screenX;
+      galleryTouchStartY = e.changedTouches[0].screenY;
+    }
+
+    function onGalleryTouchEnd(e) {
+      if (!e.changedTouches || !e.changedTouches[0]) return;
+      const dx = e.changedTouches[0].screenX - galleryTouchStartX;
+      const dy = e.changedTouches[0].screenY - galleryTouchStartY;
+      // Only horizontal swipes (ignore vertical scroll-ish gestures)
+      if (Math.abs(dx) < 50 || Math.abs(dx) < Math.abs(dy)) return;
+      if (dx < 0) cambiarImg(1);   // swipe left → next
+      else cambiarImg(-1);         // swipe right → prev
+    }
+
+    function cerrarGaleria() {
+      const overlay = document.getElementById('galleryModal');
+      overlay.style.display = 'none';
+      overlay.innerHTML = '';
+      document.body.style.overflow = '';
+      document.body.style.touchAction = '';
+    }
+
+    function cambiarImg(dir) {
+      const overlay = document.getElementById('galleryModal');
+      if (!overlay || overlay.style.display === 'none') return;
+      const imgs = JSON.parse(overlay.dataset.imgs || '[]');
+      if (imgs.length < 2) return;
+      let idx = parseInt(overlay.dataset.idx || '0', 10) + dir;
+      if (idx < 0) idx = imgs.length - 1;
+      if (idx >= imgs.length) idx = 0;
+      irAImg(idx);
+    }
+
+    function irAImg(idx) {
+      const overlay = document.getElementById('galleryModal');
+      const imgs = JSON.parse(overlay.dataset.imgs || '[]');
+      if (idx < 0 || idx >= imgs.length) return;
+
+      const main = document.getElementById('galleryMainImg');
+      if (main) {
+        // Change image without opacity fade (avoids dark overlay on mobile)
+        main.src = imgs[idx];
+        main.style.opacity = '1';
+      }
+
+      overlay.dataset.idx = String(idx);
+      const counter = document.getElementById('galleryCounter');
+      if (counter) counter.textContent = `${idx + 1} / ${imgs.length}`;
+
+      document.querySelectorAll('.gallery-thumbs .thumb').forEach((t, i) => {
+        t.classList.toggle('active', i === idx);
+      });
+    }
+
+    // =================== EVENTS ===================
+    document.addEventListener('DOMContentLoaded', () => {
+      cargarProductos();
+
+      document.getElementById('searchBtn').addEventListener('click', buscar);
+      document.getElementById('searchInput').addEventListener('keypress', e => {
+        if (e.key === 'Enter') buscar();
+      });
+      document.getElementById('sortSelect').addEventListener('change', aplicarFiltrosYMostrar);
+
+      // Nav filters
+      document.querySelectorAll('[data-filter]').forEach(el => {
+        el.addEventListener('click', e => {
+          e.preventDefault();
+          const val = el.getAttribute('data-filter');
+          if (val === 'all') {
+            limpiarFiltros();
+          } else {
+            setFiltro('categoria', val);
+          }
         });
-        
-        // Configurar navbar responsive
-        function configurarNavbarResponsive() {
-            const navItems = document.querySelectorAll('.nav-item');
-            const isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
-            
-            if (isTouchDevice && window.innerWidth <= 768) {
-                console.log('📱 Configurando navbar para dispositivos táctiles');
-                
-                navItems.forEach(item => {
-                    const link = item.querySelector('.nav-link');
-                    
-                    link.addEventListener('click', function(e) {
-                        if (window.innerWidth <= 768) {
-                            e.preventDefault();
-                            const dropdown = item.querySelector('.dropdown-menu');
-                            
-                            // Cerrar otros dropdowns
-                            document.querySelectorAll('.dropdown-menu').forEach(d => {
-                                if (d !== dropdown) d.style.display = 'none';
-                            });
-                            
-                            // Alternar este dropdown
-                            if (dropdown.style.display === 'block') {
-                                dropdown.style.display = 'none';
-                            } else {
-                                dropdown.style.display = 'block';
-                            }
-                        }
-                    });
-                });
-                
-                // Cerrar dropdowns al hacer clic fuera
-                document.addEventListener('click', function(e) {
-                    if (!e.target.closest('.nav-item')) {
-                        document.querySelectorAll('.dropdown-menu').forEach(d => {
-                            d.style.display = 'none';
-                        });
-                    }
-                });
-            }
+      });
+
+      document.querySelectorAll('[data-filter-marca]').forEach(el => {
+        el.addEventListener('click', e => {
+          e.preventDefault();
+          setFiltro('marca', el.getAttribute('data-filter-marca'));
+        });
+      });
+
+      // ESC close
+      document.addEventListener('keydown', e => {
+        if (e.key === 'Escape') {
+          cerrarModal();
+          cerrarGaleria();
         }
-        
-        // Hacer funciones disponibles globalmente
-        window.abrirModalProducto = abrirModalProducto;
-        window.cerrarModalProducto = cerrarModalProducto;
-        window.abrirGaleriaProducto = abrirGaleriaProducto;
-        window.cerrarGaleria = cerrarGaleria;
-        window.cambiarImagenGaleria = cambiarImagenGaleria;
-        window.seleccionarImagenGaleria = seleccionarImagenGaleria;
-        window.abrirGaleriaDesdeModal = abrirGaleriaDesdeModal;
-        window.agregarAlCarrito = agregarAlCarrito;
-        window.agregarAlCarritoDesdeModal = agregarAlCarritoDesdeModal;
-        window.buscarProductos = buscarProductos;
-        window.manejarErrorImagen = manejarErrorImagen;
-    </script>
+        if (e.key === 'ArrowLeft') cambiarImg(-1);
+        if (e.key === 'ArrowRight') cambiarImg(1);
+      });
+
+      // Mobile dropdown toggle
+      if ('ontouchstart' in window) {
+        document.querySelectorAll('.nav-item').forEach(item => {
+          const btn = item.querySelector('.nav-link-custom');
+          if (!btn || btn.hasAttribute('data-filter')) return;
+          btn.addEventListener('click', e => {
+            if (window.innerWidth <= 768) {
+              e.preventDefault();
+              const dd = item.querySelector('.dropdown-menu-custom');
+              document.querySelectorAll('.dropdown-menu-custom').forEach(d => {
+                if (d !== dd) d.style.display = 'none';
+              });
+              dd.style.display = dd.style.display === 'block' ? 'none' : 'block';
+            }
+          });
+        });
+        document.addEventListener('click', e => {
+          if (!e.target.closest('.nav-item')) {
+            document.querySelectorAll('.dropdown-menu-custom').forEach(d => d.style.display = 'none');
+          }
+        });
+      }
+    });
+
+    // Global
+    window.abrirModal = abrirModal;
+    window.cerrarModal = cerrarModal;
+    window.abrirGaleria = abrirGaleria;
+    window.cerrarGaleria = cerrarGaleria;
+    window.cambiarImg = cambiarImg;
+    window.irAImg = irAImg;
+    window.agregarAlCarrito = agregarAlCarrito;
+    window.limpiarFiltros = limpiarFiltros;
+    window.cargarProductos = cargarProductos;
+  </script>
 </body>
 </html>
