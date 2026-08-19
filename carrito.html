@@ -67,10 +67,6 @@
             <span class="resumen-label">Subtotal</span>
             <span class="resumen-valor" id="subtotal">US$ 0.00</span>
           </div>
-          <div class="resumen-fila">
-            <span class="resumen-label">Envío</span>
-            <span class="resumen-valor" id="envio" style="color:#28a745;font-weight:600;">GRATIS</span>
-          </div>
           <div class="resumen-fila total">
             <span class="resumen-label">Total</span>
             <span class="resumen-valor" id="total">US$ 0.00</span>
@@ -80,16 +76,12 @@
             <span class="resumen-valor resumen-quetzales" id="totalQuetzales">Q 0.00</span>
           </div>
         </div>
-        <button class="btn-pagar" onclick="procederPago()">Proceder al pago</button>
+        <button class="btn-pagar" id="btnRealizarPedido" onclick="realizarPedido()">
+          <i class="fas fa-paper-plane"></i> Realizar pedido
+        </button>
       </div>
     </div>
   </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <div class="copyright">© 2026 Belleza Coreana. Todos los derechos reservados.</div>
-    </div>
-  </footer>
 
   <div class="toast-container-custom" id="toastContainer"></div>
 
@@ -275,13 +267,13 @@
       renderizarCarrito();
     }
 
-    function procederPago() {
+    function realizarPedido() {
       const carrito = cargarCarrito();
       if (!carrito.length) {
         alert('El carrito está vacío');
         return;
       }
-      alert('Funcionalidad de pago en desarrollo.\n\nEn una implementación real aquí se procesaría el pago con la pasarela elegida.');
+      window.location.href = 'pedido.html';
     }
 
     document.addEventListener('DOMContentLoaded', async () => {
@@ -293,7 +285,7 @@
     window.actualizarCantidad = actualizarCantidad;
     window.eliminarProducto = eliminarProducto;
     window.vaciarCarrito = vaciarCarrito;
-    window.procederPago = procederPago;
+    window.realizarPedido = realizarPedido;
   </script>
 </body>
 </html>

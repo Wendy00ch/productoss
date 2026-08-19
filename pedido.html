@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Finalizar Pedido | Tiendita Coreana</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .pedido-container { max-width: 900px; margin: 0 auto; padding: 30px 20px 60px; }
+    .pedido-form-card, .pedido-resumen-card, .pedido-exito-card {
+      background: #fff; border: 1px solid var(--border); border-radius: var(--radius);
+      padding: 24px; margin-bottom: 24px;
+    }
+    .pedido-resumen-card h2, .pedido-form-card h2 {
+      font-size: 1.25rem; font-weight: 700; margin-bottom: 18px;
+      padding-bottom: 12px; border-bottom: 1px solid var(--border);
+    }
+    .factura-table { width: 100%; border-collapse: collapse; font-size: 0.92rem; }
+    .factura-table th, .factura-table td { padding: 10px 8px; border-bottom: 1px solid #f0f0f0; text-align: left; }
+    .factura-table th { font-weight: 600; color: var(--gray); font-size: 0.8rem; text-transform: uppercase; }
+    .factura-table .text-end { text-align: right; }
+    .factura-table .gtq-row td { color: var(--primary); font-weight: 600; }
+    .form-label { font-weight: 600; font-size: 0.9rem; }
+    .btn-enviar-pedido {
+      width: 100%; padding: 14px; background: var(--dark); color: #fff; border: none;
+      border-radius: 8px; font-weight: 700; font-size: 1rem; cursor: pointer;
+      display: flex; align-items: center; justify-content: center; gap: 10px;
+      transition: var(--transition); text-transform: uppercase; letter-spacing: 0.3px;
+    }
+    .btn-enviar-pedido:hover { background: var(--primary); color: #fff; }
+    .btn-enviar-pedido:disabled { opacity: 0.65; cursor: not-allowed; }
+    .pedido-vacio { text-align: center; padding: 60px 20px; }
+    .pedido-exito-card {
+      text-align: center; padding: 48px 24px;
+      border-color: #c3e6cb; background: #f8fff9;
+    }
+    .pedido-exito-card .exito-icon {
+      width: 72px; height: 72px; border-radius: 50%; background: #28a745;
+      color: #fff; display: flex; align-items: center; justify-content: center;
+      font-size: 2rem; margin: 0 auto 18px;
+    }
+    .pedido-exito-card h2 { font-size: 1.4rem; font-weight: 700; margin-bottom: 10px; color: var(--dark); }
+    .pedido-exito-card p { color: var(--gray); margin-bottom: 8px; }
+    .alert-info-pedido { font-size: 0.85rem; color: var(--gray); margin-top: 12px; }
+    .error-envio {
+      background: #fff5f5; border: 1px solid #f5c2c7; color: #842029;
+      border-radius: 8px; padding: 12px 14px; margin-bottom: 14px; font-size: 0.9rem;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-top">
+      <div class="d-flex align-items-center justify-content-between">
+        <a href="index.html" class="logo">Tiendita<span>Coreana</span></a>
+        <div class="header-icons d-flex align-items-center gap-3">
+          <a href="index.html" title="Inicio"><i class="fas fa-home"></i></a>
+          <a href="carrito.html" title="Carrito" class="position-relative">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="cart-badge" id="cartBadge">0</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="pedido-container">
+    <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-2" id="pedidoHeader">
+      <h1 class="h4 mb-0 fw-bold"><i class="fas fa-file-invoice me-2" style="color:var(--primary)"></i> Finalizar Pedido</h1>
+      <a href="carrito.html" class="btn-continuar"><i class="fas fa-arrow-left"></i> Volver al carrito</a>
+    </div>
+
+    <div id="pedidoVacio" class="pedido-vacio" style="display:none;">
+      <i class="fas fa-shopping-cart fa-3x text-muted mb-3"></i>
+      <h2>No hay productos en el carrito</h2>
+      <p class="text-muted">Agrega productos antes de realizar un pedido.</p>
+      <a href="index.html" class="btn-add" style="width:auto;display:inline-block;padding:12px 28px;margin-top:12px;">
+        <i class="fas fa-store"></i> Ver productos
+      </a>
+    </div>
+
+    <!-- Mensaje de éxito (se muestra tras enviar) -->
+    <div id="pedidoExito" class="pedido-exito-card" style="display:none;">
+      <div class="exito-icon"><i class="fas fa-check"></i></div>
+      <h2>¡Pedido enviado con éxito!</h2>
+      <p>Hemos recibido tu pedido. Te contactaremos pronto para confirmarlo.</p>
+      <p class="text-muted" style="font-size:0.9rem;">Revisa tu teléfono; nos pondremos en contacto contigo.</p>
+      <div class="d-flex gap-2 justify-content-center flex-wrap mt-4">
+        <a href="index.html" class="btn-add" style="width:auto;padding:12px 24px;">
+          <i class="fas fa-store"></i> Seguir comprando
+        </a>
+      </div>
+    </div>
+
+    <div id="pedidoFormulario" style="display:none;">
+      <div class="pedido-resumen-card">
+        <h2><i class="fas fa-receipt me-2"></i> Resumen del pedido</h2>
+        <div class="table-responsive">
+          <table class="factura-table" id="tablaFactura">
+            <thead>
+              <tr>
+                <th>Producto</th>
+                <th class="text-end">Cant.</th>
+                <th class="text-end">P. unit.</th>
+                <th class="text-end">Subtotal</th>
+              </tr>
+            </thead>
+            <tbody id="facturaBody"></tbody>
+            <tfoot id="facturaFoot"></tfoot>
+          </table>
+        </div>
+      </div>
+
+      <div class="pedido-form-card">
+        <h2><i class="fas fa-user me-2"></i> Datos de contacto</h2>
+        <div class="error-envio" id="errorEnvio"></div>
+        <form id="formPedido" onsubmit="enviarPedido(event)">
+          <div class="mb-3">
+            <label for="nombreCliente" class="form-label">Nombre completo *</label>
+            <input type="text" class="form-control" id="nombreCliente" required placeholder="Tu nombre" maxlength="80" autocomplete="name">
+          </div>
+          <div class="mb-3">
+            <label for="telefonoCliente" class="form-label">Teléfono / WhatsApp *</label>
+            <input type="tel" class="form-control" id="telefonoCliente" required placeholder="Ej: 5555-1234" maxlength="20" autocomplete="tel">
+          </div>
+          <div class="mb-3">
+            <label for="notasCliente" class="form-label">Notas (opcional)</label>
+            <textarea class="form-control" id="notasCliente" rows="2" placeholder="especificaciones de color y tonos o comentarios..." maxlength="300"></textarea>
+          </div>
+
+          <button type="submit" class="btn-enviar-pedido" id="btnEnviarPedido">
+            <i class="fas fa-paper-plane"></i> Realizar pedido
+          </button>
+          <p class="alert-info-pedido mb-0">
+            <i class="fas fa-lock"></i>
+            Al enviar, el resumen del pedido llegará al vendedor.
+          </p>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <div class="toast-container-custom" id="toastContainer"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    const CARRITO_KEY = 'carrito_belleza_coreana';
+    const TASA_CAMBIO = 7.70;
+
+    /**
+     * URL del Google Apps Script desplegado como Web App.
+     * Sigue las instrucciones de GOOGLE_SHEETS_SETUP.md y pega aquí la URL /exec.
+     * Ejemplo: 'https://script.google.com/macros/s/XXXX/exec'
+     */
+    const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxvhn048PCdErS7-tYZ8HnbycOQ865Ici5TXE1YJ1fgasm3CpPz1zkqh2Lhfohqb2oZ/exec';
+
+    /** Correo donde quieres recibir los pedidos (también se configura en el script de Google). */
+    // El script de Google envía el correo; aquí solo se usa para validar configuración.
+
+    let productosData = [];
+    let carritoActual = [];
+    let subtotalUSD = 0;
+
+    async function cargarProductosData() {
+      try {
+        const res = await fetch('products.json?v=' + Date.now());
+        if (!res.ok) throw new Error('Error cargando productos');
+        const data = await res.json();
+        productosData = data.productos || [];
+        return productosData;
+      } catch (e) {
+        console.error(e);
+        return [];
+      }
+    }
+
+    function cargarCarrito() {
+      try {
+        const raw = localStorage.getItem(CARRITO_KEY);
+        const arr = raw ? JSON.parse(raw) : [];
+        return Array.isArray(arr) ? arr : [];
+      } catch { return []; }
+    }
+
+    function actualizarContadorCarrito() {
+      const carrito = cargarCarrito();
+      const total = carrito.reduce((s, i) => s + (i.cantidad || 0), 0);
+      document.querySelectorAll('.cart-badge').forEach(b => {
+        b.textContent = total;
+        b.style.display = total > 0 ? 'flex' : 'none';
+      });
+    }
+
+    function construirLineasPedido() {
+      const lineas = [];
+      subtotalUSD = 0;
+      for (const item of carritoActual) {
+        const p = productosData.find(x => x.id === item.id);
+        if (!p) continue;
+        const cant = item.cantidad || 1;
+        const sub = p.precio * cant;
+        subtotalUSD += sub;
+        lineas.push({
+          id: p.id,
+          nombre: p.nombre,
+          marca: p.marca,
+          cantidad: cant,
+          precioUnit: p.precio,
+          subtotal: sub
+        });
+      }
+      return lineas;
+    }
+
+    function renderizarResumen() {
+      const lineas = construirLineasPedido();
+      const body = document.getElementById('facturaBody');
+      const foot = document.getElementById('facturaFoot');
+      if (!lineas.length) {
+        body.innerHTML = '<tr><td colspan="4" class="text-muted">Sin productos</td></tr>';
+        foot.innerHTML = '';
+        return;
+      }
+      body.innerHTML = lineas.map(l => `
+        <tr>
+          <td><strong>${l.marca}</strong><br><span class="text-muted" style="font-size:0.85rem">${l.nombre}</span></td>
+          <td class="text-end">${l.cantidad}</td>
+          <td class="text-end">US$ ${l.precioUnit.toFixed(2)}</td>
+          <td class="text-end">US$ ${l.subtotal.toFixed(2)}</td>
+        </tr>
+      `).join('');
+      const totalGTQ = subtotalUSD * TASA_CAMBIO;
+      foot.innerHTML = `
+        <tr>
+          <td colspan="3" class="text-end">Subtotal / Total</td>
+          <td class="text-end">US$ ${subtotalUSD.toFixed(2)}</td>
+        </tr>
+        <tr class="gtq-row">
+          <td colspan="3" class="text-end">Total en GTQ</td>
+          <td class="text-end">Q ${totalGTQ.toFixed(2)}</td>
+        </tr>
+      `;
+    }
+
+    function mostrarExito() {
+      document.getElementById('pedidoFormulario').style.display = 'none';
+      document.getElementById('pedidoVacio').style.display = 'none';
+      document.getElementById('pedidoExito').style.display = 'block';
+      const header = document.getElementById('pedidoHeader');
+      if (header) header.style.display = 'none';
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function mostrarError(msg) {
+      const el = document.getElementById('errorEnvio');
+      el.textContent = msg;
+      el.style.display = 'block';
+    }
+
+    function ocultarError() {
+      const el = document.getElementById('errorEnvio');
+      el.style.display = 'none';
+      el.textContent = '';
+    }
+
+    async function enviarPedido(e) {
+      e.preventDefault();
+      ocultarError();
+
+      const nombre = document.getElementById('nombreCliente').value.trim();
+      const telefono = document.getElementById('telefonoCliente').value.trim();
+      const notas = document.getElementById('notasCliente').value.trim();
+
+      if (!nombre || nombre.length < 2) {
+        mostrarError('Ingresa un nombre válido.');
+        return;
+      }
+      if (!telefono || telefono.length < 6) {
+        mostrarError('Ingresa un teléfono válido.');
+        return;
+      }
+
+      const lineas = construirLineasPedido();
+      if (!lineas.length) {
+        mostrarError('El carrito está vacío.');
+        return;
+      }
+
+      if (!GOOGLE_SCRIPT_URL || !GOOGLE_SCRIPT_URL.startsWith('http')) {
+        mostrarError('El envío de pedidos aún no está configurado. Contacta al administrador de la tienda.');
+        return;
+      }
+
+      const btn = document.getElementById('btnEnviarPedido');
+      btn.disabled = true;
+      btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Enviando pedido...';
+
+      const payload = {
+        fecha: new Date().toISOString(),
+        cliente: nombre,
+        telefono: telefono,
+        notas: notas,
+        productos: lineas.map(l => ({
+          id: l.id,
+          nombre: l.nombre,
+          marca: l.marca,
+          cantidad: l.cantidad,
+          precioUnit: l.precioUnit,
+          subtotal: l.subtotal
+        })),
+        totalUSD: subtotalUSD,
+        totalGTQ: +(subtotalUSD * TASA_CAMBIO).toFixed(2)
+      };
+
+      try {
+        // no-cors: el script de Google no devuelve respuesta legible, pero sí procesa el pedido
+        await fetch(GOOGLE_SCRIPT_URL, {
+          method: 'POST',
+          mode: 'no-cors',
+          headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+          body: JSON.stringify(payload)
+        });
+
+        // Vaciar carrito y mostrar éxito
+        localStorage.removeItem(CARRITO_KEY);
+        actualizarContadorCarrito();
+        mostrarExito();
+      } catch (err) {
+        console.error(err);
+        mostrarError('No se pudo enviar el pedido. Revisa tu conexión e inténtalo de nuevo.');
+        btn.disabled = false;
+        btn.innerHTML = '<i class="fas fa-paper-plane"></i> Realizar pedido';
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', async () => {
+      await cargarProductosData();
+      carritoActual = cargarCarrito();
+      actualizarContadorCarrito();
+
+      if (!carritoActual.length) {
+        document.getElementById('pedidoVacio').style.display = 'block';
+        document.getElementById('pedidoFormulario').style.display = 'none';
+        return;
+      }
+      document.getElementById('pedidoVacio').style.display = 'none';
+      document.getElementById('pedidoFormulario').style.display = 'block';
+      renderizarResumen();
+    });
+  </script>
+</body>
+</html>
