@@ -681,6 +681,128 @@
     "precio": 30.50,
     "descripcion": "Despídete de las manchas oscuras, la hiperpigmentación y la piel apagada con el Sérum Facial Vitamin C Booster Shot de Arencia, formulado con ingredientes iluminadores de culto como vitamina C, glutatión y niacinamida. También contiene ingredientes que refuerzan la barrera cutánea, como pantenol y alantoína, para mantener altos los niveles de hidratación y minimizar la irritación. Beneficios: Ilumina y unifica el tono de la piel con una potente mezcla de vitamina C y sus derivados estables, tratando la piel apagada, las manchas oscuras y el tono desigual. Proporciona defensa antioxidante rica en vitamina E y glutatión para combatir los radicales libres. Aporta un extra de hidratación con ácido hialurónico para conseguir un efecto relleno instantáneo. Refina la textura de la piel con niacinamida para regular la producción de sebo y minimizar los poros. Fórmula suave pero eficaz con pantenol, glicerina y alantoína para calmar, hidratar y reforzar la barrera cutánea. Recomendado para: todo tipo de piel, indicado para hiperpigmentación, cicatrices de acné, manchas oscuras, manchas solares, piel apagada, textura desigual y primeros signos de envejecimiento. Método de empleo: Empieza con la piel limpia y seca. Toma una pequeña cantidad y aplica sobre el rostro, masajeando suavemente hasta su completa absorción. Para mejores resultados, usa protector solar durante el día.",
     "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/arencia-vitamin-c-booster-shot-30ml/11/290/XXL_p0222429011.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/06/089/L_g0225208906.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/08/089/L_g0225208908.jpg"]
-  }
+  },
+  {
+  "id": 71,
+  "nombre": "beplain - Espuma Limpiadora Mung Bean pH-balanced Jumbo",
+  "marca": "beplain",
+  "categoria": "Cuidado de la piel",
+  "precio": 21.06,
+  "descripcion": "Enriquecido con polvo y extracto de semilla de frijol mungo, junto con extracto de té verde, este limpiador en espuma suave y con pH equilibrado elimina eficazmente el maquillaje y las impurezas sin privar a la piel de su hidratación. Este producto es de tamaño extra grande. Beneficios: Un limpiador facial diario e hidratante formulado con extracto de frijol mungo y polvo de frijol mungo que limpia las impurezas e incluso el polvo ultrafino. Modo de empleo: Tomar una pequeña cantidad y hacer espuma con agua. Masajear suavemente sobre el rostro y enjuagar bien.",
+  "imagenes": [
+    "https://d1flfk77wl2xk4.cloudfront.net/Assets/75/355/L_p0200335575.jpg",
+    "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/00/355/L_g0200335500_000.jpg"
+  ]
+},
+{
+  "id": 72,
+  "nombre": "Torriden - Sérum de Ácido Hialurónico DIVE-IN Low Molecular Hyaluronic Acid Serum",
+  "marca": "Torriden",
+  "categoria": "Cuidado de la piel",
+  "precio": 24.02,
+  "descripcion": "Sérum ligero y potente, repleto de ácido hialurónico de 5D-Complex que se absorbe rápidamente para hidratar instantáneamente la piel. Ingredientes adicionales como pantenol, alantoína y madecassoside calman eficazmente la piel. El color azul pastel del sérum se deriva naturalmente del extracto de malaquita que fortifica la barrera cutánea. Beneficios: Este es un sérum hidratante que se puede absorber rápidamente en solo 3 segundos. El ácido hialurónico de 5D-Complex repone y retiene la humedad en las capas profundas de la piel. Incluye D-Pantenol, alantoína y madecassoside, que pueden calmar eficazmente la piel. La esencia rejuvenecedora y ligera se puede absorber completamente, dejando un acabado refrescante. Modo de empleo: Usar el gotero para tomar de 3 a 5 gotas del sérum y extender uniformemente por todo tu rostro. Aplicar varias capas en tu rostro para un mejor efecto hidratante.",
+  "imagenes": [
+    "https://d1flfk77wl2xk4.cloudfront.net/Assets/torriden-dive-in-low-molecular-hyaluronic-acid-serum-50ml/19/579/XXL_p0139957919.jpg"
+  ]
+},
+{
+  "id": 73,
+  "nombre": "ma:nyo - Aceite Limpiador Pure Cleansing Oil",
+  "marca": "ma:nyo",
+  "categoria": "Cuidado de la piel",
+  "precio": 24.00,
+  "descripcion": "Elimina eficazmente residuos de maquillaje, suciedad e impurezas con este aceite limpiador suave pero potente, formulado con aceite de semilla de jojoba y aceite de argán. El extracto fermentado de salvado de arroz, rico en antioxidantes, fortalece la piel y la protege frente a los agresores externos. Adecuado para todo tipo de piel, incluso piel grasa. Beneficios: Probado dermatológicamente. Aceite limpiador hipoalergénico con aceite de semilla de jojoba y aceite de argán, que disuelve y elimina el exceso de sebo y las impurezas de los poros con facilidad. Con extracto fermentado de salvado de arroz que ayuda a equilibrar la piel, lo que lo hace adecuado para todo tipo de piel, incluso piel grasa. Modo de empleo: Presiona el dosificador 4 veces para obtener la cantidad adecuada de producto. Aplica suavemente sobre la nariz, la frente, las mejillas y la zona T. Emulsiona el producto y masajea durante 40 segundos. Enjuaga con agua tibia.",
+  "imagenes": [
+    "https://d1flfk77wl2xk4.cloudfront.net/Assets/51/882/XXL_p0171888251.jpg"
+  ]
+},
+{
+  "id": 74,
+  "nombre": "AROMATICA - Exfoliante Capilar Rosemary Scalp Scrub",
+  "marca": "AROMATICA",
+  "categoria": "Cuidado del cabello",
+  "precio": 20.00,
+  "descripcion": "Dale a tu cuero cabelludo una limpieza refrescante con este exfoliante capilar. Formulado con sal del mar muerto y otros ingredientes naturales verificados por el EWG, estos productos mantienen tu cuero cabelludo relajado y limpio con una exfoliación suave, completado con una esencia terapéutica de romero. Ventajas: Elimina las células muertas de la piel y las impurezas acumuladas en los poros mediante la sal del Mar Muerto de Israel. Calma y purifica el cuero cabelludo con extractos de hierbas fabricados directamente por Aromatica. Con ingredientes que tienen la certificación EWG y son en un 96.3% de procedencia natural. Modo de empleo: Aplicar la cantidad necesaria de manera uniforme en el cabello mojado y masajear durante un rato. Añadir una cantidad moderada de agua para hacer espuma, luego masajear un poco más y aclarar con agua templada.",
+  "imagenes": [
+    "https://d1flfk77wl2xk4.cloudfront.net/Assets/12/762/XXL_p0103176212.jpg"
+  ]
+},
+{
+  "id": 75,
+  "nombre": "APLB - Loción Corporal Glutathione Niacinamide",
+  "marca": "APLB",
+  "categoria": "Cuidado de la piel",
+  "precio": 15.10,
+  "descripcion": "La Loción Corporal Glutathione Niacinamide de APLB aporta un efecto iluminador y suavizante a tu rutina diaria de cuidado corporal. Formulada con glutatión, niacinamida e ingredientes derivados de la centella asiática (cica), esta loción hidrata profundamente y ayuda a calmar la piel, al mismo tiempo que mejora el tono desigual y la textura cutánea. Libre de fragancias, aceites minerales y parabenos, esta fórmula hipoalergénica se centra en ingredientes beneficiosos para la piel, incorporando ácido hialurónico, colágeno hidrolizado, escualano y diversos extractos vegetales que favorecen una piel saludable y luminosa. Su textura ligera y de aspecto lechoso se absorbe rápidamente, deslizándose cómodamente sobre la piel sin dejar sensación pegajosa. Beneficios: Ilumina la piel apagada con 1,000ppm de glutatión y 1,000ppm de niacinamida, ayudando a atenuar manchas oscuras, tono desigual y pigmentación. Proporciona hidratación duradera con ácido hialurónico y beta-glucano. Calma y reconforta la piel sensible con extracto de centella asiática y Centella 3x Complex™. Ayuda a conseguir una piel más lisa y firme con colágeno hidrolizado. Textura ligera y no pegajosa con Wide-Spread Texture System™. Recomendado para: todo tipo de pieles, indicado para piel apagada, tono desigual, hiperpigmentación, sequedad, textura áspera, rojeces e irritación. Modo de uso: Después de ducharte o bañarte, aplica una cantidad adecuada sobre la piel limpia y seca. Masajea suavemente extendiéndola de manera uniforme por todo el cuerpo hasta que se absorba por completo. Durante el día, continúa con un protector solar de amplio espectro.",
+  "imagenes": [
+    "https://d1flfk77wl2xk4.cloudfront.net/Assets/aplb-glutathione-niacinamide-body-lotion-300ml/74/169/XXL_p0196016974.jpg"
+  ]
+},
+{
+  "id": 76,
+  "nombre": "haruharu wonder - Aceite Corporal Black Bamboo Daily Smoothing Body Oil",
+  "marca": "haruharu wonder",
+  "categoria": "Cuidado de la piel",
+  "precio": 21.45,
+  "descripcion": "Usa este aceite corporal para exfoliar suavemente las células muertas para una piel suave. Formulado con ácido mandélico (AHA) y urea, este aceite corporal refina y pule la piel áspera sin causar irritación. La fórmula cremosa contiene aceite de almendra dulce, aceite de tamanu, aceite de argán y escualano para ofrecer hidratación y reparación de la barrera de manera natural. Beneficios: Un aceite alisante formulado con urea y AHA para hidratar profundamente y calmar la piel seca e irritada, mientras exfolia suavemente las células muertas de la piel para promover una piel luminosa y suave. Enriquecido con escualano y aceite de argán orgánico para prevenir la pérdida de humedad y mejorar la textura general de la piel, apoyando la barrera de la piel. Libre de ingredientes potencialmente dañinos, como sulfatos, siliconas y alcohol secante. Formulado con aceites esenciales naturales que proporcionan un sutil aroma herbal y floral. Un aceite con textura cremosa y ligera que deja la piel suave e hidratada sin pegajosidad ni pesadez, apto para todo tipo de piel. Modo de empleo: Después de la ducha, aplicar una cantidad moderada sobre la piel húmeda y masajear suavemente. Alternativamente, masajear en áreas secas, como el pecho, las rodillas o los codos.",
+  "imagenes": [
+    "https://d1flfk77wl2xk4.cloudfront.net/Assets/haruharu-wonder-black-bamboo-daily-smoothing-body-oil-200ml/57/262/XXL_p0216726257.jpg"
+  ]
+},
+{
+  "id": 77,
+  "nombre": "medicube - Desodorante de Vainilla y Pistacho",
+  "marca": "medicube",
+  "categoria": "Cuidado corporal",
+  "precio": 24.84,
+  "descripcion": "Este desodorante con ácido kójico y cúrcuma calma y ilumina las axilas con un desodorante unisex ideal para entrenamientos, días calurosos y uso diario. Acabado invisible con cero residuos y cero manchas para un uso seguro con ropa blanca. Probado con baja irritación para el área sensible de las axilas. Modo de empleo: Girar el producto hacia arriba y aplicar uniformemente en las áreas de las axilas, luego presionar suavemente para absorber completamente antes de vestirse.",
+  "imagenes": [
+    "https://d1flfk77wl2xk4.cloudfront.net/Assets/medicube-vanilla-pistacho-deodorant-83g/02/658/XXL_p0225165802.jpg"
+  ]
+},
+{
+  "id": 78,
+  "nombre": "Kobayashi - Gel Desodorante Wakigard Underarm Deodorant Gel",
+  "marca": "Kobayashi",
+  "categoria": "Cuidado corporal",
+  "precio": 15.89,
+  "descripcion": "Los ingredientes bactericidas suprimen el crecimiento de bacterias causantes del mal olor. Los ingredientes tensores aprietan las glándulas sudoríparas y suprimen la secreción de sudor. Formato en tubo que se puede aplicar directamente en las axilas sin ensuciarse las manos. Al ser un gel transparente, es fácil de aplicar y no deja residuos blancos. Modo de empleo: Después de limpiar las axilas, aplicar una cantidad adecuada.",
+  "imagenes": [
+    "https://d1flfk77wl2xk4.cloudfront.net/Assets/74/709/XXL_p0197970974.jpg"
+  ]
+},
+{
+  "id": 79,
+  "nombre": "Deonatulle - Desodorante Doble Suave Soft Stone Double Deodorant",
+  "marca": "Deonatulle",
+  "categoria": "Cuidado corporal",
+  "precio": 16.07,
+  "descripcion": "Mantén las axilas frescas con este desodorante que deja un acabado suave y no pegajoso. Contiene alumbre para mantener a raya los olores. Se mejora el efecto del nuevo desodorante recetado y la sensación de suavidad. Desodorante antitranspirante que evita la transpiración y el mal olor. Sin fragancia, sin colorantes, sin alcohol. Contiene el ingrediente activo Yaki Alum, que se centra en las piedras de alumbre natural. Modo de empleo: Gira la parte inferior del palo y sácalo aproximadamente 1 cm. Aplicar uniformemente sobre las axilas secas y limpias de 5 a 6 veces. Cierre bien la tapa después de su uso.",
+  "imagenes": [
+    "https://d1flfk77wl2xk4.cloudfront.net/Assets/06/728/XXL_p0132172806.jpg"
+  ]
+},
+{
+  "id": 80,
+  "nombre": "WATERCOME - Desodorante Fresh Flavour Roll On Dew - 8 Sabores",
+  "marca": "WATERCOME",
+  "categoria": "Cuidado corporal",
+  "precio": 10.91,
+  "descripcion": "Imprescindible en climas cálidos, el desodorante roll-on de WATERCOME viene en distintas fragancias, incluyendo aromas refrescantes de la versión Orange y aromas florales de la versión Rose. El antitranspirante no es pegajoso ni obstruye los poros, dejando la piel fresca durante todo el día. Apto tanto para hombres como para mujeres. Desodorante roll-on compacto con aromas frescos, ideal para llevar a cualquier parte. Especialmente diseñado para combatir el olor del sudor, sudoración en axilas y manchas amarillas. Contiene extractos vegetales y 6% de micro sal refrescante que absorbe el sudor rápidamente y ayuda a mantener las axilas frescas. Con tecnología dual desodorante y fijadora de fragancia, con metil citronellyl crotonate y activador de aroma fresco que neutraliza el mal olor y reduce su aparición. Incluye la esencia vegetal patentada EASAN-Alleriationll y niacinamida de alta pureza al 99% para humectar y dar luminosidad a la piel de las axilas. Fórmula clara y de secado rápido que no obstruye los poros ni deja residuos blancos o manchas en la ropa. Con el respaldo de Firmenich: fragancia duradera por 48 horas y protección prolongada contra el sudor. También puede aplicarse en muñecas, clavícula o detrás de las orejas como fragancia corporal. Disponible en 8 sabores: Té Blanco, Santal, Naranja, Durazno, Rosa, Toronja, Pomelo y Jazmín. Modo de empleo: Agitar bien antes de usar. Aplicar sobre las axilas limpias y secas, dejando secar completamente antes de vestirse.",
+  "imagenes": [
+    "https://d1flfk77wl2xk4.cloudfront.net/Assets/74/401/XXL_p0208440174.jpg"
+  ]
+},
+{
+  "id": 81,
+  "nombre": "NIVEA - Cherry Blossom & Jojoba Oil Oil In Lotion",
+  "marca": "NIVEA",
+  "categoria": "Cuidado de la piel",
+  "precio": 23.42,
+  "descripcion": "Basado en 100 años de experiencia en el cuidado de la piel, NIVEA ha seleccionado preciosos ingredientes naturales y aceites nutritivos y los ha mezclado en una loción única. Deleitará tus sentidos con una delicada fragancia y cuidará tu piel con 24 horas de hidratación profunda. Tu piel se sentirá irresistiblemente suave y bellamente radiante durante todo el día. Modo de empleo: Aplica una cantidad generosa sobre la piel después de la ducha y masajea para que se absorba.",
+  "imagenes": [
+    "https://d1flfk77wl2xk4.cloudfront.net/Assets/39/343/XXL_p0224634339.jpg"
+  ]
+}
 ]
 }
