@@ -2,71 +2,71 @@
   "productos": [
     {
       "id": 1,
-      "nombre": "mixsoon - Sérum con Ácido Hialurónico Glacier Water Hyaluronic Acid Serum Jumbo",
-      "marca": "mixsoon",
-      "categoria": "Sérums Faciales",
-      "precio": 29.30,
-      "descripcion": "Enriquecido con agua glacial y tres tipos de ácido hialurónico, este sérum ofrece una hidratación potente para una piel flexible y tersa. Forma una película de humedad sobre la piel para ayudar a fortalecer la barrera cutánea.",
+      "nombre": "SKINFOOD - Esencia Royal Honey Propolis Enrich Essence 50ml",
+      "marca": "SKIN1FOOD",
+      "categoria": "Esencia",
+      "precio": 20.92,
+      "descripcion": "Esencia profundamente nutritiva que contiene una combinación de extracto de propóleo, jalea real y miel para hidratar la piel y fortalecerla contra los daños ambientales. La miel y el propóleo son conocidos por sus propiedades antioxidantes y antibacterianas, así como por sus grandes capacidades de retención de humedad.",
       "detalles": "",
-      "ingredientes": "",
-      "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/mixsoon-glacier-water-hyaluronic-acid-serum-jumbo-300ml/92/347/L_p0159334792.jpg"]
+      "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/skinfood-royal-honey-propolis-enrich-essence-50ml/89/010/XXL_p0076901089.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/44/514/L_g0220151444.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/41/514/L_g0220151441.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/43/514/L_g0220151443.jpg"]
     },
     {
       "id": 2,
-      "nombre": "SKIN1004 - Ampolla Facial Lab in Nature Madagascar Centella Niacinamide 10 Boosting Shot",
-      "marca": "SKIN1004",
-      "categoria": "Sérums Faciales",
-      "precio": 25.92,
-      "descripcion": "Este producto contiene Centella Spicules, que puede provocar una sensación de hormigueo. Si tiene piel sensible, realice pruebas exhaustivas antes de usarlo.Beneficios:   Ampolla iluminadora con microespículas para mejorar el tono desigual de la piel, reducir los poros y aumentar el brillo de la piel.   Espículas infundidas con Centella de Madagascar y Pantenol para nutrir la piel y mejorar la absorción de ingredientes activos.    La niacinamida y el ácido tranexámico abordan los poros horizontales, verticales y pigmentados mientras refinan y suavizan la piel.   Enriquecido con glucósido de ascorbilo para igualar el tono de la piel y lograr un efecto iluminador general.   La fórmula de ampolla ligera proporciona un acabado refrescante e hidratante.   Cómo utilizar:  1. Este producto contiene microespículas que pueden provocar una sensación de hormigueo en la piel. No lo use durante irritaciones u otras infecciones de la piel.  2. Aplicar 2-3 veces por semana con una pequeña cantidad para la adaptación de la piel. 3. Después de la adaptación, se puede utilizar diariamente. Aplicar después de tonificar y completar con un producto hidratante para asegurar una hidratación suficiente.",
+      "nombre": "SKINFOOD - Mascarilla Facial Carrot Carotene Daily Mask",
+      "marca": "SKIN1FOOD",
+      "categoria": "Cuidado de la piel",
+      "precio": 26.86,
+      "descripcion": "Hecha a medida para pieles propensas a la irritación, esta mascarilla en láminas repleta de extracto de zanahoria rico en betacaroteno y aceite de semilla de zanahoria calma instantáneamente la piel y ofrece una hidratación duradera. Las hojas de mascarilla, ecológicas y con certificación vegana, se adhieren perfectamente a la piel para una rápida administración de ingredientes activos. El pack contiene 30 mascarillas.",
       "detalles": "",
-      "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/skin1004-lab-in-nature-madagascar-centella-niacinamide-10-boosting-shot-ampoule-30ml/41/269/XXL_p0218526941.jpg"]
+      "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/skinfood-carrot-carotene-daily-mask-30-sheets/98/619/XXL_p0204561998.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/64/601/L_g0210560164.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/88/617/L_g0204561788.jpg"]
     },
     {
       "id": 3,
-      "nombre": "3CE - Velvet Lip Tint Plush - 19 Colors",
-      "marca": "3CE",
-      "categoria": "Labios",
-      "precio": 20.50,
-      "descripcion": "Nuevos tonos nude con textura sedosa, alta recompensa de color, cubre líneas de labios y color    Formulado con escualano, aceite de semilla de ricino y esencia de oliva para un bloqueo de humedad las 24 horas   Aplicador de terciopelo mejorado con diseño curvo que se adapta perfectamente a los labios",
+      "nombre": "Arencia - Limpiado Facial con Té Verde y LHA Green Tea + LHA Deep Pore Rice Cake",
+      "marca": "Arencia",
+      "categoria": "Cuidado de la piel",
+      "precio": 21.60,
+      "descripcion": "Un limpiador facial que contiene LHA que ayuda a exfoliar los puntos negros y las celulas de piel muerta que mejora la textura de la piel. Formulado con Extracto de Té Verde que ayuda a calmar la piel irritada, controla el sebo y humecta la piel. Enriquecida con Bakuchiol, que contiene propiedades antioxidantes que ayudan a reafirmar los poros y revitaliza la piel.    La formula como de pastel de arroz se adhiere gentilmente y quita las impurezas de los poros para completar la limpieza.    Modo de empleo: Haz mucha espuma, póntela en la cara y el cuello, da un masaje y enjuagala con agua tibia.",
       "detalles": "",
-      "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/3ce-velvet-lip-tint-plush-19-colors-4g/21/512/XXL_p0221851221.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/91/535/L_g0221853591.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/03/536/L_g0221853603_000.jpg"]
+      "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/36/373/XXL_p0217837336.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/49/554/L_g0221455449.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/51/554/L_g0221455451.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/48/554/L_g0221455448.jpg"]
     },
     {
       "id": 4,
-      "nombre": "SKIN1004 - Sérum Facial Iluminador Madagascar Centella Tone Brightening Capsule Ampoule Jumbo",
-      "marca": "SKIN1004",
-      "categoria": "Sérums Faciales",
-      "precio": 23.97,
-      "descripcion": "Tónico ligero y potente con MadeWhite™ (extractos de centella asiática y niacinamida) para iluminación, hidratación y efectos calmantes. Incluye extractos de papaya y manzana para exfoliación suave.",
-      "detalles": "",
-      "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/55/808/M_p0161880855.jpg"]
+      "nombre": "Centellian24 - Crema Anti-envejecimiento Madeca Cream Time Reverse Zero 80ml",
+      "marca": "Centellian24",
+      "categoria": "Cuidado de la piel",
+      "precio": 18.96,
+      "descripcion": "Aprovechando los mismos beneficios antiedad de la Madeca Cream Time Reverse original, la versión Zero presenta una textura más ligera, perfecta para usar durante el caluroso verano. Formulada con TECA, retinol y aminoácidos, la crema calma la inflamación y favorece la regeneración de las células de la piel, dejando la piel suave, rejuvenecida y con un brillo saludable. Además, la ceramida NP, los fitoesteroles y el ácido hialurónico fortalecen la barrera cutánea y ayudan a mantener altos niveles de hidratación. Beneficios: Desarrollada a partir de la exitosa Crema Madeca Cream Time Reverse, esta edición Zero se centra en la hidratación y la elasticidad de la piel. Formulada con ceramidas, fitoesteroles y ácido esteárico para hidratar profundamente la piel y mejorar al mismo tiempo la barrera de hidratación. Potentes ingredientes calmantes como TECA ayudan a reducir el enrojecimiento y a refrescar la piel. Su textura ligera proporciona un acabado hidratado y refrescante. Ha superado pruebas para piel sensible, por lo que es apta para pieles sensibles. Modo de empleo: Como último paso de skincare, aplica una cantidad apropiada en la piel dando golpecitos para mejor absorción.",
+      "imagenes": [
+        "https://d1flfk77wl2xk4.cloudfront.net/Assets/centellian24-madeca-cream-time-reverse-zero-80ml-80ml/03/847/XXL_p0222984703.jpg"
+      ]
     },
     {
       "id": 5,
-      "nombre": "Dr. Althea - Crema hidratante 147 Barrier Cream",
-      "marca": "Dr. Althea",
-      "categoria": "Cremas Hidratantes",
-      "precio": 18.39,
-      "descripcion": "Hidratante calmante enriquecida con azuleno derivado de manzanilla y ceramidas que ayuda a aliviar la irritación, fortalece la barrera de la piel y aumenta su capacidad de retención de humedad.",
+      "nombre": "AXIS - Y - Sérum Contorno de Ojos Vegan Collagen Eye Serum",
+      "marca": "Axis",
+      "categoria": "Cuidado de la piel",
+      "precio": 15.50,
+      "descripcion": "Sérum de colágeno vegano de AXIS-Y que revitaliza tu mirada. Su fórmula exclusiva 6+1+1 combina seis ingredientes botánicos hidratantes e iluminadores, como el aceite de jojoba y el extracto de manzana verde. Está enriquecido con colágeno vegano para tratar las arrugas y un complejo de cinco péptidos que mejora la firmeza de la piel. Incluye un aplicador con bola metálica para una aplicación cómoda y refrescante.",
       "detalles": "",
-      "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/15/614/M_p0105361415.jpg"]
+      "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/axis-y-vegan-collagen-eye-serum-10ml/02/234/XXL_p0205723402.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/35/002/L_g0221100235_004.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/35/002/L_g0221100235_003.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/35/002/L_g0221100235_002.jpg"]
     },
     {
       "id": 6,
-      "nombre": "Gege Bear - Velvet Mist Lip Powder Cream - 4 Colors",
-      "marca": "Gege Bear",
-      "categoria": "Labios",
-      "precio": 6.26,
-      "descripcion": "Beneficios:  Gege Bear - Crema en polvo para labios Velvet Mist      Combinación de lápiz labial y cepillo: combina un lápiz labial y un cepillo labial en un producto conveniente para una fácil aplicación Textura suave y cremosa: la fórmula se siente lujosa y rica, deslizándose suavemente como espuma de leche.  Acabado mate y suave: ofrece un aspecto mate manteniendo una sensación suave y cómoda en los labios.    Ofrece una flexibilidad única que mejora la comodidad durante el uso.   Uso eficiente: le permite dispensar la cantidad justa, minimizando el desperdicio.",
+      "nombre": "AXIS - Y - Aceite Labial Vita Glow Lip Oil - 3 Colores",
+      "marca": "Axis",
+      "categoria": "Cuidado de la piel",
+      "precio": 14.90,
+      "descripcion": "Da a tus labios un aumento de hidratación, un acabado jugoso y brillante con este aceite labial vegano. Formulado con vitamina E y ceramida NP, la formula mantiene los labios suaves y carnosos todo el día. Disponible en transparente Dreamy Olive, junto con opciones con color como en tonos cálidos Cozy Fig y tonos fríos Chilled Berry.",
       "detalles": "",
-      "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/55/066/XXL_p0215106655.png"]
+      "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/axis-y-vita-glow-lip-oil-3-colors-chilled-berry-cozy-fig-dreamy-olive/43/888/XXL_p0218888843.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/18/647/L_g0219464718.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/19/647/L_g0219464719.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/20/647/L_g0219464720.jpg"]
     },
     {
       "id": 7,
       "nombre": "SKIN1004 - Crema Hidratante Madagascar Centella Poremizing Light Gel Cream",
       "marca": "SKIN1004",
       "categoria": "Cremas Hidratantes",
-      "precio": 25.27,
+      "precio": 24.27,
       "descripcion": "Crema en gel refrescante con sal rosa del Himalaya que ayuda a eliminar células muertas y exceso de sebo, desobstruyendo los poros. Contiene adenosina, extracto de aloe vera y niacinamida.",
       "detalles": "",
       "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/78/407/M_p0180240778.jpg"]
@@ -76,7 +76,7 @@
       "nombre": "Dr. Althea - Sérum facial Gentle Vitamin C Serum",
       "marca": "Dr. Althea",
       "categoria": "Sérums Faciales",
-      "precio": 23.50,
+      "precio": 22.50,
       "descripcion": "Sérum facial con niacinamida, ácido ascórbico 3-O etílico y extracto de fruta de espino amarillo rico en vitamina C para iluminar la piel, atenuar la hiperpigmentación y dejar la piel suave con brillo radiante.",
       "detalles": "",
       "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/26/693/M_p0219369326.jpg"]
@@ -86,7 +86,7 @@
       "nombre": "EQQUALBERRY - Sérum Facial Vitamin Illuminating Serum",
       "marca": "EQQUALBERRY",
       "categoria": "Sérums Faciales",
-      "precio": 24.90,
+      "precio": 22.90,
       "descripcion": "Sérum infundido con un 40% de acerola (un ingrediente rico en vitamina C) que atenúa la hiperpigmentación y las manchas oscuras para promover una piel de tono uniforme. Contiene hialuronato de sodio, escualano y ceramida NP para mantener la piel hidratada y tersa.",
       "detalles": "",
       "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/eqqualberry-vitamin-illuminating-serum-30ml/69/376/XXL_p0213137669.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/46/700/L_g0221770046.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/47/700/L_g0221770047.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/50/700/L_g0221770050.jpg"]
@@ -116,7 +116,7 @@
     "nombre": "SKIN1004 - Crema Hidratante Madagascar Centella Hyalu-Cica Moisture Cream",
     "marca": "SKIN1004",
     "categoria": "Cremas Hidratantes",
-    "precio": 25.40,
+    "precio": 24.40,
     "descripcion": "Crema con 50% de extracto de centella asiática que calma la piel, fortalece la barrera cutánea y proporciona hidratación duradera. Contiene colágeno de origen vegetal para mejorar la elasticidad de la piel.",
     "detalles": "",
     "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/42/710/M_p0173471042.jpg"]
@@ -126,7 +126,7 @@
     "nombre": "SKIN1004 - Ampolla Madagascar Centella Probio-Cica Intensive Ampoule",
     "marca": "SKIN1004",
     "categoria": "Ampollas",
-    "precio": 26.96,
+    "precio": 25.96,
     "descripcion": "Ampolla nutritiva con alta concentración de extracto de cica fermentada que proporciona hidratación intensa y fortalece la barrera cutánea. Con pantenol, betaina y alantoina para un efecto rellenador.",
     "detalles": "",
     "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/81/680/M_p0197268081.jpg"]
@@ -136,7 +136,7 @@
     "nombre": "Dr. Althea - Bálsamo limpiador Pure Grinding Cleansing Balm",
     "marca": "Dr. Althea",
     "categoria": "Bálsamos Limpiadores",
-    "precio": 31.77,
+    "precio": 25.77,
     "descripcion": "Bálsamo limpiador formulado con aceite de semilla de camellía sinensis, madecassoside y aceite de semilla de uva para eliminar suavemente el maquillaje, el protector solar y las impurezas, dejando un acabado calmante. Fórmula vegana y libre de crueldad, elaborada sin fragancias ni colorantes artificiales. Apto para todo tipo de piel, incluida la piel sensible.",
     "detalles": "",
     "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/dr-althea-pure-grinding-cleansing-balm-50ml/22/019/XXL_p0207101922.png"]
@@ -146,143 +146,146 @@
     "nombre": "mixsoon - Esencia Facial Bean Essence",
     "marca": "mixsoon",
     "categoria": "Esencia",
-    "precio": 35.53,
+    "precio": 34.53,
     "descripcion": "Sérum refrescante que contiene extracto fermentado de soja para hidratar la piel y controlar la producción de sebo. También contiene extracto fermentado de granada que suaviza la textura de la piel, filtrado de fermento de semilla de cebada rico en vitaminas para revitalizarla, y filtrado de fermento de jugo de pera que aporta antioxidantes.",
     "detalles": "",
     "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/mixsoon-bean-essence-50ml/96/346/XXL_p0159334696.jpg"]
   },
   {
-    "id": 17,
-    "nombre": "Purito SEOUL - Crema con Pantenol Mighty Bamboo Panthenol Cream",
-    "marca": "Purito SEOUL",
-    "categoria": "Cremas Hidratantes",
-    "precio": 25.30,
-    "descripcion": "Crema enriquecida con extracto de bambú coreano de Damyang y 100.000 ppm de pantenol calmante que repara la barrera cutánea dañada. La crema también contiene ingredientes hidratantes como el escualeno y el hialuronato sódico para aumentar los niveles de hidratación de la piel. Su fórmula sin perfume e hipoalergénica es apta para todo tipo de piel, incluidas las sensibles.",
-    "detalles": "",
-    "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/purito-seoul-mighty-bamboo-panthenol-cream-100ml/86/049/XXL_p0211004986.png"]
-  },
+    "id": 16,
+    "nombre": "VT - Crema Facial PDRN Capsule Cream 100",
+    "marca": "VT",
+    "categoria": "Cuidado de la piel",
+    "precio": 20.05,
+    "descripcion": "Crema en gel de textura acuosa contiene cápsulas densas cargadas con PHYTO PDRN® Panax PDRN derivado de ginseng de bajo peso molecular, que potencia la luminosidad de la piel mientras ofrece una hidratación refrescante. Está formulada con ceramida NP, nueve tipos de péptidos y escualano para nutrir y reforzar la barrera cutánea. Además, incluye diez tipos de ácido hialurónico y pantenol para reponer la humedad de la piel. Libre de irritación y sin fragancia, es apta para todo tipo de pieles, incluyendo las más sensibles. Beneficios: Esta crema con cápsulas de PDRN aporta luminosidad y ayuda a crear una piel saludable y radiante. Formulada con ceramida para reforzar la barrera de la piel y mantener una hidratación luminosa. Enriquecida con 10 tipos de ácido hialurónico para hidratar profundamente y prevenir la pérdida de humedad. Cápsulas concentradas de PDRN en una textura gel-crema que se funde delicadamente con la piel, brindándole firmeza y un brillo saludable. Modo de empleo: Aplicar suavemente sobre el rostro siguiendo la textura de la piel al final de la rutina de cuidado nocturno, después de la limpieza.",
+    "imagenes": [
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/16/968/L_g0219296816_001.jpg"
+    ]
+  }, 
   {
-    "id": 18,
+    "id": 17,
     "nombre": "SKIN1004 - Lab in Nature Madagascar Centella Retinol 0.2 Boosting Shot Ampoule",
     "marca": "SKIN1004",
     "categoria": "Ampollas",
-    "precio": 27.90,
+    "precio": 26.90,
     "descripcion": "An ampoule enriched with Retinol and micro spicules to boost skin elasticity and firmness. Micro spicules infused with Madagascar Centella and Panthenol to nourish the skin and enhance the absorption of active ingredients. Contains Retinol to smooth skin texture and improve skin radiance. The blend of Retinal and Squalane boost skin elasticity while strengthening skin barrier. Stretchy ampoule formula adheres well on skin to provide intense elasticity care for the skin. Contains Centella Spicules, which may cause a tingling sensation.  TIENE DOS PRESENTACIONES",
     "detalles": "",
     "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/43/269/M_p0218526943.jpg"]
   },
   {
-    "id": 19,
+    "id": 18,
     "nombre": "Celimax - Ampolla Facial Noni Ampoule Calming + Radiance Jumbo",
     "marca": "Celimax",
     "categoria": "Ampollas",
-    "precio": 26.60,
+    "precio": 25.60,
     "descripcion": "Con un 71.77% de extracto de la fruta noni rica en nutrientes, esta ampolla hidrata la piel y proporciona más luminosidad para un aspecto saludable. Infundida con aceite de romero, colágeno vegano y adenosina, la ampolla calma y revitaliza la piel mientras reduce las líneas finas y las arrugas. La fórmula de rápida absorción deja la piel con un aspecto rejuvenecido.",
     "detalles": "",
     "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/celimax-noni-ampoule-calming-radiance-jumbo-50ml/20/107/XXL_p0212510720.jpg"]
   },
   {
-    "id": 20,
+    "id": 19,
     "nombre": "celimax - Limpiador Facial The Real Noni Acne Bubble Cleanser",
     "marca": "Celimax",
     "categoria": "Limpiadores Faciales",
-    "precio": 24.00,
+    "precio": 23.00,
     "descripcion": "Elimina a fondo las impurezas de la piel y el exceso de sebo sin resecarla, gracias a esta espuma limpiadora con pH balanceado. El extracto de noni y el complejo ACZERO en la fórmula aportan efectos iluminadores y calmantes, mientras que el BHA exfolia suavemente las células muertas para una piel suave y tersa. La fórmula hipoalergénica es apta para todo tipo de piel, incluyendo piel sensible y propensa al acné.   -   BENEFICIOS: Un limpiador subácido con espuma fina que ofrece una limpieza completa y suave de las impurezas de la piel y elimina el exceso de sebo. Contiene extracto de noni que brinda hidratación duradera a la piel, BHA que elimina suavemente las células muertas y el complejo ACZERO que ayuda a calmar la piel propensa al acné.  La fórmula hipoalergénica es apta para todo tipo de piel, incluyendo piel sensible y propensa al acné.  MODO DE EMPLEO: 1. Presiona el dispensador para tomar una cantidad moderada de espuma y masajea suavemente sobre el rostro para eliminar las células muertas y las impurezas. 2. Enjuaga bien con agua tibia.",
     "detalles": "",
     "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/celimax-the-real-noni-acne-bubble-cleanser-155ml/46/760/XXL_p0214876046.jpg"]
   },
   {
-    "id": 21,
+    "id": 20,
     "nombre": "celimax - Pore+Dark Spot Brightening Cream",
     "marca": "Celimax",
     "categoria": "Cremas Hidratantes",
-    "precio": 19.82,
+    "precio": 24.82,
     "descripcion": "Una crema nutritiva ayuda a iluminar el tono de la piel y reducir la aparición de manchas oscuras e imperfecciones. Formulado con Ácido Tranexámico, Niacinamida y Melazero V2 que ayudan a prevenir la producción excesiva de melanina para prevenir la aparición de manchas oscuras.  Proporciona hidratación profunda a la piel seca para mantenerla suave y firme.  La textura cremosa permite una rápida absorción en la piel sin apelmazarse.Cómo utilizar:  Aplique una cantidad moderada uniformemente sobre el rostro y dé golpecitos suaves para una mejor absorción. Cómo utilizar:  Aplique una cantidad moderada uniformemente sobre el rostro y dé golpecitos suaves para una mejor absorción. Cómo utilizar:  Aplique una cantidad moderada uniformemente sobre el rostro y dé golpecitos suaves para una mejor absorción.",
     "detalles": "",
     "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/celimax-poredark-spot-brightening-cream-35ml/19/997/XXL_p0212699719.jpg"]
   },
   {
-    "id": 22,
+    "id": 21,
     "nombre": "Dr.Melaxin - Ampolla Exfoliante Peel Shot Exfoliant Black Rice Ampoule",
     "marca": "Dr.Melaxin",
     "categoria": "Ampollas Exfoliantes",
-    "precio": 37.00,
+    "precio": 36.00,
     "descripcion": "Esta ampolla elimina los puntos negros, destapa los poros y regula la producción de sebo mientras mejora la luminosidad de la piel. Está enriquecida con agua de salvado de arroz y PENTAVITIN para exfoliar suavemente la piel y dejar un acabado suave y flexible. También contiene ácidos hialurónicos y escualano para mantener la piel hidratada. Después de limpiar el rostro, aplicar una cantidad adecuada en la piel con movimientos de masaje y luego enjuagar bien con agua.",
     "detalles": "",
     "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/02/143/XXL_p0223114302.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/65/478/L_g0220847865.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/66/478/L_g0220847866.jpg"]
   },
   {
-    "id": 23,
+    "id": 22,
     "nombre": "Dr. Althea - Pore Refresh Grinding Cleansing Balm",
     "marca": "Dr. Althea",
     "categoria": "Bálsamos Limpiadores",
-    "precio": 16.70,
+    "precio": 25.70,
     "descripcion": "Beneficios: Un bálsamo limpiador hipoalergénico que limpia suave y profundamente el maquillaje y las impurezas de la piel sin irritarla. Formulado con extracto de hoja de Camellia Sinensis, que ayuda a controlar la secreción sebácea, y aceite de soja, que ayuda a mantener el equilibrio de hidratación de la piel. Contiene guaiazuleno sulfonato de sodio, que ayuda a calmar el enrojecimiento y a aliviar la piel irritada y sensible. Contiene aceite de semilla de Simmondsia Chinensis (jojoba), aceite de salvado de Oryza Sativa (arroz) y un complejo botánico que mantiene la piel hidratada después de la limpieza. Modo de empleo: 1. Aplique una cantidad generosa y masajee suavemente el rostro para eliminar el maquillaje y las impurezas. 2. Enjuague bien con agua tibia.",
     "detalles": "",
     "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/dr-althea-pore-refresh-grinding-cleansing-balm-50ml/10/589/XXL_p0216858910.jpg"]
   },
   {
-    "id": 24,
+    "id": 23,
     "nombre": "Arencia - Limpiador Facial Fresh Green Rice Mochi Cleanser",
     "marca": "Arencia",
     "categoria": "Limpiadores Faciales",
-    "precio": 32.42,
+    "precio": 25.95,
     "descripcion": "Limpiador purificante con agua y polvo de arroz para exfoliación suave, elimina puntos negros y desobstruye poros para una piel clara, suave y luminosa. Contiene extractos de té verde, centella y hamamelis para calmar, hidratar y equilibrar piel grasa o con tendencia al acné. Textura suave y esponjosa tipo mochi lograda mediante un proceso tradicional de amasado. Se puede usar como mascarilla con enjuague para limpieza profunda.",
     "detalles": "",
     "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/30/375/XXL_p0211937530.jpg"]
   },
   {
-    "id": 25,
+    "id": 24,
     "nombre": "Arencia - Limpiador Facial Calendula Rice Mochi Cleanser",
     "marca": "Arencia",
     "categoria": "Limpiadores Faciales",
-    "precio": 32.40,
+    "precio": 25.95,
     "descripcion": "Limpiador todo en uno para pieles sensibles con tres efectos: limpiador diario, exfoliante facial y desmaquillante. Enriquecido con más de 34 ingredientes naturales como extracto de caléndula (rico en vitamina C y flavonoides), extracto de Houttrynia Cordata y extracto de fruto de nopal. Proporciona hidratación profunda, efecto iluminador y calmante para piel irritada. Seguro para pieles sensibles.",
     "detalles": "",
     "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/91/370/XXL_p0217237091.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/23/997/L_g0212699723_000.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/23/997/L_g0212699723_002.jpg"]
   },
   {
-    "id": 26,
+    "id": 25,
     "nombre": "Arencia - Limpiador Facial Fresh Blue Hyssop Rice Mochi Cleanser",
     "marca": "Arencia",
     "categoria": "Limpiadores Faciales",
-    "precio": 32.40,
+    "precio": 25.95,
     "descripcion": "Limpiador todo en uno para piel mixta con tres efectos: limpiador diario, exfoliante facial y desmaquillante. Enriquecido con extracto de hisopo francés, rico en vitamina C y minerales, que suaviza la textura de la piel, elimina puntos negros y repone la hidratación. Formulado con la textura patentada de pastel de arroz (rice mochi) que ofrece limpieza profunda y alta hidratación. Seguro para pieles sensibles.",
     "detalles": "",
     "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/84/370/XXL_p0217237084.jpg"]
   },
   {
-    "id": 27,
+    "id": 26,
     "nombre": "Arencia - Fresh Rosehip Rice Mochi Cleanser",
     "marca": "Arencia",
     "categoria": "Limpiadores Faciales",
-    "precio": 24.00,
+    "precio": 25.95,
     "descripcion": "Detalles Esta es la versión renovada del Limpiador Fresh Royal de Rosa Mosqueta. Solo se han modificado el nombre del producto y el envase. Beneficios: Un limpiador hidratante que limpia a la vez que suaviza y calma la piel con una textura pastosa. Elaborado tras 170 horas de molienda, frotado y prensado repetidos de los ingredientes crudos con el método ASDT para obtener una textura densa y elástica similar a una masa. Contiene extracto de rosa mosqueta, rico en diversas vitaminas para nutrir la piel, y aloe vera rosa y manzanilla azul alemana para hidratar la piel y proporcionar beneficios antioxidantes. Enriquecido con polvo de almendra finamente molido para exfoliar la piel con suavidad. Mascarilla y limpiador 2 en 1 que ayuda a equilibrar los niveles de grasa y agua de la piel. Modo de empleo: Tome una cantidad adecuada de limpiador y añada agua para formar espuma. Masajee suavemente sobre la piel y enjuague con agua tibia.",
     "detalles": "",
     "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/28/375/XXL_p0211937528.jpg"]
   },
   {
-    "id": 28,
+    "id": 27,
     "nombre": "Anua - Aceite Limpiador Heartleaf Pore Control Cleansing Oil",
     "marca": "Anua",
     "categoria": "Limpiadores Faciales",
-    "precio": 18.13,
+    "precio": 25.93,
     "descripcion": "Con una fórmula no comedogénica y aceites de origen vegetal (incluyendo aceite de jojoba, aceite de oliva y aceite de semilla de uva), este aceite limpiador elimina eficazmente las impurezas de la piel, dejando un acabado fresco e hidratado. El extracto de planta camaleón en la fórmula ligera ayuda a mantener a raya las irritaciones. Apta para pieles propensas al acné.                                                       Beneficios: Este es un desmaquillante suave que ayuda a eliminar las impurezas en los poros. Fórmula no comedogénica adecuada para pieles propensas al acné. Fórmula ligera que no obstruye los poros.  Mantiene la piel hidratada después de la limpieza. Modo de empleo: 1. Dispensar el aceite limpiador en tus palmas y masajear sobre la piel seca.  2. Añadir un poco de agua para emulsionar. 3. Enjuagar bien con agua tibia.",
     "detalles": "",
     "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/anua-heartleaf-pore-control-cleansing-oil-200ml/28/372/XXL_p0185237228.jpg"]
   },
   {
-    "id": 29,
-    "nombre": "baren - Set de Mascarillas para Pies CICA SOS Quick Repair Foot Mask Set",
-    "marca": "baren",
-    "categoria": "Cuidado de Pies",
-    "precio": 21.40,
-    "descripcion": "Beneficios: Una mascarilla para pies de reparación rápida ofrece un cuidado calmante e hidratante instantáneo para la piel dañada y seca de los pies.   Envuelto con extracto de Centella asiática de 10.000 ppm para calmar la piel irritada y dañada y al mismo tiempo reponer la rica humedad para mantener la piel suave y saludable. Enriquecido con 5.000 ppm de urea y pantenol para mantener la piel hidratada durante todo el día y prevenir la deshidratación.  Presenta una textura refrescante tipo esencia que permite una rápida absorción.   Cómo utilizar:  1. Abra el embalaje a lo largo de la línea de puntos.  2. Úselo en los pies y ajuste la mascarilla con la pegatina.  3. Déjalo reposar durante 15-20 minutos y dale palmaditas suaves para absorber la esencia restante después de retirarlo.",
-    "detalles": "",
-    "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/81/849/XXL_p0206684981.jpg"]
-  },
+  "id": 28,
+  "nombre": "VT - Ampolla Facial Reedle Shot 100",
+  "marca": "VT",
+  "categoria": "Cuidado de la piel",
+  "precio": 23.17,
+  "descripcion": "Esta ampolla está llena con varios calmantes para la piel como extracto de cica, madecassoside y extracto de propóleos que ofrecen beneficios anti-inflamatorios. Ácido hialurónico y aceite de semilla de macadamia amplían el nivel de hidratación en la piel para una apariencia tersa. Gracias al tamaño pequeño de las moléculas, los ingredientes activos penetran profundamente en la piel hacia la capa dérmica para nutrir intensamente. Beneficios: Amplía el tratamiento de la piel permitiendo a los ingredientes activos penetrar profundamente en la piel para un cuidado intensivo. Hecha con micro agujas como Cica Reedle™ compuestas por micro minerales derivados de partículas que ayudan a la absorción de ingredientes en la piel. Exfolia las células muertas y cierra los poros para una piel suave y revitalizada. Contiene extracto de Cica y ácido hialurónico de bajo peso molecular para el cuidado calmante e hidratante de la piel. Clínicamente probada como hipoalergénica. Producto no comedogénico, apto para todo tipo de piel, incluidas las pieles sensibles y propensas al acné. Contenido: 50ml. Modo de empleo: Úsala después de la limpieza como parte de tu rutina nocturna de cuidado facial. Aplica una cantidad moderada sobre el rostro y masajea suavemente hasta que se absorba por completo. Es normal sentir un leve ardor después de la aplicación. Reedle Shot 100 se puede usar a diario, pero no debe aplicarse junto con Reedle Shot 300 o 700.",
+  "imagenes": [
+    "https://d1flfk77wl2xk4.cloudfront.net/Assets/vt-reedle-shot-100-50ml/78/876/XXL_p0192987678.jpg",
+    "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/39/862/L_g0192986239.jpg"
+  ]
+},
   {
-    "id": 30,
+    "id": 29,
     "nombre": "Centellian24 - Gel pelador tonificante Madeca Matcha",
     "marca": "Centellian24",
     "categoria": "Peelings",
@@ -292,11 +295,22 @@
     "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/centellian24-madeca-matcha-toning-peeling-gel-150ml/54/124/XXL_p0221312454.jpg"]
   },
   {
+    "id": 30,
+    "nombre": "Centellian24 - Crema Expert Madeca Active Renew PDRN",
+    "marca": "Centellian24",
+    "categoria": "Cuidado de la piel",
+    "precio": 19.91,
+    "descripcion": "La flacidez e irritación de la piel se interponen en tus objetivos de skincare? La crema activa Expert Madeca Renew PDRN de Centellian24 ayuda a restaurar la elasticidad y la calma de la piel con el patentado TECA-PDRN™ (contiene PDRN de salmón, agua de rosa y extractos de centella asiática). Esta también repite con ingredientes antiinflamatorios y rejuvenecedores como la cafeína y betasitosterol. Glutatión y ácido hialurónico para fortalecer la barrera cutánea y rellenar los niveles de hidratación. Beneficios: Firmeza y elasticidad 360° gracias al complejo TECA-PDRN™ que ayuda a mejorar la elasticidad para una piel más firme y de aspecto más juvenil. Calma y fortalece la piel estresada con centella asiática, perfecta para pieles sensibles o tras procedimientos. Hidratación profunda en múltiples capas combinando ácido hialurónico de diferentes tamaños moleculares. Ilumina y revitaliza la piel con cafeína y glutatión para una tez más luminosa y uniforme. Comodidad ligera efecto 'segunda piel' con textura de fijación elástica que se funde suavemente sin sensación pesada ni grasa. Recomendado para: todo tipo de piel, incluyendo sensible, seca, grasa y mixta. Objetivos: irritación post-tratamiento, función barrera debilitada, pérdida de elasticidad y falta de luminosidad. Modo de empleo: Aplicar una cantidad adecuada sobre el rostro y cuello al final de la rutina de cuidado, masajeando suavemente hasta su completa absorción.",
+    "imagenes": [
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/centellian24-expert-madeca-cream-active-renew-pdrn-50ml/87/846/L_p0222984687.jpg"
+    ]
+  },
+  {
     "id": 31,
     "nombre": "Beauty of Joseon - Protector Solar Relief Sun Aqua-fresh",
     "marca": "Beauty of Joseon",
     "categoria": "Protectores Solares",
-    "precio": 18.58,
+    "precio": 19.58,
     "descripcion": "Una versión extra hidratante del popular protector solar Relief Sun de Beauty of Joseon, Relief Sun Aqua-fresh cuenta con una fórmula líquida ligera y refrescante que no deja residuos blancos ni pegajosos. Este protector solar químico ofrece protección solar con SPF 50+ PA++++. Está formulado con un 30% de agua de semilla de arroz, junto con avena coloidal y pantenol para calmar y revitalizar la piel. Apto para todo tipo de piel.",
     "detalles": "",
     "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/beauty-of-joseon-relief-sun-aqua-fresh-50ml/27/780/XXL_p0211178027.jpg"]
@@ -306,27 +320,17 @@
     "nombre": "Anua - Sérum Facial Niacinamide 10% + TXA 4% Serum",
     "marca": "Anua",
     "categoria": "Sérum Facial",
-    "precio": 30.47,
+    "precio": 24.47,
     "descripcion": "Se trata de la versión renovada del sérum corrector de manchas oscuras Niacinamide 10% + TXA 4% de Anua. Solo se ha cambiado el nombre del producto y el envase.  Beneficios del sérum Niacinamide 10 TXA 4 de Anua:  Contiene un 10 % de niacinamida, un 4 % de ácido tranexámico y un 2 % de arbutina para difuminar las manchas oscuras, las marcas de acné y el tono desigual de la piel, frenando la producción de melanina.   Favorece la hidratación con ácido hialurónico y ácido poliglutámico, reteniendo la humedad para mejorar la apariencia y elasticidad de la piel. Promueve una suave renovación celular para difuminar las irregularidades y afinar la textura, dejando la piel sedosa y radiante.  Refuerza la barrera cutánea con ceramidas que protegen contra los factores de estrés diarios, al tiempo que calma las rojeces y la irritación.  Presenta una textura ligera y acuosa que se absorbe rápidamente sin dejar sensación grasa ni pegajosa.  Es lo suficientemente suave para todo tipo de pieles. Cómo utilizar el sérum de Anua Niacinamide 10 TXA 4:  Después de limpiar y tonificar, aplica unas gotas del sérum de niacinamida de Anua en las zonas que desees tratar. Aplícalo de manera suave con las yemas de los dedos hasta que se absorba por completo. Sigue con una crema hidratante o aceite facial para fijar los beneficios. Si utilizas el sérum de niacinamida por la mañana, asegúrate de aplicarte protector solar para mantener tu piel segura, sana y radiante.  Preguntas frecuentes acerca del sérum Niacinamide 10 TXA 4 de Anua: ¿Se puede utilizar el sérum de niacinamida de Anua todos los días?  ¡Por supuesto! Puedes utilizar el sérum Niacinamide 10 TXA 4 de Anua a diario, pero es buena idea ir poco a poco. Empieza con una vez al día, y luego ve aumentando hasta utilizarlo por la mañana y por la noche, una vez que sientas cómoda la piel.  ¿Se puede utilizar el sérum de niacinamida de Anua sobre el acné activo?  No es la mejor opción. Aunque la niacinamida y el ácido tranexámico tienen propiedades antiinflamatorias que pueden ayudar con el acné, el sérum de Anua Niacinamide 10 TXA 4 no está pensado como tratamiento del acné. Considéralo más como un “potenciador de la luminosidad“ para la piel que se está recuperando, no como una solución rápida para los brotes activos. ¿Se puede utilizar el sérum de niacinamida de Anua con retinol?   ¡Por supuesto que sí! La niacinamida y el retinol son un dúo potente. La niacinamida mantiene la piel calmada e hidratada, lo que ayuda a equilibrar los efectos a veces secantes del retinol. Aplica primero el sérum de niacinamida de Anua, deja que se asiente, y luego sigue con un sérum de retinol. Como el retinol funciona mejor por la noche, es el momento perfecto para combinarlos.",
     "detalles": "",
     "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/anua-niacinamide-10-txa-4-serum-30ml/15/229/XXL_p0215622915.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/88/006/L_g0218800688.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/86/006/L_g0218800686.jpg"]
-  },
-  {
-    "id": 33,
-    "nombre": "mixsoon - Esencia Facial Essence Jumbo 100ml - 3 Tipos",
-    "marca": "mixsoon",
-    "categoria": "Esencias Faciales",
-    "precio": 21.51,
-    "descripcion": "La Essence de Mixsoon está disponible en diferentes tipos para tratar distintas necesidades de la piel. distintas necesidades de la piel. Su fórmula acuosa contiene solo ingredientes esenciales y deja una sensación refrescante en la piel. La Centella Asiatica Essence calma la piel sensible e irritada. La Bifida Ferment Essence previene el daño causado por los radicales libres y forma una barrera de humedad sobre la piel. La Galactomyces Ferment Essence combate los signos del envejecimiento. -  OPCIONES DISPONIBLES: 1. 'Esencia Facial Soondy Centella Asiatica Essence': Ofrece un efecto calmante instantáneo para piel irritada y sensible. Aporta nutrientes y ayuda a reducir la irritación de la piel. Edición limitada de la mascota de mixsoon “Soondy”. 2. 'Esencia Facial Bifida Ferment Essence':  Forma una barrera de humedad para mantener la piel saludable con 100% extracto de fermento de Bifida. Hidrata la piel cansada y ofrece un excelente efecto revitalizante.   3. 'Esencia Facial Galactomyces Ferment Essence': Proporciona hidratación profunda para mejorar la piel opaca y cansada con 100% filtrado de fermento de Galactomyces. Revitaliza la piel y crea un cutis luminoso y radiante. -  MODO DE EMPLEO: Aplica una cantidad moderada y masajea suavemente para una mejor absorción.",
-    "detalles": "",
-    "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/mixsoon-essence-jumbo-100ml-3-types-bifida-ferment-galactomyces-ferment-soondy-centella-asiatica/30/563/XXL_p0222056330.jpg"]
   },
   {
     "id": 34,
     "nombre": "celimax - Sérum Facial The Vita-A Retinal Shot Tightening Booster",
     "marca": "Celimax",
     "categoria": "Sérums Faciales",
-    "precio": 30.47,
+    "precio": 25.47,
     "descripcion": "Un pequeño tubo del Retinal Shot Tightening Booster de celimax concentra mucha tecnología avanzada de skincare para ayudar a reducir esas arrugas. Este tratamiento antiedad combina 0.1% de retinal en tamaño nano con liposomas para cuidar suavemente los poros y mejorar la elasticidad. El pantenol y los péptidos de bajo peso molecular Matrixyl 3000 refuerzan el colágeno y la hidratación para una piel más firme y suave. El toque final es el ingrediente exclusivo de celimax, A-Shot™, compuesto por micropartículas que estimulan la piel y mejoran la absorción de los activos — ¡ese cosquilleo significa que está funcionando! POR QUE LO AMAMOS: ¡Retinal, péptidos y espículas en un solo producto poderoso!   -   BENEFICIOS:   Afirma y suaviza la piel: Gracias al retinal puro y a su complejo de péptidos, este booster antiedad ayuda a estimular la producción de colágeno y elastina. El resultado: una piel más rellena, firme y con menos líneas visibles. Ilumina y unifica el tono: Al acelerar el proceso de renovación celular, el Retinal Shot Tightening Booster ayuda a reducir manchas oscuras y zonas con hiperpigmentación, dejando tu piel más clara y radiante. Absorción profunda: La tecnología A-Shot™ de celimax utiliza 20,250 micropartículas, 16 veces más pequeñas que tus poros, lo que permite que los ingredientes activos lleguen a las capas profundas de la piel y ofrezcan resultados más efectivos. Calma e hidrata: Gracias a su 1% de vitamina B5 (pantenol) y otros ingredientes humectantes, esta fórmula ayuda a reducir la resequedad y la irritación que el retinal puede causar al principio. La piel se siente nutrida, cómoda y equilibrada.",
     "detalles": "",
     "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/celimax-the-vita-a-retinal-shot-tightening-booster-15ml/03/274/XXL_p0212227403.jpg"]
@@ -336,7 +340,7 @@
     "nombre": "Centellian24 - Crema Facial Madeca Cream Time Reverse",
     "marca": "Centellian24",
     "categoria": "Cremas Hidratantes",
-    "precio": 45.79,
+    "precio": 37.79,
     "descripcion": "Combate los signos del envejecimiento con esta crema ligera, enriquecida con colágeno y retinol para mejorar la elasticidad de la piel. Su fórmula rica en antioxidantes contiene centella asiática y extracto de cimicífuga para calmar y proteger la piel de agresores externos. Probada clínicamente como apta para pieles sensibles y propensas al acné.",
     "detalles": "",
     "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/17/653/XXL_p0215565317.jpg"]
@@ -346,7 +350,7 @@
     "nombre": "SKIN1004 - Protector Solar Madagascar Centella Tone Brightening Tone Up Sunscreen",
     "marca": "SKIN1004",
     "categoria": "Protectores Solares",
-    "precio": 21.40,
+    "precio": 19.40,
     "descripcion": "Este protector solar físico y Químico equipado con SPF50+ PA++++ ofrece protección solar de amplio espectro junto con una cobertura total para una piel impecable. La fórmula incluye Madawhite™ (que contiene extracto de madecassoside) para tratar las imperfecciones y la hiperpigmentación. Use protector solar en el último paso de su rutina matutina de cuidado de la piel o antes de la aplicación de maquillaje para obtener una base suave y uniforme. La fórmula con color se adapta a la mayoría de los tonos de piel y da un acabado natural.",
     "detalles": "",
     "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/skin1004-madagascar-centella-tone-brightening-tone-up-sunscreen-50ml/91/332/XXL_p0175333291.jpg"]
@@ -356,7 +360,7 @@
     "nombre": "Parnell - Base de Maquillaje Estilo Cushion Cicamanu Serum Cushion - 40 Tonos",
     "marca": "Parnell",
     "categoria": "Bases de Maquillaje",
-    "precio": 24.00,
+    "precio": 18.13,
     "descripcion": "Base de maquillaje estilo cushión infundida con sérum que está llena de ingredientes hidratantes y calmantes como el ingrediente exclusivo Cicamanu™ Biome de Parnell, centella asiática, ceramida y fitosfingosina. Ofrece una cobertura modulable para disimular el enrojecimiento y otras imperfecciones de la piel, logrando un acabado suave y no apelmazado. Libre de parabenos, alcohol y PEG, la fórmula es apta para pieles sensibles e irritadas. Tamaño: 15g   BENEFICIOS: Base de maquillaje estilo cushión infundida con sérum que proporciona un acabado luminoso a la piel mientras ofrece beneficios calmantes e hidratantes. Fórmula hidratante que se adhiere bien a la piel y cubre el enrojecimiento sin apelmazar, ofreciendo un acabado suave.  Infundida con un 37% del ingrediente exclusivo Cicamanu™ Biome de Parnell para proporcionar un efecto calmante, así como 374.740 ppm de extracto de centella asiática, ceramida y fitosfingosina. Libre de 6 ingredientes que pueden provocar alergias como alcohol, fenoxietanol, parabenos y PEG. Modo de empleo: Utilizar la esponja aplicadora para tomar una cantidad adecuada de producto del cushión en el envase. Aplicar a golpecitos suaves sobre la piel para crear una capa fina y uniforme.",
     "detalles": "",
     "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/63/981/XXL_p0188698163.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/97/419/L_g0218041997_000.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/97/419/L_g0218041997_001.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/97/419/L_g0218041997_003.jpg"]
@@ -366,20 +370,21 @@
     "nombre": "TIRTIR - Base en Formato Cushion Mask Fit Red Cushion Mini",
     "marca": "TIRTIR",
     "categoria": "Bases de Maquillaje",
-    "precio": 21.40,
+    "precio": 19.40,
     "descripcion": "Al brindar una alta cobertura además de protección solar SPF40 PA++, esta base acolchada oculta eficazmente las imperfecciones y los poros dilatados para obtener resultados impecables. La fórmula a prueba de manchas garantiza un uso duradero con un acabado semimate. La adición de extractos de propóleo, roselle y narciso marino mantiene la piel hidratada y suave.",
     "detalles": "",
     "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/tirtir-mask-fit-red-cushion-mini-40-colors/87/415/XXL_p0199041587.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/42/322/L_g0212932242_001.png", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/42/322/L_g0212932242_002.png", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/42/322/L_g0212932242_003.png"]
   },
   {
     "id": 39,
-    "nombre": "GOGO TALES - Double Spell Lip Cream (1-3)",
-    "marca": "Gogo Tales",
-    "categoria": "Labios",
-    "precio": 8.40,
-    "descripcion": "Crema labial de doble GOGO TALES Cloud Sensation BENEFICIOS: Delicia de doble textura: presenta 'Plump Jelly' para un acabado cristalino y 'Soft Matte Mousse' para un efecto aterciopelado y de enfoque suave.    Dos estilos distintos: elige entre el 'Milky Cream Mist' para un aspecto mate suave y acolchado, o el acabado 'Vibrant Ice Crystal' para un refrescante toque de color brillante. Lindo mini estuche: empaquetado en un estuche adorable y compacto con un diseño animado y enérgico, lo que lo convierte en una encantadora adición a tu colección de maquillaje.",
-    "detalles": "",
-    "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/43/069/L_p0209906943.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/57/069/L_g0209906957.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/58/069/L_g0209906958.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/59/069/L_g0209906959.jpg"]
+    "nombre": "Anua - Loción Heartleaf 70 Daily Lotion",
+    "marca": "Anua",
+    "categoria": "Cuidado de la piel",
+    "precio": 22.12,
+    "descripcion": "Esta loción nutritiva que contiene un 70% de extracto de hoja de corazón, extracto de hoja de albahaca y tres tipos de ácido hialurónico brinda una hidratación intensa además de beneficios calmantes y reparadores de barreras. Todos los ingredientes utilizados están verificados por EWG. Esta loción está dermatológicamente probada como hipoalergénica. Beneficios: Una loción hidratante formulada con un 70% de extracto de hoja de corazón que proporciona una hidratación intensa a la piel y ayuda a calmar la piel sensible. Cuenta con 3 tipos de Ácidos Hialurónicos que mantienen la piel hidratada y protegen la piel formando una barrera protectora. Contiene ingredientes EWG Green Level que son adecuados para todo tipo de pieles. Clínicamente probado para la irritación de la piel. Modo de empleo: Después de la limpieza, aplica una cantidad moderada y golpea ligeramente para una mejor absorción.",
+    "imagenes": [
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/anua-heartleaf-70-daily-lotion-200ml/74/604/XXL_p0137560474.jpg"
+    ]
   },
   {
     "id": 40,
@@ -396,7 +401,7 @@
       "nombre": "fwee - Brillo Labial 3D Voluming Gloss - 17 Colores",
       "marca": "fwee",
       "categoria": "Labios",
-      "precio": 25.39,
+      "precio": 21.39,
       "descripcion": "Brillo labial con una amplia variedad de tonos e intensidades, desde un 30% para un look natural hasta un 70% para un color vibrante, que deja los labios con un acabado brillante y con volumen. Su fórmula innovadora crea una película que sella la hidratación. Viene con un aplicador inclinado tipo esponja que permite una aplicación fácil y precisa. Elige entre varios colores.",
       "detalles": "",
       "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/fwee-3d-voluming-gloss-21-colors/80/032/XXL_p0208103280.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/53/070/L_g0220107053.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/54/070/L_g0220107054.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/55/070/L_g0220107055.jpg"]
@@ -416,7 +421,7 @@
       "nombre": "Shiseido - Mascarilla Capilar Fino Premium Touch Hair Mask",
       "marca": "Shiseido",
       "categoria": "Cuidado de Cabello",
-      "precio": 21.93,
+      "precio": 17.93,
       "descripcion": "Dale a tu melena ese toque Premium con la mascarilla capilar Fino, diseñada para hacer maravillas en cabello seco, dañado o teñido. Esta mascarilla japonesa viral está cargada con ingredientes tipo sérum como jalea real, PCA, escualano y péptido de perla, que hidratan, nutren y reparan profundamente desde la raíz hasta las puntas. Aplícala sobre el cabello recién lavado y secado con toalla, déjala actuar unos minutos y enjuaga para revelar un cabello más suave, sedoso y brillante. ¡El aroma floral delicioso es el toque final perfecto que complementa los resultados tipo spa! Mejor con: El aceite capilar Fino Premium Touch Hair Oil de Shiseido, para consentir tu cabello al máximo.",
       "detalles": "",
       "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/shiseido-fino-premium-touch-hair-mask-230g/20/062/XXL_p0204206220.jpg"]
@@ -426,27 +431,32 @@
       "nombre": "Shiseido - Aceite para el Cabello Fino Premium Touch Hair Oil",
       "marca": "Shiseido",
       "categoria": "Cuidado de Cabello",
-      "precio": 20.78,
+      "precio": 19.78,
       "descripcion": "Restaura el brillo del cabello seco con este aceite capilar enriquecido con vitamina E y escualano para reparar el cabello dañado y al mismo tiempo reponer la humedad para una suavidad y luminosidad duraderas. La textura ligera no deja ningún residuo pegajoso. Viene con un aroma floral.",
       "detalles": "",
       "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/shiseido-fino-premium-touch-hair-oil-70ml-70ml-old-edition/17/611/XXL_p0222161117.jpg"]
     },
     {
       "id": 45,
-      "nombre": "Seapuri - Sérum Capilar Scalpy Hair Serum",
-      "marca": "Seapuri",
-      "categoria": "Cuidado de Cabello",
-      "precio": 33.43,
-      "descripcion": "Calma el cuero cabelludo irritado con este sérum capilar formulado con dexpantenol para efectos calmantes y L-mentol para una sensación refrescante. El ácido salicílico en la fórmula exfolia suavemente la acumulación de células muertas y destapa los folículos, reduciendo la caspa. La queratina hidrolizada fortalece las raíces y previene la caída del cabello. La fórmula es apta para todo tipo de cabello.",
-      "detalles": "",
-      "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/seapuri-scalpy-hair-serum-20ml/31/386/L_p0219238631.jpg"]
+      "nombre": "UNLEASHIA - Base Tipo Cushion A by Unleashia Hey Dew Blue - 26 Colores",
+      "marca": "UNLEASHIA",
+      "categoria": "Maquillaje",
+      "precio": 12.61,
+      "descripcion": "¿Buscas una mini base estilo cushion que sea hidratante y ligera? Prueba la base tipo cushion A by Unleashia Hey Dew Blue. ¡Su textura hidratante y cremosa deja un acabado fresco y jugoso que luce suave y perfecto todo el rato! También está enriquecido con protector solar SPF30 PA++ que proporciona protección solar. Elige entre una amplia gama de tonos. Tamaño: 6g. Beneficios: Base de maquillaje tipo cushion hidratante que ofrece una cobertura ligera y delicada con hidratación prolongada. Disponible en 26 tonos, desde claros hasta oscuros con distintos subtonos, garantizando una combinación perfecta para cada tono de piel. Fórmula hidratante que se adhiere finamente a la piel y deja un acabado ligero y luminoso, como si la piel brillara desde el interior. Ofrece una aplicación cómoda sin apelmazarse ni resultar pesada, a la vez que refina la textura de la piel para un acabado suave e impecable. Formato compacto perfecto para viajar o para llevar contigo. Colores disponibles (26 tonos): #11N Morning, #13N Breeze, #14N Angel Haze, #16N Creamsilk, #18C Lucir, #18N Murmur, #19N Cooing, #20N Stella, #21C Lovesome, #21N Blooming, #21W Grace, #22N Muse, #23N Witty, #23W Sunday, #24N Eternal, #25N Ashrose, #27W Melody, #28N Solace, #29N Humble, #32N Mocha Veil, #35N Bronzedew, #38N Drizzle, #41N Rooted, #43N Moondust, #46N Cocoa Kiss, #51N Nightbare. Modo de empleo: Toma producto presionando suavemente la esponja aplicadora sobre el cushion. Da suaves toques en la piel para aplicar el producto y aplica capas adicionales para aumentar la cobertura.",
+      "imagenes": [
+        "https://d1flfk77wl2xk4.cloudfront.net/Assets/unleashia-a-by-unleashia-hey-dew-blue-cushion-26-colors/02/976/XXL_p0220697602.jpg",
+        "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/03/976/L_g0220697603_000.png",
+        "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/03/976/L_g0220697603_007.png",
+        "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/03/976/L_g0220697603_008.png",
+        "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/03/976/L_g0220697603_014.png"
+      ]
     },
     {
       "id": 46,
       "nombre": "The Saem - Silk Hair Repair Pack For Damaged Hair",
       "marca": "The Saem",
       "categoria": "Cuidado de Cabello",
-      "precio": 18.77,
+      "precio": 17.77,
       "descripcion": "Después del Shampoo, aplica un poco de este tratamiento de reparación capilar de textura cremosa que cuenta con una fórmula reparadora de proteínas y 11 tipos diferentes de aceites para cubrir los mechones con hidratación y nutrición para un acabado suave y sedoso. Enjuagar con agua tibia.",
       "detalles": "",
       "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/15/171/XXL_p0123217115.jpg"]
@@ -455,9 +465,9 @@
       "id": 47,
       "nombre": "TTVV - Skincare Bundle Set",
       "marca": "TTVV",
-      "categoria": "Cuidado de Cabello",
+      "categoria": "Cuidado de la piel",
       "precio": 24.31,
-      "descripcion": "Este paquete de cuidado de la piel viene con: Limpiador 100ml Tóner 100ml Suero 30ml  Crema de 30 ml  Protector solar 30ml  Mascarilla Diaria 7 hojas / 150ml LIMPIADOR: Un limpiador suave que limpia las impurezas de la piel y al mismo tiempo proporciona una hidratación profunda. Fórmula hidratante con 5 tipos de Ácidos Hialurónicos y 10 tipos de ingredientes herbales que hidratan y alivian la piel de irritantes externos.  Textura de gel hidratante suave y delicada, adecuada para todo tipo de piel.  TÓNER: Un tónico hidratante que aumenta la hidratación de la piel y alivia la irritación. Contiene un 40% de ingredientes de savia de abedul que empapan la piel con una humedad abundante y prolongada.  Formulado con adenosina y pantenol que ayuda a rellenar la piel y mejorar su elasticidad. Una textura hidratante pero refrescante que es absorbida rápidamente por la piel. SUERO: Un suero iluminador que ayuda a revitalizar e hidratar la piel.  Fórmula iluminadora altamente efectiva que contiene varios antioxidantes e ingredientes iluminadores como niacinamida, glutatión, ácido tranexámico y vitamina C para promover una piel clara y radiante. Enriquecido con Pantenol y 5 tipos de Ácidos Hialurónicos para calmar e hidratar la piel.  CREMA: Un humectante nutritivo e hidratante que ayuda a mejorar la elasticidad de la piel y proporciona beneficios calmantes.  Contiene 5 tipos de péptidos, madecasósido e ingredientes botánicos Plus-10 que aumentan la elasticidad y vitalidad de la piel. Formulado con Beta-Glutan que hidrata y promueve la capacidad de retención de humedad de la piel. Enriquecido con Glutatión que ilumina y revitaliza la piel opaca. PROTECROR SOLAR: Un protector solar químico que protege la piel del daño de los rayos UVA y UVB con SPF50+ PA++++.  Hidrata y proporciona cuidado de la barrera cutánea con ingredientes como ceramida, colesterol, ácidos grasos y pantenol. Enriquecido con hialuronato de sodio que aumenta la humedad prolongada de la piel.  Formulado con Botaniceutical Plus-10 que nutre y fortalece la barrera cutánea.  MÁSCARA DIARIA: Mascarillas laminares multifuncionales que hidratan y calman la piel al tiempo que brindan elasticidad y cuidado de barreras. Fórmula altamente hidratante con 5 tipos de Ácidos Hialurónicos y 10 tipos de ingredientes herbales que nutren y protegen la piel de irritantes externos. Contiene 5 tipos de péptidos, colágeno y extracto de Centella asiática que aumentan la elasticidad y vitalidad de la piel.  Material laminar fino elaborado con materiales de origen vegetal que se siente sedoso, suave y liso sobre la piel.  CÓMO UTILIZAR: 1. Enjabone una cantidad adecuada de limpiador sobre las plumas mojadas y masajee suavemente el rostro mojado. Enjuagar con agua tibia.  --  2. Aplique una cantidad adecuada de tónico sobre la piel limpia con las palmas de las manos o la almohadilla del trasero. También se puede utilizar como mascarilla facial.   --  3. (Opcional) Aplicar la mascarilla sobre la piel limpia y dejar actuar durante 15-20 minutos. Aplique suavemente la esencia restante.      --  4. Aplique una cantidad adecuada de suero sobre la piel limpia y dé palmaditas suaves para facilitar la absorción.  --  5. Aplique una cantidad adecuada de crema sobre la piel limpia y dé palmaditas suaves para facilitar la absorción.  --  6. Aplique una cantidad adecuada de protector solar en el último paso de mi rutina de cuidado de la piel y 30 minutos antes de la exposición al sol.",
+      "descripcion": "Este paquete de cuidado de la piel viene con: Limpiador 100ml Tóner 100ml Suero 30ml  Crema de 30 ml  Protector solar 30ml  Mascarilla Diaria 7 hojas / 150ml LIMPIADOR: Un limpiador suave que limpia las impurezas de la piel y al mismo tiempo proporciona una hidratación profunda. Fórmula hidratante con 5 tipos de Ácidos Hialurónicos y 10 tipos de ingredientes herbales que hidratan y alivian la piel de irritantes externos.  Textura de gel hidratante suave y delicada, adecuada para todo tipo de piel.  TÓNER: Un tónico hidratante que aumenta la hidratación de la piel y alivia la irritación. Contiene un 40% de ingredientes de savia de abedul que empapan la piel con una humedad abundante y prolongada.  Formulado con adenosina y pantenol que ayuda a rellenar la piel y mejorar su elasticidad. Una textura hidratante pero refrescante que es absorbida rápidamente por la piel. SUERO: Un suero iluminador que ayuda a revitalizar e hidratar la piel.  Fórmula iluminadora altamente efectiva que contiene varios antioxidantes e ingredientes iluminadores como niacinamida, glutatión, ácido tranexámico y vitamina C para promover una piel clara y radiante. Enriquecido con Pantenol y 5 tipos de Ácidos Hialurónicos para calmar e hidratar la piel.  CREMA: Un humectante nutritivo e hidratante que ayuda a mejorar la elasticidad de la piel y proporciona beneficios calmantes.  Contiene 5 tipos de péptidos, madecasósido e ingredientes botánicos Plus-10 que aumentan la elasticidad y vitalidad de la piel. Formulado con Beta-Glutan que hidrata y promueve la capacidad de retención de humedad de la piel. Enriquecido con Glutatión que ilumina y revitaliza la piel opaca. PROTECROR SOLAR: Un protector solar químico que protege la piel del daño de los rayos UVA y UVB con SPF50+ PA++++.  Hidrata y proporciona cuidado de la barrera cutánea con ingredientes como ceramida, colesterol, ácidos grasos y pantenol. Enriquecido con hialuronato de sodio que aumenta la humedad prolongada de la piel.  Formulado con Botaniceutical Plus-10 que nutre y fortalece la barrera cutánea.  MÁSCARA DIARIA: Mascarillas laminares multifuncionales que hidratan y calman la piel al tiempo que brindan elasticidad y cuidado de barreras. Fórmula altamente hidratante con 5 tipos de Ácidos Hialurónicos y 10 tipos de ingredientes herbales que nutren y protegen lapiel de irritantes externos. Contiene 5 tipos de péptidos, colágeno y extracto de Centella asiática que aumentan la elasticidad y vitalidad de lapiel.  Material laminar fino elaborado con materiales de origen vegetal que se siente sedoso, suave y liso sobre lapiel.  CÓMO UTILIZAR: 1. Enjabone una cantidad adecuada de limpiador sobre las plumas mojadas y masajee suavemente el rostro mojado. Enjuagar con agua tibia.  --  2. Aplique una cantidad adecuada de tónico sobre_la_piel_limpia_con_las_palmas_de_las_manos_o_la_almohadilla_del_trasero._También_se_puede_utilizar_como_mascarilla_facial._   --_3._(Opcional)_Aplicar_la_mascarilla_sobre_la_piel_limpia_y_dejar_actuar_during_15-20_minutos._Aplique_suavemente_la_esencia_restante._      --_4._Aplique una_cantidad_adecuada_de_suero_sobre_la_piel_limpia_y_dé_palmaditas_suaves_para_facilitar_la_absorción._  --_5._Aplique una_cantidad_adecuada_de_crema_sobre_la_piel_limpia_y_dé_palmaditas_suaves_para_facilitar_la_absorción._  --_6._Aplique una_cantidad_adecuada_de_protector_solar_en_el_último paso_de_mi_rutina_de_cuidado_de_la_piel_y_30_minutos_antes_de_la_exposición_al_sol.",
       "detalles": "",
       "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/40/138/XXL_p0217313840.jpg"]
     },
@@ -476,7 +486,7 @@
       "nombre": "TOCOBO - Mascarillas Labiales Lip Mask - 2 Tipos",
       "marca": "Tocobo",
       "categoria": "Labios",
-      "precio": 22.09,
+      "precio": 19.09,
       "descripcion": "Una rica mascarilla labial reafirmante formulada con aceite de oliva para exfoliar suavemente las células muertas de la piel para unos labios más suaves, mientras hidrata profundamente los labios secos.  Una textura hidratante pero transpirable que se puede utilizar durante la mañana y la tarde.  Opciones disponibles: Collagen Boosting: una mascarilla labial antienvejecimiento infundida con colágeno YF y aceite de lavanda para calmar e hidratar los labios, al tiempo que restaura la elasticidad de los labios para una condición de labios suaves y lisos. Mint Cooling: una mascarilla refrescante para labios enriquecida con extracto de menta de manzana y 4-terpineol para calmar, hidratar y enfriar eficazmente los labios irritados. Cómo utilizar: Aplique una capa gruesa del contenido uniformemente sobre los labios antes de acostarse.",
       "detalles": "",
       "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/35/705/XXL_p0214770535.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/37/705/L_g0214770537_002.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/43/705/L_g0214770543.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/46/705/L_g0214770546_000.jpg"]
@@ -496,77 +506,81 @@
     "nombre": "SKINFOOD - Corrector en Crema Salmon Darkcircle Concealer Cream - 3 Colores",
     "marca": "SKIN1FOOD",
     "categoria": "Maquillaje",
-    "precio": 14.88,
+    "precio": 9.88,
     "descripcion": "El popular Corrector de Ojeras Salmón es hecho a mano para cubrir las ojeras suave, textura en crema y tonos de color personalizados. El Corrector de Ojeras Salmón de SKINFOOD hace más que cubrir. Su fórmula llena de PDRN Salmón hidrata, tersa e ilumina la zona de la ojera para ayudar a que esas ojeras de panda se vayan.  Porque nos encanta: PDRN Salmón es un ingrediente absolutamente poderoso dentro del skincare y lo amamos más al poner un poco más en el maquillaje.",
     "detalles": "",
     "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/skinfood-salmon-darkcircle-concealer-cream-3-colors-01-salmon-blooming-02-salmon-beige-00-light-01-blooming-02-beige/82/849/L_p0053684982.png", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/54/499/L_g0212249954_001.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/54/499/L_g0212249954_002.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/54/499/L_g0212249954_003.jpg"]
   },
-  {
-    "id": 52,
-    "nombre": "SKINFOOD - Esencia Royal Honey Propolis Enrich Essence 50ml",
-    "marca": "SKIN1FOOD",
-    "categoria": "Esencia",
-    "precio": 25.92,
-    "descripcion": "Esencia profundamente nutritiva que contiene una combinación de extracto de propóleo, jalea real y miel para hidratar la piel y fortalecerla contra los daños ambientales. La miel y el propóleo son conocidos por sus propiedades antioxidantes y antibacterianas, así como por sus grandes capacidades de retención de humedad.",
-    "detalles": "",
-    "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/skinfood-royal-honey-propolis-enrich-essence-50ml/89/010/XXL_p0076901089.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/44/514/L_g0220151444.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/41/514/L_g0220151441.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/43/514/L_g0220151443.jpg"]
-  },
-  {
-    "id": 53,
-    "nombre": "SKINFOOD - Mascarilla Facial Carrot Carotene Daily Mask",
-    "marca": "SKIN1FOOD",
-    "categoria": "Cuidado de la piel",
-    "precio": 40.86,
-    "descripcion": "Hecha a medida para pieles propensas a la irritación, esta mascarilla en láminas repleta de extracto de zanahoria rico en betacaroteno y aceite de semilla de zanahoria calma instantáneamente la piel y ofrece una hidratación duradera. Las hojas de mascarilla, ecológicas y con certificación vegana, se adhieren perfectamente a la piel para una rápida administración de ingredientes activos. El pack contiene 30 mascarillas.",
-    "detalles": "",
-    "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/skinfood-carrot-carotene-daily-mask-30-sheets/98/619/XXL_p0204561998.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/64/601/L_g0210560164.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/88/617/L_g0204561788.jpg"]
-  },
-  {
+
+    {
+      "id": 52,
+      "nombre": "mixsoon - Sérum con Ácido Hialurónico Glacier Water Hyaluronic Acid Serum Jumbo",
+      "marca": "mixsoon",
+      "categoria": "Sérums Faciales",
+      "precio": 28.30,
+      "descripcion": "Enriquecido con agua glacial y tres tipos de ácido hialurónico, este sérum ofrece una hidratación potente para una piel flexible y tersa. Forma una película de humedad sobre la piel para ayudar a fortalecer la barrera cutánea.",
+      "detalles": "",
+      "ingredientes": "",
+      "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/mixsoon-glacier-water-hyaluronic-acid-serum-jumbo-300ml/92/347/L_p0159334792.jpg"]
+    },
+    {
+      "id": 53,
+      "nombre": "SKIN1004 - Ampolla Facial Lab in Nature Madagascar Centella Niacinamide 10 Boosting Shot",
+      "marca": "SKIN1004",
+      "categoria": "Sérums Faciales",
+      "precio": 25.92,
+      "descripcion": "Este producto contiene Centella Spicules, que puede provocar una sensación de hormigueo. Si tiene piel sensible, realice pruebas exhaustivas antes de usarlo.Beneficios:   Ampolla iluminadora con microespículas para mejorar el tono desigual de la piel, reducir los poros y aumentar el brillo de la piel.   Espículas infundidas con Centella de Madagascar y Pantenol para nutrir la piel y mejorar la absorción de ingredientes activos.    La niacinamida y el ácido tranexámico abordan los poros horizontales, verticales y pigmentados mientras refinan y suavizan la piel.   Enriquecido con glucósido de ascorbilo para igualar el tono de la piel y lograr un efecto iluminador general.   La fórmula de ampolla ligera proporciona un acabado refrescante e hidratante.   Cómo utilizar:  1. Este producto contiene microespículas que pueden provocar una sensación de hormigueo en la piel. No lo use durante irritaciones u otras infecciones de la piel.  2. Aplicar 2-3 veces por semana con una pequeña cantidad para la adaptación de la piel. 3. Después de la adaptación, se puede utilizar diariamente. Aplicar después de tonificar y completar con un producto hidratante para asegurar una hidratación suficiente.",
+      "detalles": "",
+      "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/skin1004-lab-in-nature-madagascar-centella-niacinamide-10-boosting-shot-ampoule-30ml/41/269/XXL_p0218526941.jpg"]
+      },
+      {
     "id": 54,
-    "nombre": "Arencia - Limpiado Facial con Té Verde y LHA Green Tea + LHA Deep Pore Rice Cake",
-    "marca": "Arencia",
+    "nombre": "SKINFOOD - Intensive Shea Butter Body Cream Lotion",
+    "marca": "SKINFOOD",
     "categoria": "Cuidado de la piel",
-    "precio": 26.60,
-    "descripcion": "Un limpiador facial que contiene LHA que ayuda a exfoliar los puntos negros y las celulas de piel muerta que mejora la textura de la piel. Formulado con Extracto de Té Verde que ayuda a calmar la piel irritada, controla el sebo y humecta la piel. Enriquecida con Bakuchiol, que contiene propiedades antioxidantes que ayudan a reafirmar los poros y revitaliza la piel.    La formula como de pastel de arroz se adhiere gentilmente y quita las impurezas de los poros para completar la limpieza.    Modo de empleo: Haz mucha espuma, póntela en la cara y el cuello, da un masaje y enjuagala con agua tibia.",
-    "detalles": "",
-    "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/36/373/XXL_p0217837336.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/49/554/L_g0221455449.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/51/554/L_g0221455451.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/48/554/L_g0221455448.jpg"]
+    "precio": 26.67,
+    "descripcion": "Esta loción corporal hidrata la piel. Su textura cremosa se derrite suavemente y deja un acabado hidratante para mantener la piel bien hidratada. Contiene extracto de avena y extracto de manteca de karité. Cuenta con un aroma calmante a almizcle. Modo de empleo: Aplica una cantidad moderada de loción corporal sobre el cuerpo y extiéndela suavemente.",
+    "imagenes": [
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/skinfood-intensive-shea-butter-body-cream-lotion-450ml/49/209/XXL_p0187320949.jpg"
+    ]
   },
-  {
-    "id": 55,
-    "nombre": "Nooni - Aceite Labial Apple Lip Oil - 13 Colores",
-    "marca": "Nooni",
-    "categoria": "Labios",
-    "precio": 16.20,
-    "descripcion": "El aceite labial Apple Lip Oil de Nooni suaviza los labios y les da un brillo saludable. Está formulado con aceites vegetales emolientes, incluyendo aceite de semilla de girasol, aceite de semilla de jojoba y aceite de semilla de manzana, para mantener a raya los labios agrietados. Presenta un aroma refrescante y ligero a manzana. Viene en varios colores, incluyendo una versión transparente.",
-    "detalles": "",
-    "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/99/606/XXL_p0209860699.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/38/709/L_g0222870938.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/39/709/L_g0222870939.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/36/709/L_g0222870936.jpg"]
-  },
-  {
-    "id": 56,
-    "nombre": "AXIS - Y - Sérum Contorno de Ojos Vegan Collagen Eye Serum",
-    "marca": "Axis",
-    "categoria": "Cuidado de la piel",
-    "precio": 17.50,
-    "descripcion": "Sérum de colágeno vegano de AXIS-Y que revitaliza tu mirada. Su fórmula exclusiva 6+1+1 combina seis ingredientes botánicos hidratantes e iluminadores, como el aceite de jojoba y el extracto de manzana verde. Está enriquecido con colágeno vegano para tratar las arrugas y un complejo de cinco péptidos que mejora la firmeza de la piel. Incluye un aplicador con bola metálica para una aplicación cómoda y refrescante.",
-    "detalles": "",
-    "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/axis-y-vegan-collagen-eye-serum-10ml/02/234/XXL_p0205723402.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/35/002/L_g0221100235_004.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/35/002/L_g0221100235_003.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/35/002/L_g0221100235_002.jpg"]
-  },
-  {
-    "id": 57,
-    "nombre": "AXIS - Y - Aceite Labial Vita Glow Lip Oil - 3 Colores",
-    "marca": "Axis",
-    "categoria": "Cuidado de la piel",
-    "precio": 14.90,
-    "descripcion": "Da a tus labios un aumento de hidratación, un acabado jugoso y brillante con este aceite labial vegano. Formulado con vitamina E y ceramida NP, la formula mantiene los labios suaves y carnosos todo el día. Disponible en transparente Dreamy Olive, junto con opciones con color como en tonos cálidos Cozy Fig y tonos fríos Chilled Berry.",
-    "detalles": "",
-    "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/axis-y-vita-glow-lip-oil-3-colors-chilled-berry-cozy-fig-dreamy-olive/43/888/XXL_p0218888843.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/18/647/L_g0219464718.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/19/647/L_g0219464719.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/20/647/L_g0219464720.jpg"]
-  },
+    {
+      "id": 55,
+      "nombre": "SKIN1004 - Sérum Facial Iluminador Madagascar Centella Tone Brightening Capsule Ampoule Jumbo",
+      "marca": "SKIN1004",
+      "categoria": "Sérums Faciales",
+      "precio": 22.97,
+      "descripcion": "Tónico ligero y potente con MadeWhite™ (extractos de centella asiática y niacinamida) para iluminación, hidratación y efectos calmantes. Incluye extractos de papaya y manzana para exfoliación suave.",
+      "detalles": "",
+      "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/55/808/M_p0161880855.jpg"]
+    },
+    {
+      "id": 56,
+      "nombre": "Dr. Althea - Crema hidratante 147 Barrier Cream",
+      "marca": "Dr. Althea",
+      "categoria": "Cremas Hidratantes",
+      "precio": 18.39,
+      "descripcion": "Hidratante calmante enriquecida con azuleno derivado de manzanilla y ceramidas que ayuda a aliviar la irritación, fortalece la barrera de la piel y aumenta su capacidad de retención de humedad.",
+      "detalles": "",
+      "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/15/614/M_p0105361415.jpg"]
+    },
+    {
+      "id": 57,
+      "nombre": "The Saem - Corrector Cover Perfection Triple Pot Concealer - 5 Tipos",
+      "marca": "The Saem",
+      "categoria": "Maquillaje",
+      "precio": 12.30,
+      "descripcion": "Cubre imperfecciones con este corrector que incluye tres tonos diseñados para corregir y equilibrar distintas áreas del rostro. La fórmula cremosa se extiende suavemente sin apelmazarse y se adhiere firmemente para un acabado duradero. La infusión de aceite de almendra dulce mantiene la piel hidratada. Tamaño: 4.5g x 3. Beneficios: Este corrector sólido presenta una combinación de tres colores que trabajan en armonía para perfeccionar tu maquillaje. Su textura tipo bálsamo permite una cobertura precisa y detallada de imperfecciones, logrando un acabado natural y uniforme. Se funde con la temperatura de tus dedos, ofreciendo una adherencia prolongada sin apelmazarse ni dejar sensación grasosa. Contiene aceite de almendra dulce que ayuda a prevenir la resequedad. Disponible en 5 versiones: Correct Beige (#01): Clear Beige (imperfecciones), Green (enrojecimiento), Peach (ojeras y tonos azulados). Contour Beige (#02): Natural Beige (imperfecciones), Highlighting (volumen), Shading (definición). Correct Up Beige (#03): Light Beige (imperfecciones), Light Green (enrojecimiento), Light Peach (ojeras y tonos azulados). Tone Up Beige (#04): Ice Beige (imperfecciones), Lemon (tonos azulados y pigmentación), Lavender (tonos amarillentos). Dark Up Beige (#05): Volume Beam (iluminador radiante), Brightener (iluminador rosado), Light Peach (ojeras y tonos azulados). Modo de empleo: Toma una cantidad adecuada con la yema del dedo o una brocha y aplícala suavemente sobre las zonas deseadas. Guarda el producto en un lugar seco a una temperatura entre 10–30°C.",
+      "imagenes": [
+        "https://d1flfk77wl2xk4.cloudfront.net/Assets/53/083/XXL_p0192908353.jpg"
+      ]
+    },
   {
     "id": 58,
     "nombre": "AROUND LAB - Protector Solar Birch Juice",
     "marca": "Axis",
     "categoria": "Protectores Solares",
-    "precio": 24.36,
+    "precio": 16.36,
     "descripcion": "Protector solar químico con SPF50+ PA++++ que protege la piel de los rayos UV mientras ofrece varios beneficios para el cuidado de la piel. Está enriquecido con 1.425 ppm de jugo de abedul y ácido hialurónico para mantener la piel hidratada, junto con niacinamida para dejar la piel radiante. Otros ingredientes como la adenosina ofrecen cuidado antienvejecimiento. El protector solar orgánico con una textura de crema suave deja un acabado sin residuos blancos y sin sensación pegajosa.",
     "detalles": "",
     "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/round-lab-birch-juice-moisturizing-sunscreen-50ml/48/091/XXL_p0196509148.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/09/570/L_g0207457009_002.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/09/570/L_g0207457009_008.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/09/570/L_g0207457009_013.jpg"]
@@ -586,7 +600,7 @@
     "nombre": "SKIN1004 - Protector Solar Madagascar Centella Hyalu-Cica Water-Fit Sun Serum",
     "marca": "SKIN1004",
     "categoria": "Protectores Solares",
-    "precio": 22.68,
+    "precio": 16.68,
     "descripcion": "Protector solar orgánico con FPS 50+ PA++++, formulado con una proporción ideal de ácido hialurónico y extracto de centella asiática para calmar e hidratar la piel sin dejar residuos blancos. Contiene además extractos de hoja de rúcula, té verde y brócoli que aportan beneficios antioxidantes y mejoran el estado general de la piel. Su textura cremosa de rápida absorción deja la piel jugosa y luminosa, sin sensación pegajosa.",
     "detalles": "",
     "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/skin1004-madagascar-centella-hyalu-cica-water-fit-sun-serum-50ml/59/332/XXL_p0175333259.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/18/562/L_g0216456218_003.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/18/562/L_g0216456218_004.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/18/562/L_g0216456218_008.jpg"]
@@ -596,7 +610,7 @@
     "nombre": "Beauty of Joseon - Protector Solar Relief Sun",
     "marca": "Beauty of Joseon",
     "categoria": "Protectores Solares",
-    "precio": 25.27,
+    "precio": 17.27,
     "descripcion": "Formulado con FPS 50+ PA++++ de amplio espectro para proteger tu piel de los rayos UVA y UVB, este protector solar orgánico tiene una textura ligera tipo crema que se absorbe rápido y no deja rastro blanco. Contiene niacinamida para darle a tu piel un brillo saludable y natural. Además, está enriquecido con extracto de arroz y probióticos de origen vegetal que ayudan a mantenerla suave e hidratada. Libre de oxibenzona, octinoxato e ingredientes de origen animal, el Relief Sun es perfecto para pieles sensibles.",
     "detalles": "",
     "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/beauty-of-joseon-relief-sun-50ml/95/834/XXL_p0162883495.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/35/308/L_g0221830835.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/36/308/L_g0221830836.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/37/308/L_g0221830837.jpg"]
@@ -606,7 +620,7 @@
     "nombre": "KSECRET - Crema Contorno de Ojos SEOUL 1988 Eye Cream : Retinal Liposome 4% + Fermented Bean",
     "marca": "Seoul 1988",
     "categoria": "Cuidado de la piel",
-    "precio": 24.00,
+    "precio": 13.00,
     "descripcion": "Las bolsas de los ojos y las arrugas no tienen oportunidad con esta intensa Crema contorno de ojos SEOUL 1988 Eye Cream con cuidado antienvejecimiento. Fórmula con 4% de liposomas de retinal, que entra en capas más profundas de la piel para mejorar la elasticidad y difumina las líneas de expresión. El retinal trabaja con extractos fermentados que incluyen fermentado de soja para tersar e iluminar la piel madura. Vitamina C, Vitamina E, bakuchiol, péptidos y extractos de raíces de hierbas que sellan todo con antioxidantes y potencian el colágeno.   or qué nos encanta: La Crema contorno de ojos KSECRET SEOUL 1988 Eye Cream reúne prácticamente todos los potentes ingredientes antiedad que podrías desear en un solo lugar, incluyendo retinal en alta concentración, en una forma suave y estabilizada.",
     "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/ksecret-seoul-1988-eye-cream-retinal-liposome-4-fermented-bean-30ml/20/371/XXL_p0212137120.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/21/371/L_g0212137121_005.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/21/371/L_g0212137121_001.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/21/371/L_g0212137121_004.jpg"]
   },
@@ -615,7 +629,7 @@
     "nombre": "VT - Crema Contorno de Ojos Reedle Shot Lifting Eye Cream",
     "marca": "VT",
     "categoria": "Cuidado de la piel",
-    "precio": 24.00,
+    "precio": 21.00,
     "descripcion": "Crema para contorno de ojos con CICA REEDLE™ que favorece la absorción profunda de ingredientes activos (como ácido cítrico, colágeno, ácido hialurónico y elastina) para nutrir la piel mientras reduce los signos de envejecimiento. También ayuda a mejorar las ojeras con niacinamida. La crema para contorno de ojos viene con un aplicador de metal para aplicar y masajear el producto en el área de los ojos con facilidad.",
     "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/vt-reedle-shot-lifting-eye-cream-15ml/12/578/XXL_p0205957812.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/49/494/L_g0205949449_002.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/49/494/L_g0205949449_003.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/49/494/L_g0205949449_010.jpg"]
   },
@@ -624,7 +638,7 @@
     "nombre": "Dr.Melaxin - Bálsamo Contorno de Ojos Cemenrete Calcium Volume Multi Balm",
     "marca": "Dr. Melaxin",
     "categoria": "Cuidado de la piel",
-    "precio": 30.50,
+    "precio": 28.50,
     "descripcion": "Cuando busques un cambio verdadero en el cuidado de tus ojos — que atienda al mismo tiempo la flacidez, las ojeras y esas pequeñas pero notorias patas de gallo — confía en la marca de K‑Beauty Dr. Melaxin con esta solución todoterreno. El Cemenrete Calcium Volume Multi‑Balm combina calcio, extracto de colágeno y elastina para estimular la regeneración celular y reforzar la producción de colágeno, logrando un efecto reafirmante visible. Aceites naturales como el de aguacate mantienen la piel del contorno de ojos suave y tersa. Agentes iluminadores como la glutatión ayudan a reducir las manchas y aportar luminosidad. ¡Luce una mirada más radiante y rejuvenecida!  En pocas palabras: Bálsamo multiusos para el cuidado de ojos, formulado con reconocidos activos antiedad y potenciadores de luminosidad como colágeno y glutatión, para revitalizar y aportar frescura a la delicada zona del contorno de ojos.",
     "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/dr-melaxin-cemenrete-calcium-volume-multi-balm-9g/81/708/XXL_p0220770881.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/81/275/L_g0222927581.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/82/275/L_g0222927582.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/80/275/L_g0222927580.jpg"]
   },
@@ -633,7 +647,7 @@
     "nombre": "NIDA - Crema hidratante Youthful Formula Ultimate Moisturizing Cream",
     "marca": "NIDA",
     "categoria": "Cuidado de la piel",
-    "precio": 18.80,
+    "precio": 18.32,
     "descripcion": "Sin complicaciones, solo lo que funciona. Crema hidratante Youthful Formula Ultimate Moisturizing Cream es una crema suave y versátil, digna de un lugar en tu rutina de cuidado de la piel. Desarrollado con colágeno para mejorar la elasticidad, niacinamida para iluminar la piel, extracto de cica para calmar la irritación y ácido hialurónico para prevenir la sequedad, la fórmula asegura todo lo que tu piel necesita en tan solo un paso. Crema sin fragancia ni aceites esenciales, apta para todo tipo de piel, incluida la piel sensible. Beneficios: Un hidratante con múltiples beneficios como hidratar, rellenar e iluminar para un tono de piel juvenil y saludable. Con colágeno hidrolizado, niacinamida, extracto de centella asiática y ácido hialurónico, esta crema hidrata, calma, suaviza e ilumina la piel en un solo paso. Fórmula ligera y de rápida absorción, apta para todo tipo de piel y para uso diario. Método de empleo: Aplica una cantidad adecuada sobre la piel limpia y masajea suavemente para favorecer la absorción.",
     "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/nida-youthful-formula-ultimate-moisturizing-cream-100ml/13/700/XXL_p0224070013.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/14/700/L_g0224070014_001.jpg"]
   },
@@ -651,25 +665,27 @@
     "nombre": "AESTURA - Crema Atobarrier 365",
     "marca": "AESTURA",
     "categoria": "Cuidado de la piel",
-    "precio": 43.50,
+    "precio": 38.50,
     "descripcion": "¿Intentando devolver a tu barrera cutánea a su mejor estado? Entra: Crema Atobarrier 365 de AESTURA. Esta crema hipoalergénica nutre profundamente la piel con ceramidas encapsuladas de alta densidad que ayudan a reparar la piel mientras apoyan una hidratación de larga duración. También infusionada con niacinamida potenciadora de la barrera cutánea, fitoesfingosina y ácidos grasos, la fórmula dermatológicamente testada es el camino hacia una piel más sana y calmada. Beneficios: Cuidado fortalecedor de la barrera cutánea con tecnología de cápsulas de ceramidas que favorece una mayor retención de ceramidas en la barrera cutánea. Hidratación profunda y duradera que mantiene los niveles de hidratación hasta 120 horas después de una sola aplicación. Calma el enrojecimiento y la irritación con ingredientes como la alantoína. Suave para todo tipo de pieles, no comedogénica y dermatológicamente testada. Recomendado para: piel seca, muy seca y sensible; indicado para sequedad intensa, descamación, barrera cutánea dañada, enrojecimiento, irritación y sensibilidad. Método de empleo: Utiliza como último paso de tu rutina de cuidado de la piel, después del tónico y el sérum, tanto por la mañana como por la noche. Toma una pequeña cantidad y extiéndela uniformemente por el rostro, presionando suavemente con las manos para favorecer su absorción.",
     "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/50/436/XXL_p0177743650.jpg"]
   },
   {
     "id": 68,
-    "nombre": "Purito SEOUL - Sérum Retinol Retinal 2000 NAD+",
-    "marca": "Purito SEOUL",
-    "categoria": "Cuidado de la piel",
-    "precio": 24.00,
-    "descripcion": "¿Buscas un sérum anti-edad que combata las líneas de expresión y las arrugas para un tú más joven? Sérum Retinol Retinal 2000 NAD+ de Purito SEOUL está enriquecido con retinol y retinal, junto con NAD+ para reafirmar la piel y potenciar la regeneración de la piel. La fórmula de doble textura se activa al agitar el envase, mezclando este potente trío de activos rejuvenecedores para lograr la máxima eficacia. También deja un acabado hidratante. Recomendación: Aplica la crema Oat-In Calming Gel después del sérum para sellar la hidratación.",
-    "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/purito-seoul-retinol-retinal-2000-nad-serum-30ml/59/125/XXL_p0224412559.jpg"]
+    "nombre": "Rasyan - Herbal Clove Toothpaste with Coconut",
+    "marca": "Rasyan",
+    "categoria": "Cuidado bucal",
+    "precio": 6.86,
+    "descripcion": "El ácido láurico del coco es un ácido graso que ayuda a combatir las bacterias y prevenir el mal aliento. La pasta dental de clavo de olor herbal utiliza una fórmula especial para eliminar bacterias bucales, manchas de tabaco, manchas de té, blanquear los dientes y también puede reducir la sensibilidad dental y combatir bacterias. También es muy efectiva en la desensibilización, manteniendo tu aliento fresco durante todo el día. No mojes tu cepillo de dientes con agua. El cepillado en seco es más efectivo. Modo de empleo: Toma una cantidad del tamaño de un guisante cada vez y cepilla durante aproximadamente 2-3 minutos. La espuma es fina y no irrita la boca.",
+    "imagenes": [
+      "https://d1flfk77wl2xk4.cloudfront.net/Assets/62/504/XXL_p0204550462.jpg"
+    ]
   },
   {
     "id": 69,
     "nombre": "KSECRET - Sérum Facial SEOUL 1988: Retinal Liposome 2% + Black Ginseng",
     "marca": "KSECRET",
     "categoria": "Cuidado de la piel",
-    "precio": 18.80,
+    "precio": 17.80,
     "descripcion": "¡El secreto K-Beauty para una piel firme y juvenil! El sérum SEOUL 1988 lleva los poderosos efectos antiedad del 2% de retinal liposomado a las capas más profundas de la piel, ayudando a mejorar su elasticidad y combatir las líneas de expresión, las manchas oscuras y la textura desigual. Su fórmula con extracto de ginseng negro, bakuchiol, vitamina C y péptidos aporta antioxidantes y estimula la producción de colágeno, convirtiéndolo en el favorito viral que realmente funciona en todo tipo de piel, especialmente en pieles maduras. Beneficios: Efecto antiedad que suaviza líneas de expresión y arrugas, dando a tu piel un aspecto más firme y terso. Ilumina y equilibra con niacinamida para atenuar la pigmentación y dar luminosidad. Hidrata y calma con glicerina y bakuchiol, fortaleciendo la barrera cutánea. Fórmula suave y segura, dermatológicamente probada y libre de alcoholes agresivos, parabenos, sulfatos, siliconas, fragancias y colorantes artificiales. Método de empleo: Funciona mejor como parte de tu rutina nocturna. Después de limpiar y tonificar, aplica una pequeña cantidad (del tamaño de un chícharo) sobre la piel seca del rostro y cuello. Masajea suavemente hasta que se absorba por completo. Finaliza con tu crema hidratante. Mantén en un lugar fresco y alejado de la luz solar.",
     "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/ksecret-seoul-1988-serum-retinal-liposome-2-black-ginseng-30ml/25/128/L_p0204412825.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/67/096/L_g0204409667_002.jpg"]
   },
@@ -678,7 +694,7 @@
     "nombre": "Arencia - Sérum Facial Vitamin C Booster Shot",
     "marca": "Arencia",
     "categoria": "Cuidado de la piel",
-    "precio": 30.50,
+    "precio": 20.50,
     "descripcion": "Despídete de las manchas oscuras, la hiperpigmentación y la piel apagada con el Sérum Facial Vitamin C Booster Shot de Arencia, formulado con ingredientes iluminadores de culto como vitamina C, glutatión y niacinamida. También contiene ingredientes que refuerzan la barrera cutánea, como pantenol y alantoína, para mantener altos los niveles de hidratación y minimizar la irritación. Beneficios: Ilumina y unifica el tono de la piel con una potente mezcla de vitamina C y sus derivados estables, tratando la piel apagada, las manchas oscuras y el tono desigual. Proporciona defensa antioxidante rica en vitamina E y glutatión para combatir los radicales libres. Aporta un extra de hidratación con ácido hialurónico para conseguir un efecto relleno instantáneo. Refina la textura de la piel con niacinamida para regular la producción de sebo y minimizar los poros. Fórmula suave pero eficaz con pantenol, glicerina y alantoína para calmar, hidratar y reforzar la barrera cutánea. Recomendado para: todo tipo de piel, indicado para hiperpigmentación, cicatrices de acné, manchas oscuras, manchas solares, piel apagada, textura desigual y primeros signos de envejecimiento. Método de empleo: Empieza con la piel limpia y seca. Toma una pequeña cantidad y aplica sobre el rostro, masajeando suavemente hasta su completa absorción. Para mejores resultados, usa protector solar durante el día.",
     "imagenes": ["https://d1flfk77wl2xk4.cloudfront.net/Assets/arencia-vitamin-c-booster-shot-30ml/11/290/XXL_p0222429011.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/06/089/L_g0225208906.jpg", "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/08/089/L_g0225208908.jpg"]
   },
@@ -699,7 +715,7 @@
   "nombre": "Torriden - Sérum de Ácido Hialurónico DIVE-IN Low Molecular Hyaluronic Acid Serum",
   "marca": "Torriden",
   "categoria": "Cuidado de la piel",
-  "precio": 24.02,
+  "precio": 25.02,
   "descripcion": "Sérum ligero y potente, repleto de ácido hialurónico de 5D-Complex que se absorbe rápidamente para hidratar instantáneamente la piel. Ingredientes adicionales como pantenol, alantoína y madecassoside calman eficazmente la piel. El color azul pastel del sérum se deriva naturalmente del extracto de malaquita que fortifica la barrera cutánea. Beneficios: Este es un sérum hidratante que se puede absorber rápidamente en solo 3 segundos. El ácido hialurónico de 5D-Complex repone y retiene la humedad en las capas profundas de la piel. Incluye D-Pantenol, alantoína y madecassoside, que pueden calmar eficazmente la piel. La esencia rejuvenecedora y ligera se puede absorber completamente, dejando un acabado refrescante. Modo de empleo: Usar el gotero para tomar de 3 a 5 gotas del sérum y extender uniformemente por todo tu rostro. Aplicar varias capas en tu rostro para un mejor efecto hidratante.",
   "imagenes": [
     "https://d1flfk77wl2xk4.cloudfront.net/Assets/torriden-dive-in-low-molecular-hyaluronic-acid-serum-50ml/19/579/XXL_p0139957919.jpg"
@@ -721,7 +737,7 @@
   "nombre": "AROMATICA - Exfoliante Capilar Rosemary Scalp Scrub",
   "marca": "AROMATICA",
   "categoria": "Cuidado del cabello",
-  "precio": 20.00,
+  "precio": 19.00,
   "descripcion": "Dale a tu cuero cabelludo una limpieza refrescante con este exfoliante capilar. Formulado con sal del mar muerto y otros ingredientes naturales verificados por el EWG, estos productos mantienen tu cuero cabelludo relajado y limpio con una exfoliación suave, completado con una esencia terapéutica de romero. Ventajas: Elimina las células muertas de la piel y las impurezas acumuladas en los poros mediante la sal del Mar Muerto de Israel. Calma y purifica el cuero cabelludo con extractos de hierbas fabricados directamente por Aromatica. Con ingredientes que tienen la certificación EWG y son en un 96.3% de procedencia natural. Modo de empleo: Aplicar la cantidad necesaria de manera uniforme en el cabello mojado y masajear durante un rato. Añadir una cantidad moderada de agua para hacer espuma, luego masajear un poco más y aclarar con agua templada.",
   "imagenes": [
     "https://d1flfk77wl2xk4.cloudfront.net/Assets/12/762/XXL_p0103176212.jpg"
@@ -743,7 +759,7 @@
   "nombre": "haruharu wonder - Aceite Corporal Black Bamboo Daily Smoothing Body Oil",
   "marca": "haruharu wonder",
   "categoria": "Cuidado de la piel",
-  "precio": 21.45,
+  "precio": 22.45,
   "descripcion": "Usa este aceite corporal para exfoliar suavemente las células muertas para una piel suave. Formulado con ácido mandélico (AHA) y urea, este aceite corporal refina y pule la piel áspera sin causar irritación. La fórmula cremosa contiene aceite de almendra dulce, aceite de tamanu, aceite de argán y escualano para ofrecer hidratación y reparación de la barrera de manera natural. Beneficios: Un aceite alisante formulado con urea y AHA para hidratar profundamente y calmar la piel seca e irritada, mientras exfolia suavemente las células muertas de la piel para promover una piel luminosa y suave. Enriquecido con escualano y aceite de argán orgánico para prevenir la pérdida de humedad y mejorar la textura general de la piel, apoyando la barrera de la piel. Libre de ingredientes potencialmente dañinos, como sulfatos, siliconas y alcohol secante. Formulado con aceites esenciales naturales que proporcionan un sutil aroma herbal y floral. Un aceite con textura cremosa y ligera que deja la piel suave e hidratada sin pegajosidad ni pesadez, apto para todo tipo de piel. Modo de empleo: Después de la ducha, aplicar una cantidad moderada sobre la piel húmeda y masajear suavemente. Alternativamente, masajear en áreas secas, como el pecho, las rodillas o los codos.",
   "imagenes": [
     "https://d1flfk77wl2xk4.cloudfront.net/Assets/haruharu-wonder-black-bamboo-daily-smoothing-body-oil-200ml/57/262/XXL_p0216726257.jpg"
@@ -802,6 +818,78 @@
   "descripcion": "Basado en 100 años de experiencia en el cuidado de la piel, NIVEA ha seleccionado preciosos ingredientes naturales y aceites nutritivos y los ha mezclado en una loción única. Deleitará tus sentidos con una delicada fragancia y cuidará tu piel con 24 horas de hidratación profunda. Tu piel se sentirá irresistiblemente suave y bellamente radiante durante todo el día. Modo de empleo: Aplica una cantidad generosa sobre la piel después de la ducha y masajea para que se absorba.",
   "imagenes": [
     "https://d1flfk77wl2xk4.cloudfront.net/Assets/39/343/XXL_p0224634339.jpg"
+  ]
+},
+{
+  "id": 82,
+  "nombre": "SKIN1004 - Mascarilla de Arcilla Madagascar Centella Poremizing Quick Clay Stick Mask",
+  "marca": "SKIN1004",
+  "categoria": "Cuidado de la piel",
+  "precio": 14.79,
+  "descripcion": "Haz que tu sesión de mascarilla exfoliante sea más sencilla y cómoda con la Madagascar Centella Poremizing Quick Clay Stick Mask de SKIN1004. Solo desliza el stick sobre la piel limpia y deja actuar la mascarilla 3-5 minutos. Las cinco arcillas y el polvo de frijol rojo de la fórmula eliminan las impurezas de los poros mientras mejoran la textura de la piel. Después de aclarar con agua tibia, la piel sigue sintiéndose cómoda gracias a los ingredientes hidratantes y calmantes, como la centella asiática de Madagascar. Beneficios: Purifica y desintoxica con cinco tipos de arcillas purificadoras como caolín y arcilla blanca, eliminando el exceso de grasa y las impurezas de los poros. Suaviza y mejora la textura de la piel con polvo de judía roja finamente molido que exfolia suavemente las células muertas. Calma e hidrata con centella asiática de Madagascar y esencia hidratante 30%. Fácil y sin complicaciones con su práctico diseño en stick roll-on. Recomendado para: piel grasa, normal y mixta. Indicada para poros obstruidos, textura áspera, exceso de sebo e irritación. Modo de empleo: Limpia tu rostro y asegúrate de que esté completamente seco. Desliza la barra de arcilla sobre la piel, evitando los ojos y la boca. Deja actuar de 3 a 5 minutos y enjuaga con agua tibia. Finaliza con tu rutina habitual.",
+  "imagenes": [
+    "https://d1flfk77wl2xk4.cloudfront.net/Assets/skin1004-madagascar-centella-poremizing-quick-clay-stick-mask-27g/80/680/XXL_p0197268080.jpg"
+  ]
+},
+{
+  "id": 83,
+  "nombre": "Anua - Tónico Rice 70 Glow Milky",
+  "marca": "Anua",
+  "categoria": "Cuidado de la piel",
+  "precio": 25.37,
+  "descripcion": "¿Cuál es el secreto mejor guardado de Corea para tener una piel de porcelana radiante? ¡El skincare a base de arroz! Potencia el glow de tu piel con el Tónico Rice 70 Glow Milky de Anua de agua de salvado de arroz y extracto de arroz que revive la piel apagada. La niacinamida en la fórmula ayuda a equilibrar la producción excesiva de sebo para mantener los brotes a raya. El tónico ligero hidrata mientras fortalece tu barrera cutánea con hialuronato de sodio, betaina y ceramidas. Beneficios: Impulsa la luminosidad de la piel con un 70% de agua de salvado de arroz y niacinamida, iluminando la piel apagada y atenuando las manchas oscuras. Proporciona hidratación duradera con triple ácido hialurónico y betaina. Ayuda a controlar el exceso de grasa, clínicamente probado para reducir la producción de sebo en un 12.9% tras 4 semanas. Favorece una barrera cutánea saludable con ceramidas (AP & NP) y proteínas de arroz. Recomendado para: todo tipo de pieles. Indicado para opacidad, tono desigual y barrera de hidratación debilitada. Modo de uso: Utiliza sobre la piel limpia y seca. Agita bien el envase antes de usarlo para mezclar completamente la fórmula lechosa. Vierte una pequeña cantidad en las palmas de las manos o en un disco de algodón. Extiende suavemente por el rostro y el cuello, presionando ligeramente para favorecer su absorción. Deja que se absorba durante unos segundos antes de aplicar tu sérum y crema hidratante.",
+  "imagenes": [
+    "https://d1flfk77wl2xk4.cloudfront.net/Assets/anua-rice-70-glow-milky-toner-250ml/45/790/XXL_p0218879045.jpg",
+    "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/33/790/L_g0218879033.jpg",
+    "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/32/790/L_g0218879032.jpg",
+    "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/33/790/L_g0218879033.jpg"
+  ]
+},
+{
+  "id": 84,
+  "nombre": "TIRTIR - Tónico Facial Milk Skin Toner",
+  "marca": "TIRTIR",
+  "categoria": "Cuidado de la piel",
+  "precio": 26.73,
+  "descripcion": "El tónico altamente concentrado contiene ingredientes que iluminan el cutis, como extractos de salvado de arroz, cica y hamamelis para calmar e hidratar la piel. Testado dermatológicamente y apto para todo tipo de pieles. Beneficios: Un tónico altamente concentrado proporciona una hidratación profunda y duradera a la piel. Con ingredientes botánicos calmantes para la piel irritada. La niacinamida y el extracto de salvado de arroz ayudan a promover el efecto iluminador. Probado por dermatólogos. Apto para todo tipo de piel. Modo de empleo: Para pieles secas y mixtas, aplica dos capas del producto, dejando absorber entre cada capa. Para pieles grasas, úsalo como hidratante todo en uno, aplicando después de la limpieza.",
+  "imagenes": [
+    "https://d1flfk77wl2xk4.cloudfront.net/Assets/tirtir-milk-skin-toner-jumbo-150ml/60/181/XXL_p0118718160.jpg",
+    "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/23/142/L_g0224014223_000.jpg",
+    "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/23/142/L_g0224014223_001.jpg"
+  ]
+},
+{
+  "id": 85,
+  "nombre": "I'm from - Tónico de arroz",
+  "marca": "I'm from",
+  "categoria": "Cuidado de la piel",
+  "precio": 22.09,
+  "descripcion": "Uno de los ganadores de los premios YesStyle 2025, el tónico de arroz de I'm from recibe todos los elogios por su capacidad de desbloquear la era de tu piel cristalina y luminosa. Enriquecido con extracto de arroz proveniente de Yeoju y niacinamida, la fórmula difumina las manchas oscuras y otras imperfecciones mientras nutre e hidrata la piel. Otros ingredientes activos como el extracto de salvado de arroz, extracto de semillas de amaranto, extracto de verdolaga y adenosina mantienen los problemas de la piel como irritación, piel cansada y pérdida de elasticidad a raya. Beneficios: Ilumina la piel apagada y con tono desigual, ayudando a difuminar gradualmente las manchas oscuras. Hidrata sin resultar pesado gracias a su fórmula bifásica que combina un tónico acuoso con una emulsión lechosa. Refuerza la barrera cutánea reteniendo la hidratación y protegiendo frente a agentes irritantes. Suaviza delicadamente la textura irregular eliminando células muertas e impurezas. Favorece una piel de aspecto más firme con extracto de arroz y adenosina. Recomendado para: todo tipo de pieles, incluidas las sensibles. Indicado para opacidad, sequedad, textura irregular, hiperpigmentación y pérdida de elasticidad. Modo de uso: Agita bien antes de usarlo para mezclar la fase acuosa y la emulsión de arroz. Dosifica una cantidad equivalente al tamaño de una moneda en la palma de la mano o sobre un disco de algodón. Extiende suavemente por el rostro y el cuello, dando ligeros toques para favorecer su absorción. Una vez absorbido, continúa con el resto de tu rutina.",
+  "imagenes": [
+    "https://d1flfk77wl2xk4.cloudfront.net/Assets/i-m-from-rice-toner-150ml/70/364/XXL_p0095536470.jpg",
+    "https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/96/977/L_g0224897796_000.jpg"
+  ]
+},
+{
+  "id": 86,
+  "nombre": "Miumi - Cepillo Dental Plegable de Viaje",
+  "marca": "Miumi",
+  "categoria": "Cuidado bucal",
+  "precio": 3.81,
+  "descripcion": "Cepillo dental plegable de viaje, ideal para llevar a cualquier parte. Fabricado en plástico 100%. Color negro. Fácil de limpiar con un paño húmedo. Ranking de los más vendidos: #4 en Cepillos de Dientes, #17 en Higiene Dental.",
+  "imagenes": [
+    "https://d1flfk77wl2xk4.cloudfront.net/Assets/miumi-travel-foldable-toothbrush-one-size/12/325/XXL_p0220232512.jpg"
+  ]
+},
+{
+  "id": 97,
+  "nombre": "ILLIYOON - Mini Loción Ceramide Ato",
+  "marca": "ILLIYOON",
+  "categoria": "Cuidado de la piel",
+  "precio": 14.55,
+  "descripcion": "Esta loción vegana proporciona hidratación de larga duración para la piel sensible, hidratando en profundidad las zonas secas e irritadas y ayudando a reducir las células muertas de la piel. Enriquecida con Soy Ceramide™ y madecassósido, que calman e hidratan la piel mientras refuerzan la barrera cutánea. Con una fórmula ligera, suave y sin fragancia, se absorbe rápidamente en la piel y es lo suficientemente delicada para su uso en recién nacidos, dejando un acabado fresco y no pegajoso. Dermatológicamente probada y apta para pieles sensibles. Modo de empleo: Aplica en la piel dando golpecitos para mejor absorción.",
+  "imagenes": [
+    "https://d1flfk77wl2xk4.cloudfront.net/Assets/illiyoon-ceramide-ato-lotion-mini-100ml/37/510/L_p0223951037.jpg"
   ]
 }
 ]
