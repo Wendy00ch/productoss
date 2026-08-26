@@ -882,7 +882,7 @@
   ]
 },
 {
-  "id": 97,
+  "id": 87,
   "nombre": "ILLIYOON - Mini Loción Ceramide Ato",
   "marca": "ILLIYOON",
   "categoria": "Cuidado de la piel",
@@ -890,6 +890,41 @@
   "descripcion": "Esta loción vegana proporciona hidratación de larga duración para la piel sensible, hidratando en profundidad las zonas secas e irritadas y ayudando a reducir las células muertas de la piel. Enriquecida con Soy Ceramide™ y madecassósido, que calman e hidratan la piel mientras refuerzan la barrera cutánea. Con una fórmula ligera, suave y sin fragancia, se absorbe rápidamente en la piel y es lo suficientemente delicada para su uso en recién nacidos, dejando un acabado fresco y no pegajoso. Dermatológicamente probada y apta para pieles sensibles. Modo de empleo: Aplica en la piel dando golpecitos para mejor absorción.",
   "imagenes": [
     "https://d1flfk77wl2xk4.cloudfront.net/Assets/illiyoon-ceramide-ato-lotion-mini-100ml/37/510/L_p0223951037.jpg"
+  ]
+},
+{
+  "id": 88,
+  "nombre": "Aster Aroma - Organic Castor Oil",
+  "marca": "Aster Aroma",
+  "categoria": "Cuidado de la piel",
+  "precio": 40.10,
+  "descripcion": "El aceite de ricino es un aceite vegetal extraído de la semilla de ricino. Actúa como una barrera protectora en la piel que protege contra condiciones ambientales adversas. Es uno de los pocos aceites que puede utilizarse como agente emulsionante. Es popular como acondicionador en productos para el cuidado del cabello. Es ampliamente utilizado en la fabricación de jabones y productos para el cuidado de la piel. Ingredientes principales: 100% Aceite de Ricino Orgánico (Ricinus communis).",
+  "imagenes": [
+    "https://ejemplo.com/aster-aroma-castor-oil-1.jpg",
+    "https://ejemplo.com/aster-aroma-castor-oil-2.jpg",
+    "https://ejemplo.com/aster-aroma-castor-oil-3.jpg"
+  ]
+},
+{
+  "id": 89,
+  "nombre": "Shiseido - Super Mild Shampoo A Refill",
+  "marca": "Shiseido",
+  "categoria": "Cuidado del cabello",
+  "precio": 23.26,
+  "descripcion": "Este champú contiene una mezcla de esencias herbales orgánicas puramente domésticas* que están repletas de la generosidad de la naturaleza, dejando tu cabello sedoso y suave desde el interior. Es suavemente ácido, protegiendo la humedad de tu cabello y cuero cabelludo. La fragancia floral verde evoca la sensación de una brisa refrescante de la naturaleza. *Ingredientes hidratantes para el cabello: extracto de flor de manzanilla, extracto de romero, DPG, sorbitol, BG. Modo de empleo: Humedece tu cabello, luego aplica una cantidad adecuada en todo tu cabello, haz espuma abundantemente y enjuaga completamente.",
+  "imagenes": [
+    "https://d1flfk77wl2xk4.cloudfront.net/Assets/shiseido-super-mild-shampoo-a-refill-400ml/37/551/XXL_p0221255137.jpg"
+  ]
+},
+{
+  "id": 90,
+  "nombre": "KUROBARA - Camellia Oil",
+  "marca": "KUROBARA",
+  "categoria": "Cuidado del cabello",
+  "precio": 21.85,
+  "descripcion": "Aceite de camelia 100% orgánico sin aditivos que puede utilizarse para hidratar y nutrir el cabello y el cuerpo. El color del aceite y la fragancia floral son de origen natural. 100% aceite de tsubaki orgánico puro de KUROBARA. El aceite de tsubaki orgánico se extrae mediante el método propio de KUROBARA de prensado en crudo sin aditivos. Aceite de tsubaki puro que contiene abundante ácido oleico humectante natural, y KUROBARA extrae aceite puro adsorbiendo y eliminando las impurezas de la superficie de la arcilla activada. El método de producción de KUROBARA, prensado en crudo, nunca genera ácido trans, sino que extrae el poder hidratante y la penetrabilidad del aceite de camelia tsubaki. Puedes utilizarlo para el cuidado diario del cabello, cuidado de la piel, etc. Disfruta del color y la fragancia natural del aceite de tsubaki. Ingredientes principales: Aceite de semilla de camelia, aceite de camelia.",
+  "imagenes": [
+    "https://d1flfk77wl2xk4.cloudfront.net/Assets/17/418/XXL_p0201441817.jpg"
   ]
 }
 ]
